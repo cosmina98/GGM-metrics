@@ -164,6 +164,10 @@ if __name__ == '__main__':
         helper.logger.info('EXPERIMENT TIME: {} mins'.format(total))
 
     except:
+        # Get object for computing desired metrics
+        evaluator = Evaluator(**helper.args)
+        # Get object to apply appropriate permutations to graphs
+        graph_permuter = get_graph_permuter(helper, evaluator)
         graph_permuter.save_results_final()
         traceback.print_exc()
         logging.exception('')
