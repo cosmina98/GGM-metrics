@@ -142,7 +142,7 @@ if __name__ == '__main__':
     if helper.args.no_cuda or not torch.cuda.is_available():
             helper.args.no_cuda = True
             helper.args.device = torch.device('cpu')
-        else:
+    else:
             helper.args.device = torch.device('cuda')
     # Get object for computing desired metrics
     evaluator = Evaluator(**helper.args)
