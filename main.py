@@ -15,20 +15,17 @@ warnings.filterwarnings('ignore')
 
 def generate_dataset(args, device):
     """Generate (or load) a given dataset.
-
     Parameters
     ----------
     args : Argparse dict
         The command-line args parsed by Argparse
     device : torch.device
         The device to move the generated graphs to.
-
     Returns
     -------
     List of DGL graphs
         The generated (or loaded) dataset moved to the
         specified device.
-
     """
     dataset_name = args.dataset
     seed = args.seed
@@ -75,20 +72,17 @@ def generate_dataset(args, device):
 
 def get_graph_permuter(helper, evaluator):
     """Initialize the experiment.
-
     Parameters
     ----------
     helper : helper.ExperimentHelper
         General experiment helper --- logging results etc.
     evaluator : Evaluator
         The evaluator object used to compute each metric.
-
     Returns
     -------
     BasePermuter
         The graph permuter that alters the graphs according
         to the specified experiments and computes metrics.
-
     """
     args = helper.args
     reference_set = generate_dataset(args, device=args.device)
@@ -164,10 +158,6 @@ if __name__ == '__main__':
         helper.logger.info('EXPERIMENT TIME: {} mins'.format(total))
 
     except:
-        # Get object for computing desired metrics
-        evaluator = Evaluator(**helper.args)
-        # Get object to apply appropriate permutations to graphs
-        graph_permuter = get_graph_permuter(helper, evaluator)
         graph_permuter.save_results_final()
         traceback.print_exc()
         logging.exception('')
