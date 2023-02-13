@@ -138,6 +138,12 @@ if __name__ == '__main__':
     # For logging results mostly
     helper = helper.ExperimentHelper(
         config, results_dir=config.results_directory)
+    
+    if helper.args.no_cuda or not torch.cuda.is_available():
+            helper.args.no_cuda = True
+            helper.args.device = torch.device('cpu')
+        else:
+            helper.args.device = torch.device('cuda')
     # Get object for computing desired metrics
     evaluator = Evaluator(**helper.args)
     # Get object to apply appropriate permutations to graphs
