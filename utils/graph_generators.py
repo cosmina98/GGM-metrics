@@ -224,5 +224,5 @@ def load_firstmm_db(min_num_nodes=0,
             node_attributes=node_attributes, graph_labels=graph_labels)
 
 
-def load_zinc():
-    return pickle.load(open('data/graphs/datasets/zinc.h5', 'rb'))[: 1000]
+def load_zinc(n_samples=1000):
+    return pickle.load(open('data/graphs/datasets/zinc.h5', 'rb'))[: n_samples]
