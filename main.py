@@ -138,31 +138,34 @@ if __name__ == '__main__':
     # For logging results mostly
     helper = helper.ExperimentHelper(
         config, results_dir=config.results_directory)
-
-    try:
-        if helper.args.no_cuda or not torch.cuda.is_available():
-            helper.args.no_cuda = True
-            helper.args.device = torch.device('cpu')
-    except:
-         helper.args.device = torch.device('cuda')
-
-        
-
     # Get object for computing desired metrics
     evaluator = Evaluator(**helper.args)
     # Get object to apply appropriate permutations to graphs
     graph_permuter = get_graph_permuter(helper, evaluator)
 
-    start = time.time()
-    graph_permuter.perform_run()
-    total = time.time() - start
-    total = total / 60
-    helper.logger.info('EXPERIMENT TIME: {} mins'.format(total))
 
+    try:
+        if helper.args.no_cuda or not torch.cuda.is_available():
+            helper.args.no_cuda = True
+            helper.args.device = torch.device('cpu')
+        else:
+            helper.args.device = torch.device('cuda')
 
-    graph_permuter.save_results_final()
-    traceback.print_exc()
-    logging.exception('')
+        # Get object for computing desired metrics
+        evaluator = Evaluator(**helper.args)
+        # Get object to apply appropriate permutations to graphs
+        graph_permuter = get_graph_permuter(helper, evaluator)
+
+        start = time.time()
+        graph_permuter.perform_run()
+        total = time.time() - start
+        total = total / 60
+        helper.logger.info('EXPERIMENT TIME: {} mins'.format(total))
+
+    except:
+        graph_permuter.save_results_final()
+        traceback.print_exc()
+        logging.exception('')
 
     finally:
         helper.end_experiment()
