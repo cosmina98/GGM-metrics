@@ -106,7 +106,7 @@ def get_all_metrics(gen, k=None, n_jobs=1,
             pool=pool
         )
     mols = mapper(pool)(get_mol, gen)
-    print(mols)
+    
     kwargs = {'n_jobs': pool, 'device': device, 'batch_size': batch_size}
     kwargs_fcd = {'n_jobs': n_jobs, 'device': device, 'batch_size': batch_size}
     metrics['FCD/Test'] = FCDMetric(**kwargs_fcd)(gen=gen, pref=ptest['FCD'])
