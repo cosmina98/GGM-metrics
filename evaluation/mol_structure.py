@@ -1,5 +1,6 @@
 
 import networkx as nx
+import rdkit
 from rdkit.Chem import Descriptors
 from evaluation.moses.metrics.utils import *
 from evaluation.moses.metrics import *
@@ -69,7 +70,7 @@ def nx_to_mol(nx_graph , edge_label='label', node_label='label'):
     return mol   
 
 def mol_to_smiles(list_of_mols):
-    smiles=[Chem.MolToSmiles(g) for g in losters_mol]
+    smiles=[Chem.MolToSmiles(g) for g in list_of_mols]
     return smiles
 
 def foo():
