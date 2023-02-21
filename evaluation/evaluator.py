@@ -4,7 +4,7 @@ from evaluation import gin_evaluation
 
 class Evaluator():
     def __init__(self, feature_extractor='gin', **kwargs):
-        
+        self.statistic=[]
         if feature_extractor != 'mmd-structure':
 
             model = gin_evaluation.load_feature_extractor(**kwargs)
