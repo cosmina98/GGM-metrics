@@ -4,8 +4,9 @@ from evaluation import gin_evaluation
 
 class Evaluator():
     def __init__(self, feature_extractor='gin', **kwargs):
-        self.statistic=[]
-        if feature_extractor != 'mmd-structure':
+        self._statistics=kwargs.get('statistic')
+        self._feature_extractor=feature_extractor
+        if feature_extractor ==  'gin':
 
             model = gin_evaluation.load_feature_extractor(**kwargs)
 
@@ -33,7 +34,7 @@ class Evaluator():
             self.evaluators=[graph_structure_evaluation.NSPDKEvaluation(), graph_structure_evaluation.WLMMDEvaluation(),\
                 graph_structure_evaluation.MMDEval(statistic='degree'),graph_structure_evaluation.MMDEval(statistic='clustering'),\
                     graph_structure_evaluation.MMDEval(statistic='orbits'),graph_structure_evaluation.MMDEval(statistic='spectral') ]
-            self.statistic='all'
+
         elif feature_extractor == 'mmd-structure' and kwargs.get('statistic') != 'WL' and kwargs.get('statistic') != 'nspdk':
             if kwargs.get('statistic')=='orbits' or kwargs.get('statistic')=='clustering' or\
                 kwargs.get('statistic')=='degree'  or kwargs.get('statistic')=='spectral':
@@ -44,14 +45,26 @@ class Evaluator():
         elif feature_extractor == 'mmd-structure' and kwargs.get('statistic') == 'nspdk':
             self.evaluators = [graph_structure_evaluation.NSPDKEvaluation()]
             
-        
+
         else:
             raise Exception('Unsupported feature extractor {} or statistic {}'.format(kwargs.get('feature_extractor'), kwargs.get('statistic')))
 
+    @property
+    def statistics(self):
+        return self._statistics
+    
+    @property
+    def feature_extractor(self):
+        return self._feature_extractor
+    @property
+    def metrics_type(self):
+        return self._metrics_type
+    
+    
     def evaluate_all(
         self, generated_dataset=None, reference_dataset=None, **kwargs):
         metrics = {}
-        if len(self.evaluators) > 2 and  self.statistic!='all':
+        if self._feature_extractor== 'gin':
             (generated_dataset, reference_dataset), time = self.evaluators[0].get_activations(generated_dataset, reference_dataset)
             metrics['activations_time'] = time
 
@@ -60,7 +73,7 @@ class Evaluator():
                 generated_dataset=generated_dataset,
                 reference_dataset=reference_dataset)
             for key in list(res.keys()):
-                if len(self.evaluators) > 2 and  self.statistic!='all':
+                if self._feature_extractor== 'gin':
                     res[key + '_time'] = time + metrics['activations_time']
                 else:
                     res[key + '_time'] = time
