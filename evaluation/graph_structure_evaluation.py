@@ -368,7 +368,7 @@ class NSPDKEvaluation():
         if len(reference_dataset_nx) == 0 or len(generated_dataset_nx) == 0:
             return {'nspdk_mmd': 0}, 0
 
-        if 'attr' not in generated_dataset[0].ndata:
+        if 'label' not in generated_dataset[0].ndata:
             [nx.set_node_attributes(g, {key: str(val) for key, val in dict(g.degree()).items()}, 'label') for g in generated_dataset_nx]  # degree labels
             [nx.set_node_attributes(g, {key: str(val) for key, val in dict(g.degree()).items()}, 'label') for g in reference_dataset_nx]  # degree labels
             [nx.set_edge_attributes(g, '1', 'label') for g in generated_dataset_nx]  # degree labels
@@ -382,7 +382,7 @@ class NSPDKEvaluation():
 
     def set_features(self, dset_dgl, dset_nx):
         for g_dgl, g_nx in zip(dset_dgl, dset_nx):
-            feat_dict = {node: str(g_dgl.ndata['attr'][node].nonzero().item()) for node in range(g_dgl.number_of_nodes())}
+            feat_dict = {node: str(g_dgl.ndata['label'][node].nonzero().item()) for node in range(g_dgl.number_of_nodes())}
             nx.set_node_attributes(g_nx, feat_dict, 'label')
 
             srcs, dests, eids = g_dgl.edges('all')
