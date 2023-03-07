@@ -79,3 +79,54 @@ def foo():
         Draw.MolToMPL(nx_to_mol(g))
         break
     return None
+
+
+
+bond_types={
+'AROMATIC':0,
+'SINGLE':1,
+'DOUBLE':2, 
+'TRIPLE':3
+}
+
+
+bond_types_encodings={
+0:[1,0,0,0],
+1:[0,1,0,0],
+2:[0,0,1,0], 
+3:[0,0,0,1]
+}
+
+
+def smiles_to_nx(smiles):
+    mol = Chem.MolFromSmiles(smiles)
+    #Chem.Kekulize(mol)
+    #Chem.RemoveStereochemistry(mol)
+    G = nx.Graph()
+    for atom in mol.GetAtoms():
+        feat_atom=[]
+        atomic_num=int(atom.GetAtomicNum())
+        charge=atom.GetFormalCharge()
+        no_explicit_hs=atom.GetNumExplicitHs()
+        G.add_node(atom.GetIdx(),
+                   label=[atomic_num,charge,no_explicit_hs])
+        #G.add_node(atom.GetIdx(),
+                   #label=atomic_num)       
+        
+    for bond in mol.GetBonds():
+        val=str(bond.GetBondType())
+        G.add_edge(bond.GetBeginAtomIdx(),
+                   bond.GetEndAtomIdx(),
+                   label=bond_types_encodings[bond_types[val]])
+    return G
+
+def list_of_smiles_to_nx_graphs(smiles):
+    list_of_nx_graphs=[]
+    for i,smile in enumerate(smiles):
+        try:
+          list_of_nx_graphs.append(smiles_to_nx(smile))
+        except:
+            list_of_nx_graphs.append('i')
+            print('Check smile entry no', i+1)
+         
+    return list_of_nx_graphs

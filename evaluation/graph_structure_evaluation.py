@@ -382,14 +382,15 @@ class NSPDKEvaluation():
 
     def set_features(self, dset_dgl, dset_nx):
         for g_dgl, g_nx in zip(dset_dgl, dset_nx):
-            feat_dict = {node: str(g_dgl.ndata['label'][node].nonzero().item()) for node in range(g_dgl.number_of_nodes())}
+            feat_dict = {node: str(g_dgl.ndata['label'][node].sum().item()) for node in range(g_dgl.number_of_nodes())}
             nx.set_node_attributes(g_nx, feat_dict, 'label')
 
             srcs, dests, eids = g_dgl.edges('all')
             feat_dict = {}
             for src, dest, eid in zip(srcs, dests, eids):
-                feat_dict[(src.item(), dest.item())] = str(g_dgl.edata['attr'][eid].nonzero().item())
-                # feat_dict = {edge: g.edata['attr'][edge].nonzero() for edge in range(g.number_of_edges())}
+                feat_dict[(src.item(), dest.item())] = str(g_dgl.edata['label'][eid].nonzero().item())
+              #  feat_dict[(src.item(), dest.item())] = str(g_dgl.edata['attr'][eid].nonzero().item())
+             # feat_dict = {edge: g.edata['attr'][edge].nonzero() for edge in range(g.number_of_edges())}
             # print(feat_dict)
             nx.set_edge_attributes(g_nx, feat_dict, 'label')
 
