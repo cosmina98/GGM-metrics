@@ -294,7 +294,7 @@ class GIN(nn.Module):
 
 
         if kwargs['init'] == 'orthogonal':
-            print('orthogonal')
+            #print('orthogonal')
             self.linears_prediction.apply(init_weights_orthogonal)
 
         self.drop = nn.Dropout(final_dropout)

@@ -121,8 +121,9 @@ class GINMetric():
             if len(feats.size())==0:
                 feats = feats.unsqueeze(1).type(torch.float32)
             else:
-                feats = feats.sum(1).unsqueeze(1).type(torch.float32)
-            print(feats)
+                feats = feats.type(torch.float32)
+                #feats = feats.sum(1).unsqueeze(1).type(torch.float32)
+            #print(feats)
         feats = feats.to(self.feat_extractor.device)
 
         graph_embeds = self.feat_extractor(graphs, feats)
