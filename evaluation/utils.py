@@ -17,14 +17,14 @@ import torch_geometric.transforms as T
 current = os.getcwd()
 parent = os.path.dirname(current)
 sys.path.append(parent)
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                      
+from sklearn.utils import shuffle                                                                                                                                                                                                                                                                                                                                                                                                                                                              
 
 
 def get_data(name, path='data/smiles/',return_smiles=False):
     splits={}
     RDLogger.EnableLog('rdApp.*')
     RDLogger.DisableLog('rdApp.*')  
-    split_names=['train_smiles','test_smiles', 'train1_pos_smiles','train1_neg_smiles','valid_smiles','train_tragets','test_targets', 'valid_targets' ]
+    split_names=['train_smiles','test_smiles', 'train1_pos_smiles','train1_neg_smiles','train2_pos_smiles','train2_neg_smiles','valid_smiles','train_tragets','test_targets', 'valid_targets' ]
     for i,split in enumerate(split_names):
         exact_path=path+'{}/{}.txt'.format(name, split)
         #from data.smiles.carcinogens import test_smiles
@@ -44,7 +44,13 @@ def get_data(name, path='data/smiles/',return_smiles=False):
     train1_neg_graphs =list(list_of_smiles_to_nx_graphs(splits['train1_neg_smiles']))
     train1_graphs = train1_pos_graphs+ train1_neg_graphs
     train1_targets = np.array([1]*len(train1_pos_graphs) + [0]*len(train1_neg_graphs))
-    graphs=[train_graphs,train_targets,test_graphs,test_targets,train1_graphs,train1_targets,valid_graphs, valid_targets]
+    train1_graphs, train1_targets = shuffle(train1_graphs, train1_targets)
+    train2_pos_graphs =list(list_of_smiles_to_nx_graphs(splits['train2_pos_smiles']))
+    train2_neg_graphs =list(list_of_smiles_to_nx_graphs(splits['train2_neg_smiles']))
+    train2_graphs = train2_pos_graphs+ train2_neg_graphs
+    train2_targets = np.array([1]*len(train2_pos_graphs) + [0]*len(train2_neg_graphs))
+    train2_graphs, train2_targets = shuffle(train2_graphs, train2_targets)
+    graphs=[train_graphs,train_targets,test_graphs,test_targets,train1_graphs,train1_targets,train2_graphs,train2_targets,valid_graphs, valid_targets]
     if return_smiles:
          return graphs,splits
     else:  return graphs

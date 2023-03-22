@@ -7,6 +7,17 @@ from sklearn.model_selection import train_test_split
 from eden.ml.estimator import EdenEstimator
 from .new_metric_classifier import GCN,NN_classifier
 from .utils import get_pyg_loader_from_nx
+import time
+
+
+def time_function(func):
+    def wrapper(*args, **kwargs):
+        start = time.time()
+        results = func(*args, **kwargs)
+        end = time.time()
+        return results, end - start
+    return wrapper
+ 
     
 class AucRocEvaluation():
     def __init__(self, classifier_type='scikit', random_state=1,*args, **kwargs):
@@ -60,26 +71,33 @@ class AucRocEvaluation():
             metric=np.sqrt(score1*score2)
         return metric
    
-   
+    @time_function
     def evaluate_with_random_splits(self,reference_graphs, reference_targets, generated_graphs, generated_targets):
         train_graphs, test_graphs, train_targets, test_targets = train_test_split(reference_graphs, reference_targets, train_size=.7,random_state=self.random_state)
-        train1_graphs, _, train1_targets,  _= train_test_split(train1_graphs, train1_targets, test_size=0.5, random_state= self.random_state) 
-        all_graphs,all_graphs_targets=train_graphs+generated_graphs,train_targets+generated_targets   
+        train1_graphs, train2_graphs, train1_targets,  train2_targets= train_test_split(train_graphs, train_targets, test_size=0.5, random_state= self.random_state) 
+        all_graphs,all_graphs_targets=train2_graphs+generated_graphs,train2_targets+generated_targets   
         auc_1= self.compute_auc(train1_graphs, train1_targets, test_graphs, test_targets)
         auc_2=self.compute_auc(train_graphs, train_targets, test_graphs, test_targets)
         auc_3=self.compute_auc(generated_graphs, generated_targets, test_graphs, test_targets)
         auc_4=self.compute_auc(all_graphs,all_graphs_targets, test_graphs, test_targets)
         print(auc_1, auc_2,auc_3,auc_4 )
         metric=self.score(auc_1, auc_2,auc_3,auc_4)
-        return metric
+        if self.classifier_type=='scikit':
+            return {'AUC_ROC_based_metric_with_nspdk':metric}
+        else: return {'AUC_ROC_based_metric_with_nn_classifier':metric}
+        
     
-    
-    def evaluate(self,train_graphs, train_targets,test_graphs, test_targets,train1_graphs,train1_targets, generated_graphs,generated_targets ):
-        all_graphs,all_graphs_targets=train1_graphs+generated_graphs,train1_targets+generated_targets      
+    @time_function
+    def evaluate(self,train_graphs, train_targets,test_graphs, test_targets,train1_graphs,train1_targets, train2_graphs, train2_targets, generated_graphs,generated_targets ):
+        all_graphs,all_graphs_targets=train2_graphs+generated_graphs,list(train2_targets)+list(generated_targets)      
         auc_1= self.compute_auc(train1_graphs, train1_targets, test_graphs, test_targets)
         auc_2=self.compute_auc(train_graphs, train_targets, test_graphs, test_targets)
         auc_3=self.compute_auc(generated_graphs, generated_targets, test_graphs, test_targets)
         auc_4=self.compute_auc(all_graphs, all_graphs_targets, test_graphs, test_targets)
         print(auc_1, auc_2,auc_3,auc_4 )
         metric=self.score(auc_1, auc_2,auc_3,auc_4)
-        return metric
+        if self.classifier_type=='scikit':
+            return {'AUC_ROC_based_metric_with_nspdk':metric}
+        else: return {'AUC_ROC_based_metric_with_nn_classifier':metric}
+        
+        
