@@ -20,6 +20,59 @@ sys.path.append(parent)
 from sklearn.utils import shuffle                                                                                                                                                                                                                                                                                                                                                                                                                                                              
 
 
+
+
+def preprocess(nx_dataset, set_label_equal_to_attribute=False,set_attribute_equal_to_label=False):
+    discrete_node_label_name='label' #leave it blank if this does not exist, default: 'label'
+    #leave blank if this does not exist, default: 'label'
+    continuous_node_label_name='attr'  #leave it blank if this does not exist default: 'attr'
+    discrete_edge_label_name='label'  #leave it blank if this does not exist  ,default: 'label'
+    continuous_edge_label_name='attr' #leave it blank if this does not exist , default: 'attr'
+    #dicrete labels should be set to 'label'
+    #continous labels should be set to 'attr'
+
+    processed_dataset=[]
+    for G in nx_dataset:
+        if (discrete_node_label_name!='label'):
+            dict=nx.get_node_attributes(G, discrete_node_label_name)
+            if dict!='':   
+                nx.set_node_attributes(G, dict, 'label') 
+            else:  pass
+        if (discrete_edge_label_name!='label'):
+            dict=nx.get_edge_attributes(G, discrete_edge_label_name)
+            if dict!='':  
+                nx.set_edge_attributes(G, dict, 'label')
+            else:  pass
+        if (continuous_node_label_name!='attr'):
+            dict=nx.get_node_attributes(G, continuous_node_label_name)
+            if dict!='':   
+                nx.set_node_attributes(G, dict, 'attr') 
+            else:  pass
+        if (continuous_edge_label_name!='attr'):
+            dict=nx.get_edge_attributes(G, continuous_edge_label_name)
+            if dict!='':  
+                nx.set_edge_attributes(G, dict, 'attr') 
+            else:  pass
+        if set_label_equal_to_attribute: 
+            dict=nx.get_node_attributes(G, discrete_node_label_name)
+            nx.set_node_attributes(G, dict, 'attr')
+            dict=nx.get_edge_attributes(G, discrete_edge_label_name)
+            nx.set_edge_attributes(G, dict, 'attr') 
+        if set_attribute_equal_to_label: 
+            dict=nx.get_node_attributes(G, continuous_node_label_name)
+            nx.set_node_attributes(G, dict, 'label')
+            dict=nx.get_edge_attributes(G, continuous_node_label_name)
+            nx.set_edge_attributes(G, dict, 'label') 
+            
+        H = nx.MultiDiGraph(G)
+        processed_dataset.append(H)
+    return processed_dataset  
+
+def get_clean_datasets(reference_graphs,generated_graphs):
+    generated_graphs=preprocess(generated_graphs)
+    reference_graphs=preprocess(reference_graphs)
+    return reference_graphs,generated_graphs
+
 def get_data(name, path='data/smiles/',return_smiles=False):
     splits={}
     RDLogger.EnableLog('rdApp.*')
