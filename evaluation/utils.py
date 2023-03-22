@@ -55,7 +55,23 @@ def get_data(name, path='data/smiles/',return_smiles=False):
          return graphs,splits
     else:  return graphs
     
-#mock function in place of generated 
+
+def get_generated_data(name, path='data/smiles/'):
+    pos_list, neg_list=[],[]
+    path_postives=path+'{}/{}_gen_pos.txt'.format(name,name)
+    with open(path_postives) as my_file:
+         for line in my_file:
+            pos_list.append(line.strip())
+    pos_graphs=list_of_smiles_to_nx_graphs(pos_list)
+    path_negatives=path+'{}/{}_gen_neg.txt'.format(name,name)
+    with open(path_negatives) as my_file:
+         for line in my_file:
+            neg_list.append(line.strip())
+    neg_graphs=list_of_smiles_to_nx_graphs(neg_list)
+    return pos_graphs,neg_graphs
+
+
+ 
 
 def get_mock_data(name, path='data/smiles/',return_smiles=False):
     RDLogger.EnableLog('rdApp.*')
