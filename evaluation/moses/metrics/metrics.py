@@ -4,10 +4,14 @@ import numpy as np
 from scipy.spatial.distance import cosine as cos_distance
 from fcd_torch import FCD as FCDMetric
 from scipy.stats import wasserstein_distance
-
-from moses.dataset import get_dataset, get_statistics
-from moses.utils import mapper
-from moses.utils import disable_rdkit_log, enable_rdkit_log
+import os 
+import sys
+current = os.getcwd()
+parent = os.path.dirname(current)
+sys.path.append(parent)
+from ..dataset.dataset import get_dataset, get_statistics
+from ..utils import mapper
+from ..utils import disable_rdkit_log, enable_rdkit_log
 from .utils import compute_fragments, average_agg_tanimoto, \
     compute_scaffolds, fingerprints, \
     get_mol, canonic_smiles, mol_passes_filters, \

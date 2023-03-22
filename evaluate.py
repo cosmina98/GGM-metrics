@@ -17,20 +17,20 @@ import math
  
 def evaluate(reference_nx_graphs, generated_nx_graphs, device,  metrics_type, structural_statistic=None, train_graphs=None, train_targets=None,test_graphs=None, test_targets=None,train1_graphs=None,train1_targets=None,train2_graphs=None, train2_targets=None, generated_graphs=None,generated_targets=None):
     reference_graphs_dgl = [ dgl.from_networkx(g,node_attrs=['label','attr'], edge_attrs=['label','attr']).to(device) for g in reference_nx_graphs] # Convert graphs to DGL f,rom NetworkX
-    generated_graphs_dgl = [ dgl.from_networkx(g,node_attrs=['label','attr'], edge_attrs=['label','attr']).to(device) for g in generated_nx_graphs] # Convert graphs to DGL from NetworkX
+    generated_graphs_dgl=[ dgl.from_networkx(g,node_attrs=['label','attr'], edge_attrs=['label','attr']).to(device) for g in generated_nx_graphs if g.number_of_nodes()>1  ]
+
     
     input_dim=len(reference_graphs_dgl[0].ndata['attr'][0])
     edge_feat_dim=len(reference_graphs_dgl[0].edata['attr'][0])
-    
     metrics={}
     if  'nn' in metrics_type:
         try:
          
             print('Now computing classifier based metrics')
             eval=Evaluator(feature_extractor ='gin',device=device, edge_feat_loc='attr' , node_feat_loc='attr', input_dim=input_dim,edge_feat_dim=edge_feat_dim, hidden_dim=36)
-            nn_metrics=eval.evaluate_all(generated_dataset=reference_graphs_dgl,reference_dataset=reference_graphs_dgl)
+            nn_metrics=eval.evaluate_all(generated_dataset=generated_graphs_dgl,reference_dataset=reference_graphs_dgl)
             metrics.update(nn_metrics)
-        except: print('Cannot compute the classifier based metrics')
+        except: print('Cannot compute the classifier based metrics') 
             
     if 'structural' in metrics_type  :
         
