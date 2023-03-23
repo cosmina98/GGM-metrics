@@ -16,8 +16,8 @@ import math
 
  
 def evaluate(reference_nx_graphs, generated_nx_graphs, device,  metrics_type, structural_statistic=None, train_graphs=None, train_targets=None,test_graphs=None, test_targets=None,train1_graphs=None,train1_targets=None,train2_graphs=None, train2_targets=None, generated_graphs=None,generated_targets=None):
-    reference_graphs_dgl = [ dgl.from_networkx(g,node_attrs=['label','attr'], edge_attrs=['label','attr']).to(device) for g in reference_nx_graphs] # Convert graphs to DGL f,rom NetworkX
-    generated_graphs_dgl=[ dgl.from_networkx(g,node_attrs=['label','attr'], edge_attrs=['label','attr']).to(device) for g in generated_nx_graphs if g.number_of_nodes()>1  ]
+    reference_graphs_dgl = [ dgl.from_networkx(g,node_attrs=['label','attr'], edge_attrs=['label','attr']).to(device) for g in reference_nx_graphs if g.number_of_nodes()>1 and g.number_of_edges()>0] # Convert graphs to DGL f,rom NetworkX
+    generated_graphs_dgl=[ dgl.from_networkx(g,node_attrs=['label','attr'], edge_attrs=['label','attr']).to(device) for g in generated_nx_graphs if g.number_of_nodes()>1 and g.number_of_edges()>0 ]
 
     
     input_dim=len(reference_graphs_dgl[0].ndata['attr'][0])
