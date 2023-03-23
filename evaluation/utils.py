@@ -75,8 +75,10 @@ def preprocess(reference_graphs=None,generated_graphs=None):
 
 
 def remove_empty_graphs_and_targets(graphs,targets):
+    copy_g=graphs.copy()
+    copy_t=targets.copy()
     targets=list(targets)
-    for g,t in zip(graphs,targets):
+    for g,t in zip(copy_g,copy_t):
         if (len(g.edges))==0:
              graphs.remove(g)
              targets.remove(t)
