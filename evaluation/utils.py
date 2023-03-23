@@ -71,12 +71,6 @@ def preprocess(nx_dataset, set_label_equal_to_attribute=False,set_attribute_equa
 def get_clean_datasets(reference_graphs,generated_graphs):
     generated_graphs=preprocess(generated_graphs)
     reference_graphs=preprocess(reference_graphs)
-    for g in generated_graphs:
-        if (len(g.edges))==0:
-             generated_graphs.remove(g)
-    for g in reference_graphs:
-        if (len(g.edges))==0:
-             reference_graphs.remove(g)
     return reference_graphs,generated_graphs
 
 def get_data(name, path='data/smiles/',return_smiles=False):
