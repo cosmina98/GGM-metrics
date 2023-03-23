@@ -8,6 +8,7 @@ from eden.ml.estimator import EdenEstimator
 from .new_metric_classifier import GCN,NN_classifier
 from .utils import get_pyg_loader_from_nx
 import time
+from sklearn.utils import shuffle
 
 
 def time_function(func):
@@ -17,6 +18,7 @@ def time_function(func):
         end = time.time()
         return results, end - start
     return wrapper
+ 
  
     
 class AucRocEvaluation():
@@ -31,7 +33,6 @@ class AucRocEvaluation():
                    self.model=kwargs.get('model')
             self.estimator=NN_classifier(self.model,batch_size=self.batch_size)
             self.graph_encoder =None
-
         self.random_state=random_state
         self.classifier_type=classifier_type
         super().__init__(*args, **kwargs)
@@ -74,12 +75,12 @@ class AucRocEvaluation():
     @time_function
     def evaluate_with_random_splits(self,reference_graphs, reference_targets, generated_graphs, generated_targets):
         train_graphs, test_graphs, train_targets, test_targets = train_test_split(reference_graphs, reference_targets, train_size=.7,random_state=self.random_state)
-        train1_graphs, train2_graphs, train1_targets,  train2_targets= train_test_split(train_graphs, train_targets, test_size=0.5, random_state= self.random_state) 
-        all_graphs,all_graphs_targets=train2_graphs+generated_graphs,train2_targets+generated_targets   
+        train1_graphs, _, train1_targets,  _= train_test_split(train_graphs, train_targets, test_size=0.5, random_state= self.random_state) 
+        train1_plus_generated_graphs,train1_plus_generated_targets=train1_graphs+generated_graphs,train1_targets+generated_targets   
         auc_1= self.compute_auc(train1_graphs, train1_targets, test_graphs, test_targets)
         auc_2=self.compute_auc(train_graphs, train_targets, test_graphs, test_targets)
         auc_3=self.compute_auc(generated_graphs, generated_targets, test_graphs, test_targets)
-        auc_4=self.compute_auc(all_graphs,all_graphs_targets, test_graphs, test_targets)
+        auc_4=self.compute_auc(train1_plus_generated_graphs,train1_plus_generated_targets, test_graphs, test_targets)
         print(auc_1, auc_2,auc_3,auc_4 )
         metric=self.score(auc_1, auc_2,auc_3,auc_4)
         if self.classifier_type=='scikit':
@@ -88,12 +89,14 @@ class AucRocEvaluation():
         
     
     @time_function
-    def evaluate(self,train_graphs, train_targets,test_graphs, test_targets,train1_graphs,train1_targets, train2_graphs, train2_targets, generated_graphs,generated_targets ):
-        all_graphs,all_graphs_targets=train2_graphs+generated_graphs,list(train2_targets)+list(generated_targets)      
+    def evaluate(self,train1_graphs , train1_targets,train2_graphs , train2_targets, test_graphs, test_targets, generated_graphs, generated_targets):
+        train_graphs, train_targets=train1_graphs +  train2_graphs , list(train1_targets)+list(train2_targets)
+        train_graphs, train_targets=shuffle(train_graphs, train_targets)
+        train1_plus_generated_graphs,train1_plus_generated_targets=train1_graphs+generated_graphs,list(train1_targets)+list(generated_targets)      
         auc_1= self.compute_auc(train1_graphs, train1_targets, test_graphs, test_targets)
         auc_2=self.compute_auc(train_graphs, train_targets, test_graphs, test_targets)
         auc_3=self.compute_auc(generated_graphs, generated_targets, test_graphs, test_targets)
-        auc_4=self.compute_auc(all_graphs, all_graphs_targets, test_graphs, test_targets)
+        auc_4=self.compute_auc( train1_plus_generated_graphs,train1_plus_generated_targets, test_graphs, test_targets)
         print(auc_1, auc_2,auc_3,auc_4 )
         metric=self.score(auc_1, auc_2,auc_3,auc_4)
         if self.classifier_type=='scikit':

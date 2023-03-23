@@ -19,10 +19,7 @@ parent = os.path.dirname(current)
 sys.path.append(parent)
 from sklearn.utils import shuffle                                                                                                                                                                                                                                                                                                                                                                                                                                                              
 
-
-
-
-def preprocess(nx_dataset, set_label_equal_to_attribute=False,set_attribute_equal_to_label=False):
+def _preprocess(nx_dataset, set_label_equal_to_attribute=False,set_attribute_equal_to_label=False):
     discrete_node_label_name='label' #leave it blank if this does not exist, default: 'label'
     #leave blank if this does not exist, default: 'label'
     continuous_node_label_name='attr'  #leave it blank if this does not exist default: 'attr'
@@ -64,14 +61,27 @@ def preprocess(nx_dataset, set_label_equal_to_attribute=False,set_attribute_equa
             dict=nx.get_edge_attributes(G, continuous_node_label_name)
             nx.set_edge_attributes(G, dict, 'label') 
             
-        H = nx.MultiDiGraph(G)
+        #H = nx.MultiDiGraph(G)
         processed_dataset.append(H)
     return processed_dataset  
 
-def get_clean_datasets(reference_graphs,generated_graphs):
-    generated_graphs=preprocess(generated_graphs)
-    reference_graphs=preprocess(reference_graphs)
+def preprocess(reference_graphs=None,generated_graphs=None):
+  
+    generated_graphs=_preprocess(generated_graphs)
+    reference_graphs=_preprocess(reference_graphs)
+
     return reference_graphs,generated_graphs
+
+
+
+def remove_empty_graphs_and_targets(graphs,targets):
+    targets=list(targets)
+    for g,t in zip(graphs,targets):
+        if (len(g.edges))==0:
+             graphs.remove(g)
+             targets.remove(t)
+    return graphs,targets
+
 
 def get_data(name, path='data/smiles/',return_smiles=False):
     splits={}
@@ -87,23 +97,28 @@ def get_data(name, path='data/smiles/',return_smiles=False):
             current_list.append(line.strip())
         splits[split]=current_list     
      
-    train_graphs=list_of_smiles_to_nx_graphs(splits['train_smiles'])
-    train_targets=string_targets_to_numeric(splits['train_tragets'])
+    #train_graphs=list_of_smiles_to_nx_graphs(splits['train_smiles'])
+    #train_targets=string_targets_to_numeric(splits['train_tragets'])
     test_graphs=list_of_smiles_to_nx_graphs(splits['test_smiles'])
     test_targets=string_targets_to_numeric(splits['test_targets'])
-    valid_graphs=list_of_smiles_to_nx_graphs(splits['valid_smiles'])
-    valid_targets=string_targets_to_numeric(splits['valid_targets'])
+    test_graphs,test_targets=remove_empty_graphs_and_targets(test_graphs,test_targets)
+    #valid_graphs=list_of_smiles_to_nx_graphs(splits['valid_smiles'])
+    #valid_targets=string_targets_to_numeric(splits['valid_targets'])
     train1_pos_graphs =list(list_of_smiles_to_nx_graphs(splits['train1_pos_smiles']))
     train1_neg_graphs =list(list_of_smiles_to_nx_graphs(splits['train1_neg_smiles']))
     train1_graphs = train1_pos_graphs+ train1_neg_graphs
     train1_targets = np.array([1]*len(train1_pos_graphs) + [0]*len(train1_neg_graphs))
     train1_graphs, train1_targets = shuffle(train1_graphs, train1_targets)
+    train1_graphs, train1_targets = remove_empty_graphs_and_targets(train1_graphs, train1_targets)
+
     train2_pos_graphs =list(list_of_smiles_to_nx_graphs(splits['train2_pos_smiles']))
     train2_neg_graphs =list(list_of_smiles_to_nx_graphs(splits['train2_neg_smiles']))
     train2_graphs = train2_pos_graphs+ train2_neg_graphs
     train2_targets = np.array([1]*len(train2_pos_graphs) + [0]*len(train2_neg_graphs))
     train2_graphs, train2_targets = shuffle(train2_graphs, train2_targets)
-    graphs=[train_graphs,train_targets,test_graphs,test_targets,train1_graphs,train1_targets,train2_graphs,train2_targets,valid_graphs, valid_targets]
+    train2_graphs, train2_targets = remove_empty_graphs_and_targets(train2_graphs, train2_targets)
+
+    graphs=[train1_graphs,train1_targets,train2_graphs,train2_targets,test_graphs,test_targets]
     if return_smiles:
          return graphs,splits
     else:  return graphs
@@ -115,13 +130,17 @@ def get_generated_data(name, path='data/smiles/'):
     with open(path_postives) as my_file:
          for line in my_file:
             pos_list.append(line.strip())
-    pos_graphs=list_of_smiles_to_nx_graphs(pos_list)
     path_negatives=path+'{}/{}_gen_neg.txt'.format(name,name)
     with open(path_negatives) as my_file:
          for line in my_file:
             neg_list.append(line.strip())
+    pos_graphs=list_of_smiles_to_nx_graphs(pos_list)
     neg_graphs=list_of_smiles_to_nx_graphs(neg_list)
-    return pos_graphs,neg_graphs
+    #print(len(neg_graphs))
+    generated_graphs,generated_targets = pos_graphs + neg_graphs, [1]*len(pos_graphs)+[0]*len(neg_graphs)
+    generated_graphs, generated_targets = shuffle(generated_graphs, generated_targets)
+    generated_graphs, generated_targets = remove_empty_graphs_and_targets(generated_graphs, generated_targets)
+    return  generated_graphs, generated_targets
 
 
  
@@ -218,7 +237,6 @@ def get_pyg_loader_from_nx(X,y,batch_size):
     
 def get_all_pyg_loaders(train_graphs, train_targets,  test_graphs, test_targets ,\
     train1_graphs , train1_targets,valid_graphs, valid_targets,generated_graphs,generated_targets,batch_size=10):
-    
     train_pyg_graphs,test_pyg_graphs,train1_pyg_graphs,valid_pyg_graphs,generated_pyg_graphs,all_pyg=\
     get_pyg_graphs_from_all_nx_sets(train_graphs, train_targets,  test_graphs, test_targets \
         , train1_graphs , train1_targets,valid_graphs, valid_targets,generated_graphs,generated_targets)

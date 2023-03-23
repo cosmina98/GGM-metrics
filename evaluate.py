@@ -15,9 +15,9 @@ RDLogger.DisableLog('rdApp.*')
 import math
 
  
-def evaluate(reference_nx_graphs, generated_nx_graphs, device,  metrics_type, structural_statistic=None, train_graphs=None, train_targets=None,test_graphs=None, test_targets=None,train1_graphs=None,train1_targets=None,train2_graphs=None, train2_targets=None, generated_graphs=None,generated_targets=None):
-    reference_graphs_dgl = [ dgl.from_networkx(g,node_attrs=['label','attr'], edge_attrs=['label','attr']).to(device) for g in reference_nx_graphs if g.number_of_nodes()>1 and g.number_of_edges()>0] # Convert graphs to DGL f,rom NetworkX
-    generated_graphs_dgl=[ dgl.from_networkx(g,node_attrs=['label','attr'], edge_attrs=['label','attr']).to(device) for g in generated_nx_graphs if g.number_of_nodes()>1 and g.number_of_edges()>0 ]
+def evaluate(reference_nx_graphs, generated_nx_graphs, device,  metrics_type, structural_statistic=None,train1_graphs=None , train1_targets=None,train2_graphs=None , train2_targets=None, test_graphs=None, test_targets=None, generated_graphs=None, generated_targets=None):
+    reference_graphs_dgl = [ dgl.from_networkx(nx.MultiDiGraph(g),node_attrs=['label','attr'], edge_attrs=['label','attr']).to(device) for g in reference_nx_graphs if g.number_of_nodes()>1 and g.number_of_edges()>0] # Convert graphs to DGL f,rom NetworkX
+    generated_graphs_dgl=[ dgl.from_networkx(nx.MultiDiGraph(g),node_attrs=['label','attr'], edge_attrs=['label','attr']).to(device) for g in generated_nx_graphs if g.number_of_nodes()>1 and g.number_of_edges()>0 ]
 
     
     input_dim=len(reference_graphs_dgl[0].ndata['attr'][0])
@@ -63,22 +63,25 @@ def evaluate(reference_nx_graphs, generated_nx_graphs, device,  metrics_type, st
     if 'auc_roc' in metrics_type:
         
         new_metric_dict={} 
-        def fun(train_graphs, train_targets,test_graphs, test_targets,train1_graphs,train1_targets,train2_graphs, train2_targets, generated_graphs,generated_targets):
+        def fun(train1_graphs , train1_targets,train2_graphs , train2_targets, test_graphs, test_targets, generated_graphs,generated_targets):
             classifier_nn=AucRocEvaluation(classifier_type='nn')
             classifier_nspdk=AucRocEvaluation(classifier_type='scikit')
-            res, time=classifier_nspdk.evaluate(train_graphs, train_targets,test_graphs, test_targets,train1_graphs,train1_targets,train2_graphs, train2_targets, generated_graphs,generated_targets)
-            res2, time2=classifier_nn.evaluate(train_graphs, train_targets,test_graphs, test_targets,train1_graphs,train1_targets,train2_graphs, train2_targets, generated_graphs,generated_targets)
-            for key in list(res.keys()):
-                 res[key + '_time'] = time
-            metrics.update(res)
-            for key in list(res2.keys()):
-                res2[key + '_time'] = time2
-            metrics.update(res2)
+            try:
+                res, time=classifier_nspdk.evaluate(train1_graphs , train1_targets,train2_graphs , train2_targets, test_graphs, test_targets, generated_graphs,generated_targets)
+                for key in list(res.keys()):
+                    res[key + '_time'] = time
+                metrics.update(res)
+            except:print('Error when computing AUC_ROC with NSPDK')
+            try:
+                res2, time2=classifier_nn.evaluate(train1_graphs , train1_targets,train2_graphs , train2_targets, test_graphs, test_targets, generated_graphs,generated_targets)
+                for key in list(res2.keys()):
+                    res2[key + '_time'] = time2
+                metrics.update(res2)
+            except:print('Error when computing AUC_ROC with an nn classifier')
         try:  
          print('Now computing the auc_roc based  metric')
-         fun(train_graphs, train_targets,test_graphs, test_targets,train1_graphs,train1_targets,train2_graphs, train2_targets, generated_graphs,generated_targets)
-        except: print('Cannot compute these metrics for this type of graphs. Did you \
-            provide the right splits in exactly this order: \n train_graphs, train_targets,test_graphs, test_targets,train1_graphs,train1_targets, train2_graphs, train2_targets, generated_graphs,generated_targets ')
+         fun(train1_graphs , train1_targets,train2_graphs , train2_targets, test_graphs, test_targets, generated_graphs,generated_targets)
+        except:None
     new_metrics = {key: value for (key, value) in metrics.items() if not math.isnan(value)}
 
     return new_metrics

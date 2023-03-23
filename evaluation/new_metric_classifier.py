@@ -54,8 +54,8 @@ class GCN(torch.nn.Module):
     
 class NN_classifier():
     
-    def __init__ (self,model=None,optimiser=None,loss_function =torch.nn.CrossEntropyLoss(),batch_size=10,epochs=10,verbose=False,
-     lr=1e-2):
+    def __init__ (self,model=None,optimiser=None,loss_function =torch.nn.CrossEntropyLoss(),batch_size=10,epochs=20,verbose=False,
+     lr=1e-3):
     
       self.batch_size=batch_size
       self.epochs=epochs
