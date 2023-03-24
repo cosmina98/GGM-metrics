@@ -62,7 +62,7 @@ def _preprocess(nx_dataset, set_label_equal_to_attribute=False,set_attribute_equ
             nx.set_edge_attributes(G, dict, 'label') 
             
         #H = nx.MultiDiGraph(G)
-        processed_dataset.append(H)
+        processed_dataset.append(G)
     return processed_dataset  
 
 def preprocess(reference_graphs=None,generated_graphs=None):
