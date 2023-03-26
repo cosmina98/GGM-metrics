@@ -126,13 +126,13 @@ def get_data(name, path='data/smiles/',return_smiles=False):
     else:  return graphs
     
 
-def get_generated_data(name, path='data/smiles/'):
+def get_generated_data(name, path='data/smiles/', generator_name='stgg'):
     pos_list, neg_list=[],[]
-    path_postives=path+'{}/{}_gen_pos.txt'.format(name,name)
+    path_postives=path+'{}/{}_gen_pos_{}.txt'.format(name,name,generator_name)
     with open(path_postives) as my_file:
          for line in my_file:
             pos_list.append(line.strip())
-    path_negatives=path+'{}/{}_gen_neg.txt'.format(name,name)
+    path_negatives=path+'{}/{}_gen_neg_{}.txt'.format(name,name,generator_name)
     with open(path_negatives) as my_file:
          for line in my_file:
             neg_list.append(line.strip())
