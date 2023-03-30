@@ -57,19 +57,19 @@ class AucRocEvaluation():
         auc=roc_auc_score(test_targets, preds)
         return auc
         
-    def score(self, r1,r2,r3,r4):
-        epsilon=1e-3
-        r1=max(0.5, r1)
-        r2=max(0.5, r2)
-        r3=max(0.5, r3)
-        r4=max(0.5, r4)
-        if (r2-r1) <epsilon:
-            metric=0
+    def score(self,r1,r2,r3,r4):
+        def rescale(r):
+            return 2*(max(0.5, r)-0.5 )
+        r1=rescale(r1)
+        r2=rescale(r2)
+        r3=rescale(r3)
+        r4=rescale(r4)
+        if (r2-r1) <0:
+            r2=r1
         else: 
-            score1=min(1,max(0,r4-r1)/max(0, r2-r1))
-            score2=min(1,1-max(0,r1-r3)/r1)
-            #print(score1, score2)
-            metric=np.sqrt(score1*score2)
+            score1=min(1,(r4)/(r2))
+            score2=min(1,(r3)/(r1))
+            metric=2*score1*score2/(score1+score2)
         return metric
    
     @time_function
