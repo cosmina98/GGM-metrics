@@ -64,7 +64,7 @@ def evaluate(reference_nx_graphs, generated_nx_graphs, device,  metrics_type, st
         
         new_metric_dict={} 
         def fun(train1_graphs , train1_targets,train2_graphs , train2_targets, test_graphs, test_targets, generated_graphs,generated_targets):
-            classifier_nn=AucRocEvaluation(classifier_type='nn')
+            #classifier_nn=AucRocEvaluation(classifier_type='nn')
             classifier_nspdk=AucRocEvaluation(classifier_type='scikit')
             try:
                 res, time=classifier_nspdk.evaluate(train1_graphs , train1_targets,train2_graphs , train2_targets, test_graphs, test_targets, generated_graphs,generated_targets)
