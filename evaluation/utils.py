@@ -89,7 +89,7 @@ def get_data(name, path='data/smiles/',return_smiles=False):
     splits={}
     RDLogger.EnableLog('rdApp.*')
     RDLogger.DisableLog('rdApp.*')  
-    split_names=['train_smiles','test_smiles', 'train1_pos_smiles','train1_neg_smiles','train2_pos_smiles','train2_neg_smiles','valid_smiles','train_tragets','test_targets', 'valid_targets' ]
+    split_names=['train_smiles','test_smiles', 'train1_pos_smiles','train1_neg_smiles','train2_pos_smiles','train2_neg_smiles','valid_smiles','train_targets','test_targets', 'valid_targets' ]
     for i,split in enumerate(split_names):
         exact_path=path+'{}/{}.txt'.format(name, split)
         #from data.smiles.carcinogens import test_smiles
