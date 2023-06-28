@@ -72,12 +72,12 @@ def evaluate(reference_nx_graphs, generated_nx_graphs, device,  metrics_type, st
                     res[key + '_time'] = time
                 metrics.update(res)
             except:print('Error when computing AUC_ROC with NSPDK')
-            try:
-                res2, time2=classifier_nn.evaluate(train1_graphs , train1_targets,train2_graphs , train2_targets, test_graphs, test_targets, generated_graphs,generated_targets)
-                for key in list(res2.keys()):
-                    res2[key + '_time'] = time2
-                metrics.update(res2)
-            except:print('Error when computing AUC_ROC with an nn classifier')
+            #try:
+                #res2, time2=classifier_nn.evaluate(train1_graphs , train1_targets,train2_graphs , train2_targets, test_graphs, test_targets, generated_graphs,generated_targets)
+               # for key in list(res2.keys()):
+                    #res2[key + '_time'] = time2
+                #metrics.update(res2)
+            #except:print('Error when computing AUC_ROC with an nn classifier')
         try:  
          print('Now computing the auc_roc based  metric')
          fun(train1_graphs , train1_targets,train2_graphs , train2_targets, test_graphs, test_targets, generated_graphs,generated_targets)
