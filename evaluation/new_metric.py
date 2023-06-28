@@ -8,10 +8,21 @@ from eden.ml.estimator import EdenEstimator
 from .new_metric_classifier import GCN,NN_classifier
 from .utils import get_pyg_loader_from_nx
 import time
+import random,os
 from sklearn.utils import shuffle
 from scipy.stats import hmean
 from eden.ml.ml import serial_vectorize as vectorize
 from eden.graph import Vectorizer
+
+def seed_everything(seed=0):
+    """"
+    Seed everything.
+    """   
+    random.seed(seed)
+    os.environ['PYTHONHASHSEED'] = str(seed)
+    np.random.seed(seed)
+
+seed_everything(0)
 
 
 vectorizer = Vectorizer(
@@ -32,10 +43,9 @@ def time_function(func):
  
     
 class AucRocEvaluation():
-    def __init__(self, classifier_type='scikit', random_state=1,*args, **kwargs):
+    def __init__(self, classifier_type='scikit', random_state=0,*args, **kwargs):
         if classifier_type=='scikit':
             self.estimator =ExtraTreesClassifier(n_estimators=300, n_jobs=-1,random_state=0)
-            self.graph_encoder =EdenEstimator(r=2,d=3 )
         if classifier_type=='nn':
             self.batch_size=10
             self.model =GCN(in_channels=9, hidden_channels=64,edge_feat_dim=3,chem_encoder=True) 
@@ -81,7 +91,7 @@ class AucRocEvaluation():
         score2=min(1,(r3)/(r1))
         score3=max(0,min(1,(r4 -r1)/(r2-r1)))
         if (r2-r1) <0:
-            score3=max(0,min(1,(r4 -r1)/(r2-r1)))
+            score3=max(0,min(1,(r4 -r1)/(r1-r2)))
         metric=hmean([score1,score2,score3])
         return metric
     
@@ -110,8 +120,9 @@ class AucRocEvaluation():
         X_train1_plus_generated=np.vstack((X_train1,X_generated))
         return X_train,X_test,X_train1,X_generated,X_train1_plus_generated
     def _compute_auc(self,X_train, train_targets,X_test, test_targets):
-        self.estimator.fit( X_train,train_targets)
-        preds=self.predict(X_test )
+        estimator =ExtraTreesClassifier(n_estimators=300, n_jobs=-1,random_state=0)
+        estimator.fit( X_train,train_targets)
+        preds=estimator.predict_proba(X_test)[:,1]
         auc=roc_auc_score(test_targets, preds)
         return auc
 

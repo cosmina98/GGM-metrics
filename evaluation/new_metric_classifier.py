@@ -7,11 +7,28 @@ from torch.nn import Linear
 from torch_geometric.nn import GCNConv,GATConv
 from torch_geometric.nn import global_mean_pool
 import torch
+import random,os
+
+
+
+def seed_everything(seed=42):
+    """"
+    Seed everything.
+    """   
+    random.seed(seed)
+    os.environ['PYTHONHASHSEED'] = str(seed)
+    np.random.seed(seed)
+    torch.manual_seed(seed)
+    torch.cuda.manual_seed(seed)
+    torch.cuda.manual_seed_all(seed)
+    torch.backends.cudnn.deterministic = True
+
+seed_everything(42)
+
 
 class GCN(torch.nn.Module):
     def __init__(self,in_channels, hidden_channels,edge_feat_dim, output_channels=2,chem_encoder=False):
         super(GCN, self).__init__()
-        torch.manual_seed(12345)
         self.chem_encoder=chem_encoder 
         self.embedding=None  
 
@@ -63,7 +80,6 @@ class NN_classifier():
       self.lr=lr
       self.verbose=verbose
       self.shuffle=False
-      self.seed=42
       self.running_loss = 0
       self.loss_function = loss_function
       self.sm = torch.nn.Softmax()

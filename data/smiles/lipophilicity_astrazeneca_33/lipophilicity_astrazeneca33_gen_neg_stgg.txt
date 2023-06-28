@@ -1,0 +1,202 @@
+/usr/local/lib/python3.10/dist-packages/moses/metrics/utils.py:24: FutureWarning: The frame.append method is deprecated and will be removed from pandas in a future version. Use pandas.concat instead.
+  _mcf.append(_pains, sort=True)['smarts'].values]
+lipophilicity_astrazeneca33
+GPU available: True (cuda), used: True
+TPU available: False, using: 0 TPU cores
+IPU available: False, using: 0 IPUs
+HPU available: False, using: 0 HPUs
+LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [0]
+
+  | Name  | Type          | Params
+----------------------------------------
+0 | model | BaseGenerator | 27.8 M
+----------------------------------------
+27.8 M    Trainable params
+0         Non-trainable params
+27.8 M    Total params
+111.022   Total estimated model params size (MB)
+2023-06-16 20:52:19.730926: I tensorflow/core/platform/cpu_feature_guard.cc:182] This TensorFlow binary is optimized to use available CPU instructions in performance-critical operations.
+To enable the following instructions: AVX2 AVX512F FMA, in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2023-06-16 20:52:20.686297: W tensorflow/compiler/tf2tensorrt/utils/py_utils.cc:38] TF-TRT Warning: Could not find TensorRT
+Sanity Checking: 0it [00:00, ?it/s]/usr/local/lib/python3.10/dist-packages/torch/ut
+Epoch 81: 100% 1/1 [00:01<00:00,  1.08s/it, v_num=16]
+Validation: 0it [00:00, ?it/s]
+Validation:   0% 0/4 [00:00<?, ?it/s]
+Validation DataLoader 0:   0% 0/4 [00:00<?, ?it/s]
+Epoch 81: 100% 1/1 [00:02<00:00,  2.82s/it, v_num=16]
+Epoch 82: 100% 1/1 [00:01<00:00,  1.07s/it, v_num=16]
+Validation: 0it [00:00, ?it/s]
+Validation:   0% 0/4 [00:00<?, ?it/s]
+Validation DataLoader 0:   0% 0/4 [00:00<?, ?it/s]
+Epoch 82: 100% 1/1 [00:02<00:00,  2.86s/it, v_num=16]
+Epoch 83: 100% 1/1 [00:01<00:00,  1.11s/it, v_num=16]
+Validation: 0it [00:00, ?it/s]
+Validation:   0% 0/4 [00:00<?, ?it/s]
+Validation DataLoader 0:   0% 0/4 [00:00<?, ?it/s]
+Epoch 83: 100% 1/1 [00:02<00:00,  2.95s/it, v_num=16]
+Epoch 84: 100% 1/1 [00:01<00:00,  1.42s/it, v_num=16]
+Validation: 0it [00:00, ?it/s]
+Validation:   0% 0/4 [00:00<?, ?it/s]
+Validation DataLoader 0:   0% 0/4 [00:00<?, ?it/s]
+Epoch 84: 100% 1/1 [00:03<00:00,  3.34s/it, v_num=16]
+Epoch 85: 100% 1/1 [00:01<00:00,  1.14s/it, v_num=16]
+Validation: 0it [00:00, ?it/s]
+Validation:   0% 0/4 [00:00<?, ?it/s]
+Validation DataLoader 0:   0% 0/4 [00:00<?, ?it/s]
+Epoch 85: 100% 1/1 [00:02<00:00,  2.88s/it, v_num=16]
+Epoch 86: 100% 1/1 [00:01<00:00,  1.06s/it, v_num=16]
+Validation: 0it [00:00, ?it/s]
+Validation:   0% 0/4 [00:00<?, ?it/s]
+Validation DataLoader 0:   0% 0/4 [00:00<?, ?it/s]
+Epoch 86: 100% 1/1 [00:02<00:00,  2.80s/it, v_num=16]
+Epoch 87: 100% 1/1 [00:01<00:00,  1.39s/it, v_num=16]
+Validation: 0it [00:00, ?it/s]
+Validation:   0% 0/4 [00:00<?, ?it/s]
+Validation DataLoader 0:   0% 0/4 [00:00<?, ?it/s]
+Epoch 87: 100% 1/1 [00:03<00:00,  3.12s/it, v_num=16]
+Epoch 88: 100% 1/1 [00:01<00:00,  1.37s/it, v_num=16]
+Validation: 0it [00:00, ?it/s]
+Validation:   0% 0/4 [00:00<?, ?it/s]
+Validation DataLoader 0:   0% 0/4 [00:00<?, ?it/s]
+Epoch 88: 100% 1/1 [00:03<00:00,  3.13s/it, v_num=16]
+Epoch 89: 100% 1/1 [00:01<00:00,  1.13s/it, v_num=16]
+Validation: 0it [00:00, ?it/s]
+Validation:   0% 0/4 [00:00<?, ?it/s]
+Validation DataLoader 0:   0% 0/4 [00:00<?, ?it/s]
+Epoch 89: 100% 1/1 [00:03<00:00,  3.17s/it, v_num=16]
+Epoch 90: 100% 1/1 [00:01<00:00,  1.13s/it, v_num=16]
+Validation: 0it [00:00, ?it/s]
+Validation:   0% 0/4 [00:00<?, ?it/s]
+Validation DataLoader 0:   0% 0/4 [00:00<?, ?it/s]
+Epoch 90: 100% 1/1 [00:03<00:00,  3.00s/it, v_num=16]
+Epoch 91: 100% 1/1 [00:01<00:00,  1.48s/it, v_num=16]
+Validation: 0it [00:00, ?it/s]
+Validation:   0% 0/4 [00:00<?, ?it/s]
+Validation DataLoader 0:   0% 0/4 [00:00<?, ?it/s]
+Epoch 91: 100% 1/1 [00:03<00:00,  3.20s/it, v_num=16]
+Epoch 92: 100% 1/1 [00:01<00:00,  1.39s/it, v_num=16]
+Validation: 0it [00:00, ?it/s]
+Validation:   0% 0/4 [00:00<?, ?it/s]
+Validation DataLoader 0:   0% 0/4 [00:00<?, ?it/s]
+Epoch 92: 100% 1/1 [00:03<00:00,  3.12s/it, v_num=16]
+Epoch 93: 100% 1/1 [00:01<00:00,  1.12s/it, v_num=16]
+CO
+CCC=O
+CC=NN
+CC=CBr
+CC(C)=O
+CC(C)=O
+NC(N)=O
+CC(C)=O
+N#CCOC=O
+COC=CC=C=O
+CC(N=CN)=NC#N
+CC1=CC=CN(C)N1
+CC=CC=C(C)N(C)C
+CC1=CC=C(C)CCOC=C1
+CC=NNC1CC=CC=C1F
+CC=CC=C(N)Nc1ccccc1
+N=CC(=CC=CN)C(=O)N=CN
+NC(CC(=O)O)c1ccccc1
+CNSCN=C1CC(OC)=NC=N1
+NONC(=O)c1ccc(N)cc1
+N#CC=C(Cl)[CH]NCCNC=O
+CN(C)C(=O)NNCc1ccccc1
+N=C(N)CCCC1=C(C=O)N=CC1
+CC=CC(=CC=O)NC1=CC=C(Cl)C=CN1
+Nc1c2ccncc(O)cc-2c1O
+CC(C(=O)O)c1cc2ccccc2o1
+COc1ccccc1C1=CC=C(Cl)C=COC1
+CC1=Cc2c3ccnn(C)n(c21)CCC3
+COC1=CC=C(O)C=CC(O)(C(C)=O)CNC1
+COC1=CC=c2c(=O)c2=CC=C(O)C(C)C1
+CCN(c1ccccc1Cl)c1ccncc1C#N
+CCC1(C2=CC=C(N)C2=O)C=CC1=C=C=O
+O=C1NCCCC2CCC2=CC=C(O)c2ccccc21
+CC(=CC=CNC(=O)N(C)C)C(=O)NCCc1ccccc1
+N#CC1(c2ccccn2)CCC(NC2C=CC2=N)=CC1N=O
+CNCCCNC=CC=C([NH])N1CC2=C=C1C(C=NC=CC=O)N2
+N[CH]CNC1CCCOC2CC3=CC(CCC3)CC(=O)C=C12
+CC(C=O)OC1=CC=C(C2=CNNC(=O)N2)N(c2ccccc2)C1
+CC(=O)NNC(=O)c1ccc2cc1c2=CC(=CC(=O)F)CO
+O=C(F)CCC(O)=C(c1ccccc1C(=O)O)N1C=CC1=O
+C[CH]CCCC(=CC(=O)F)N1CNCCN2CC(C1)C2(C[O-])N=O
+O=NNC(=O)CC=CC=C1C(=O)C1CC(C1=NC1)=C(O)C(=O)F
+C=S1(=O)CCN2C=C(N=CNCCNCCCC)C(=CC2CC)C=C1O
+CNCc1cc(C)c(-c2cccc(Cl)c2C(=O)OC=COC)nc1C
+CCCOC1=CC=C(C2=C(O)C3CCCNC2=C(C=N)C3(C)F)NCC1
+COC=CC1=C=CC1=CC=C1CNC1NCC(=O)C(O)(CO)CN=O
+O=C(O)C=CC=CC1=C(O)C1N1CCCNc2cc(C(=O)O)ccc2C1
+OCCC1=CC=C(C2=CC(CN3C=CC(Cl)=C=CC(O)=CNNCC3)=C2O)C1
+CC(CN1CC(=O)OC2=CC=C(CC=O)N3CCCCC1(F)CC3(CF)O2)NC=O
+C=C=C1CC=[SH](=C(c2ccc(O)cn2)N(C)O)CC(C#N)=NC=NS(=O)(=O)CNC1
+CNC1=Cc2c(c(C=C=O)ccc(OC)c2=O)N=CC1(C)CC(=O)N1CCCCC1
+CC1=NN(N)NC2=CC=CN1C2COC1=CC(=CC=CCl)N(C#N)c2ccc1cc2
+C=C=C(NCC(C)(CO)C1CCN(S2(C)(=O)CC2CO)CC1)C1=CC=CC=C=C=C1Cl
+COC1=CC=C(NC(=O)C2=CC=C(NC3C=CC(Cl)=CC=C4C(=O)N4CCC3)C2)C1=O
+O=C=C(C(=O)I)C1=NC=C(NCC=O)CC=S2(O[PH+]CO)=CC1=CN=CC(NC=CCl)C=C2
+CC1(C)CC(=C2CCCC2)C(=C=O)C2=CC=C(C2=O)C(=CC=C(F)F)C(F)=CC1=O
+CCC1=NC2=C(C[Si](=O)O)N(O)C3=CC=CC(C=C2C1)C(CCSCC=CCO)=NCC3
+C=C1COC2=CC3=CC=C(C=CC(N3C)N2N=O)C(OCCC)(C2CC(=O)N=CN2)C=CN1
+COC(=O)CCN=C=C(O)OCC1=CC=C(OC)C(=O)N2CCCC1=CC1=CC=C(CS1)C2=O
+COC1=NC(C)(CC(O)(O)OOOCC#N)C2=CC(O)=CC(OOc3ccccc3)C=C=C(O2)C1O
+CCCC(C(=O)O)(C1=CC=C(C(CC2CCCNC2=O)NC(N)=O)[PH2]=C1)N(C)C(CO)C1CCCCC1
+CC1=NC=CC(=O)C2=CC=CC(C#N)(C(F)(CF)C(=O)F)S(=O)(=O)C3(CC(N3)C(=O)NN1)C2=O
+O=C(NCCC1=NN=CCC2=NC(=CC=C(O)N=CC2(O)C(CO)(CO)CCC2CCCCOC2)N1)C1CC1
+O[CH]c1ccccc1C1=CC=C(O)C=CC2=CC(=CC=C(Cl)Cl)C(Cl)(CO2)N2CCOCC2=C1CF
+[CH-]=C1C=C(CCC(C)(C)CCCC)CCCNC(=O)C(=CC=C(CCc2ccccc2)N(C)CC2=CC=C2O)C1
+C=C(O)C1=CC=C2C(Br)=C=C=C=C=C(C=C=C=C=CC=C(Cl)C=O)C(CC)CC1=CC=CNC(=O)NNS2(=O)=O
+CCCN1C=NC2=CN=CC=C(CN)C3CN(N=C2)C2=C1CC(COC1CC1)=CN3CCCCC=C(CC)C=N2
+CCCN=CN=C(C)N(C(=O)CC(NC)C(CO)CNCC1=CC=C(C(=O)O)OC=C1c1ccc(Cl)cc1)c1cccnc1
+CCCCNCC1=CC=C(C=Cc2ccccc2OCC2=C=COC=COC(=CC(O)=C(O)F)C2)S(=O)(=O)NC2=CN=C2C(=O)N1
+CCC1(NC)C=C2C3=NS(=O)(=C4C=CN=CC4)COC(=CC=NC=CC(=O)NCC=O)C3=CC=C(OC)CC2=C1OCCC(C)=O
+COC[CH]SCCC1=CC=C(Nc2ccccc2)C(O)(OC(=O)c2cccccc(=O)c2=O)C(C(=O)NCCF)=C1N(C)CF
+CNCCCS(=O)(CC1CCCN(C)C(=O)S1(=O)=O)=C1C=C=C(Cl)C(CC(OC)(OC(C)(C)NO)C(C)([CH]O)C(C)(C)O)=C1
+O=C=CNNN1NCCN([SH]2(=CN(CCCCSCNC(CO)NC(=O)O)N[P+](=O)CO)C=CC=CC=C2C(=O)O)Nn2c(C3C=CC=C3)ccc1c2=O
+CCC(=O)CCOCCCCCCNC1=C2C34C=NCCNC(=O)N5C=CC(=CC(=O)N=CC=C1C3)CC54C2(OC=O)C(=O)CCC(CCCCC=O)ONNOC(=O)OO
+CCC1=S23=C(C(C=CC2=C(F)N(CCCCCC(O)O)P2([O-])=CC(=C(F)F)N[SH+]C2(F)C=O)C(CCC(CO)(CS)CCCCSCCF)=C1OC)N(CCO)CC(=O)C3
+COC1=CC(=C=NCC(=O)CC(CO)(CCCCCSCSCNCCC(=C=CCCO)N=O)COO)SC2=CC=CC(CCCCCCCNC(=O)CCO)(OCCNC(=O)O)C(=O)C3=CC=CC=C(CC12)N1CCCCN1CCC3
+CC[SH](C(=C=O)NCCNC(=C=C(CS(N)(=O)=CCNO)SCOC(F)(C(=O)SCSO)N(O)F)SOO)(=C(c1cncc(N=O)c1)N(C=O)S(=O)(=O)C1=CC=C(C=O)C(C=O)(C(N)=O)C1)c1nc2ccc1cc2
+O=C(O)O
+O=CCNC=O
+O=C=CC=CC=COCCO
+O=C(O)c1ccccc1
+COc1ccc(N)cc1
+NC(=O)c1ccccc1
+NC1=CC=CC(=O)CON1
+CCN1C=NC1=NN=NF
+CN(C)C1=CS1(=O)=O
+CCNCC[CH][CH]CC=O
+CCOC=Cc1ccc(Cl)cc1
+CCC1(CC)CN(C)C1=O
+CCCC(=O)CN1NC1(N)C=O
+CC12CCC[CH]N=C1C(=CCl)C2
+CC(=O)C=CC=Cc1ccc(O)cc1
+COCC(Cc1ccccc1)CN(C)C
+CNCCC(O)C=NC=C(F)C=C(F)F
+CCC=C(c1cccc(CC)c1)[SH](=O)=O
+CCC1CCCCC1C(=COc1ccccc1)N=CN
+CCCOC=CC=C1CC(C=CO)=NC=C2CCCCC21
+CC=C1CCN(C)CC2(CCO)CC(=CC=C(O)C=N2)C1
+CCCC1=C(OCc2ccccc2C(=O)O)C=C1OC
+COc1ccccc1NC(C)C(O)=C(F)CC(C)C(C)(C)O
+CC#CNN1C(C=C(O)N2CCCC2)=CC=CCOC1=CC=CC(C)=N
+CCCC12C=C(OC)C(CCONC(=O)O)(CCC1=CC1=CC=C1Cl)NC2
+CCCCCCCNC(=CN(c1ccccc1)C(SC)C(=O)NC1CCNCC1)OC
+COC1=CC(C2CC3=CCc4ccccc(ccnc(=O)c4)CC(O)=C32)=C1
+COc1ccc(C2=C(Cl)N(C)C(CNO)=C([SH](C)C)C2)c(C)c1SN
+CNC1=C=CC=C(C(O)=CC2=CC=CNCC(OCC(=O)O)C(=O)CCS2)C=C=C=C1
+CCC1=CC=C(C#N)NNCN2CCC(CC)C(=C1OC1CCCCC(N=O)CC1)C2
+C=C(C)C1=CC=C(C(=O)C2=C(OC)C2)CCSN1C(=O)c1ccc(NC)cc1
+CC(C)N(C=O)C(CCCC1=CC=C(C(C)(O)c2ccccc2)CC1)(CSO)C(=O)O
+CC1CC(N2C=CN(C(O)C3CCCC3)CC2)(N(CSCC2=CC=C2)C(=O)O)C1=N
+C=C(SF)C1=C=C=CC=C(COC(CN(C)C(C)=O)(NC)c2ccccc2)N1C(N)=O
+O=CCC1CC2=CC(=C(O)F)CC(C(=O)NCCC3CCN4NCC=C3C4=O)CCN21
+CCOCC1(C=C(C)O)C(=CC=C(N)C=C=O)C=C2N(C(=O)NC)C3=C1C2(Cl)C=C3
+CCC(NC)(C(O)=NC=CC=C[NH-])C(Cc1ncncn1)C1=CC=C2C(=O)NC(=O)C=NN2CSCC1
+COC1=NC(C)NNC(c2ccccc2OCCO)=CC=C1S(=O)(=O)OC12C=C(Cl)C1=CC=CC(Cl)=CC2=C(Cl)C=NO
+COc1ccc(CCCCCC(=CC(=O)SCSO)CCO)c2c1=CC(N)=NC(C(O)N1C(=O)C(=CC=C(O)O)[N+]1(C)[PH+]=O)CNC(O)=CC=2
+O=C(COCCNCCNCCCCCC1CCCN2CC=C3C=CC=C(O)CCCC4(C=CC=CN1C4)NN1CCC(=O)C31C2)OCCCNNCCCCCOCCCCCCCCCCCNCCO
+COCCC1CNCC(=O)N=CC(CCNC(=O)C=C2CCCCOCC2)(Cc2ccccc2)C(C=O)(Cc2cc(O)ccc2O)CC(CCCCC(=O)NNOCCCO)N(CCCC(=O)CO)C1
+C=CC=C1C2=CN3C(=CN1CCC(C1=C4CC=NC(=CN=C1C)C=N4)O2)C3CSCCCNC(CNOCOCCCCOCCSCCCCCCCOC)NCSC(=O)OC(CC[CH]CC)(CCCCCCCOC)OCNOOCNCOO
+CC=C1CCNC(c2ccc3c4cccc(Cl)cc-4cc3n2)(N(F)C(O)(CCC(=O)C=O)OC)C(CN(C(SCC(=O)O)=C([SH]C=O)C(=O)O)C(C=O)CONCCCC(=O)C(C=O)OCO)(C(CO)NCCCCNC)C1
