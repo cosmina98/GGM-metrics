@@ -122,7 +122,7 @@ class AucRocEvaluation():
     def _compute_auc(self,X_train, train_targets,X_test, test_targets):
         estimator =ExtraTreesClassifier(n_estimators=300, n_jobs=-1,random_state=0)
         estimator.fit( X_train,train_targets)
-        preds=estimator.predict_proba(X_test)[:,1]
+        preds=np.array(estimator.predict_proba(X_test))[:,1]
         auc=roc_auc_score(test_targets, preds)
         return auc
 
