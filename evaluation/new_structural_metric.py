@@ -1,4 +1,4 @@
-#simplefilter(action='ignore', category=FutureWarning)
+
 import numpy as np
 import scipy as sp
 import pandas as pd
@@ -7,14 +7,11 @@ import seaborn as sns
 import matplotlib.pyplot as plt
 from IPython.core.display import HTML
 from warnings import simplefilter
-from toolz import curry,partition_all
+simplefilter(action='ignore', category=FutureWarning)
+
 from collections import defaultdict
-from scipy.sparse import csr_matrix
-from sklearn.metrics.pairwise import pairwise_distances
-import inspect
-import random
-from collections import Counter
-import multiprocessing_on_dill as mp
+import networkx as nx
+from toolz import curry
 
 
 def hash_list(seq):
@@ -89,6 +86,10 @@ def graph_hash(orig_graph, context=1, nbits=None, use_node_unlabelled_graph=Fals
     g_hash = hash_value(g_hash, context, nbits)
     return g_hash
 
+
+import networkx as nx
+from toolz import curry
+from collections import defaultdict
 
 def neighborhood_decomposition(graph, cutoff=1):
     node_bunches = []
@@ -167,7 +168,8 @@ def pairwise_neighborhood(graphofgraph, size=1, min_size=None, max_size=None, di
                         node_signatures.append(node_signature)
     out_graphofgraph = make_graph_of_graph(base_graph=graphofgraph.graph['base'], node_bunches=node_bunches, node_signatures=node_signatures)
     return out_graphofgraph
-
+import networkx as nx
+from toolz import curry
 
 
 def get_edges_from_cycle(cycle):
@@ -259,6 +261,9 @@ def cycle(graphofgraph, size=None, min_size=None, max_size=None, use_positive=Tr
     out_graphofgraph = make_graph_of_graph(base_graph=graphofgraph.graph['base'], node_bunches=node_bunches, node_signatures=node_signatures, abstraction_level=abstraction_level)
     return out_graphofgraph
 
+import networkx as nx
+from toolz import curry
+
 
 @curry
 def atom(graphofgraph, use_nodes=True, use_edges=True):
@@ -288,6 +293,13 @@ def node(graphofgraph, flag=None):
 @curry
 def edge(graphofgraph, flag=None):
     return atom(graphofgraph, use_nodes=False, use_edges=True)
+import networkx as nx
+import numpy as np
+from scipy.sparse import csr_matrix
+from sklearn.metrics.pairwise import pairwise_distances
+from toolz import partition_all
+import multiprocessing_on_dill as mp
+import inspect
 
 def function_signature(function_arguments_dict):
     if 'graphofgraph' in function_arguments_dict: function_arguments_dict.pop('graphofgraph','')
@@ -469,6 +481,13 @@ def construct(graph, attribute_label='vec', nbits=16):
     node_bunches = [list(base_graph.nodes())]
     graphofgraph = make_graph_of_graph(base_graph, node_bunches=node_bunches, node_signatures=['base'])
     return graphofgraph
+import numpy as np
+import scipy as sp
+import networkx as nx
+from scipy.sparse import csr_matrix
+from sklearn.metrics.pairwise import pairwise_distances
+import random
+from collections import Counter
 
 class GraphSetDistanceEstimator(object):
     def __init__(self, decomposition_function, nbits=19, metric='cosine', num_iter=5, parallel=True):
