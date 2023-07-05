@@ -1206,17 +1206,3 @@ CC(=O)C1=C(N(C)C)C=C1CCC(O)CNC(=O)C1=NC=C1c1ccc(C)cc1
 NC(=O)C(NC(=O)C1(N)CCN(c2ncnc3[nH]ccc23)CC1)c1ccc(Cl)cc1
 CNC(=O)c1cc2c(-n3ccc(C(F)(F)F)n3)c(-c3cncc(C#N)c3)cnc2[nH]1
 CC1=CC=NC(=C2N=C(NC(=O)c3ccccn3)C(=O)N=CS2)SCc2cc(Cl)ccc2NO1
-COc1cccc(NC2CCN(C(=O)C3C=C(Oc4ccccc4C(F)(F)F)CC3)CC2)c1
-Cc1cc(O)ccc1NC(=O)N1CC2=CC(=C1CCO)N(C(=O)c1ccc(F)cc1)C2
-O=C(CN1C=C2CC(CNc3ccc(C(F)(F)F)cc3F)=CC=C2OCC1)c1ccc(Cl)cc1
-CCc1cc2ccccc2n1CCC(=O)N1C=C(C)C(c2ccc(C(C)(F)F)cc2)CCCC1
-CNC1=C(NC(=O)c2cc3cc(F)ccc3[nH]2)C(C)C(Cc2cccc(Cl)c2)C(=O)NCC1
-CCCC1(C(C)(O)CO)CCC2C3CC(C)C4=CC(=O)C=CC4(C)C3C(O)CC21C
-COc1cc(N2CCN(C(C)=O)CC2)ccc1Nc1ncc(Cl)c(-c2cnc3cc(F)ccn23)n1
-COc1cc(N2CCN(C(C)=O)CC2)ccc1NC1=NC=C(Cl)c2nc3cc(F)ccn1c2cn3
-COC(=O)c1ccc(COCCC2CN(CCN3CC(CCC4=CC(=CC=C5CCOCC5)O4)C3=O)C2=O)cc1
-C=C1C2=CC=C(Cl)N3CC4=CN=CC5NC(CCCl)C(=CC(CNC(C)=O)CN2CCCl)C5(C#N)C13C4=O
-CCN(C(=O)Cc1ccc(S(C)(=O)=O)cc1)C1CCN(CCC(c2ccc(C(F)(F)F)cc2)c2cc(F)cc(F)c2)CC1
-CC(=O)C1=CC=C(c2cc(C(=O)NC3CC3)cc(F)c2C)C(=O)c2ccccc2NC(=O)C(=CC(C)(C)C(C)=O)CNC1=O
-C=CC(C)(C=CC1=CC=C(C)N(CCN(CC)CC2CCC(O)CC2)N=C2c3ccccc3SC12)CC(C=O)(CC)CCCCC(C)(CC)CCCCCC(CC)(CC)CC
-CC=C(C(N)=C(C(N)=O)C12C=C(CC(C(F)(F)F)N1S(=O)(=O)Nc1cccc(OC(C)C)c1)N(C)N=C(C)S2)c1ccncc1C(C=C(C)C)(C(=O)F)C(=O)C(C)(C)C

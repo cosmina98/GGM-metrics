@@ -157,10 +157,3 @@ N[Na]
 OCl
 [NaH]
 OCOC=CCF
-O[Na]=[Na]=NO[IH]I
-[Na]OBr
-NPOOC[PH]#[IH]C[Na]Cl
-CO[Na]P
-ON[IH]OP
-NOSCCl
-O[IH]OCl
