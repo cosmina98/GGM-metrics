@@ -15,6 +15,9 @@ from colour import Color
 import os 
 import sys
 from .atom_bond_encoder import  atom_to_feature_vector,bond_to_feature_vector
+import requests
+from io import StringIO
+import pandas as pd
 current = os.getcwd()
 parent = os.path.dirname(current)
 sys.path.append(parent)
@@ -52,7 +55,15 @@ def rdkmol_to_nx(mol):
     return graph
 
 
-
+def smiles_to_mol(list_of_smiles):
+    list_of_rdkit_mols=[]
+    for _,smile in enumerate(list_of_smiles):
+        try:
+            mol = Chem.MolFromSmiles(smile)
+            list_of_rdkit_mols.append(mol)
+        except:list_of_rdkit_mols.append(Chem.MolFromSmiles('C'))
+    return list_of_rdkit_mols
+    
 def list_of_smiles_to_nx_graphs(smiles):
     list_of_nx_graphs=[]
     for i,smile in enumerate(smiles):
@@ -131,6 +142,7 @@ def draw_one_mol(G, ax=None):
     #color_lookup = {k:v for v, k in enumerate(sorted((nx.get_node_attributes(G, "atom_symbol"))))}
     selected_data = dict( (n, ord(d['label_name'][0])**3 ) for n,d in G.nodes().items() )
     selected_data=[v[1] for k, v in enumerate(selected_data.items())]
+    #print(selected_data)
     low, *_, high = sorted(selected_data)
     seed=123
     random.seed(seed)
@@ -191,3 +203,89 @@ def draw_graphs(list_of_graph_molecules, num_per_line=3,labels=None):
       for ix in ixs:
            ax[ix].set_axis_off()
  
+
+
+def load_csv_data_from_a_PubChem_assay(assay_id):
+    #url = f'https://pubchem.ncbi.nlm.nih.gov/assay/pcget.cgi?query=download&record_type=datatable&actvty=all&response_type=save&aid={assay_id}'
+    url=f'https://pubchem.ncbi.nlm.nih.gov/rest/pug/assay/aid/{assay_id}/concise/csv'
+    #df_raw=pd.read_csv(url)
+    df_raw=pd.read_csv(url)
+    #print(df_raw.head())
+    return(df_raw)
+
+def drop_sids_with_no_cids(df):
+    df = df.dropna( subset=['cid'] )
+    #Remove CIDs with conflicting activities
+    cid_conflict = []
+    idx_conflict = []
+
+    for mycid in df['cid'].unique() :
+        
+        outcomes = df[ df.cid == mycid ].activity.unique()
+        
+        if len(outcomes) > 1 :
+            
+            idx_tmp = df.index[ df.cid == mycid ].tolist()
+            idx_conflict.extend(idx_tmp)
+            cid_conflict.append(mycid)
+
+    #print("#", len(cid_conflict), "CIDs with conflicting activities [associated with", len(idx_conflict), "rows (SIDs).]")
+    df = df.drop(idx_conflict)
+
+    #Remove redundant data
+
+    df = df.drop_duplicates(subset='cid')  # remove duplicate rows except for the first occurring row.
+    #print(len(df['sid'].unique()))
+    #print(len(df['cid'].unique()))
+    return df
+    
+     
+
+def download_smiles_given_cids_from_pubmed(list_of_cids,chunk_size = 200): #returns df of smiles and cids
+    df_smiles = pd.DataFrame()
+
+    num_cids = len(list_of_cids)
+    list_dfs = []
+    if num_cids % chunk_size == 0 :
+        num_chunks = int( num_cids / chunk_size )
+    else :
+        num_chunks = int( num_cids / chunk_size ) + 1
+
+    #print("# CIDs = ", num_cids)
+    #print("# CID Chunks = ", num_chunks, "(chunked by ", chunk_size, ")")
+
+    for i in range(0, num_chunks) :
+        idx1 = chunk_size * i
+        idx2 = chunk_size * (i + 1)
+        cidstr = ",".join( str(x) for x in list_of_cids[idx1:idx2] )
+
+        url = ('https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/cid/' + cidstr + '/property/IsomericSMILES/TXT')
+        res = requests.request('GET',url)
+        data = pd.read_csv( StringIO(res.text), header=None, names=['smiles'] )
+        list_dfs.append(data)
+        
+        time.sleep(0.2)
+        
+        #if ( i % 5 == 0 ) :
+            #print("Processing Chunk ", i)
+    df_smiles = pd.concat(list_dfs,ignore_index=True)
+    df_smiles[ 'cid' ] = list_of_cids   
+
+    return df_smiles
+
+def load_PUBCHEM_dataset(assay_id):
+    df_raw=load_csv_data_from_a_PubChem_assay(assay_id=assay_id)
+    print(len(df_raw))
+    #Drop substances without Inconclusive activity
+    df_raw=df_raw[df_raw['Activity Outcome']!='Inconclusive']
+    #Select active/inactive compounds for model building
+    df=df_raw[ (df_raw['Activity Outcome'] == 'Active' ) | 
+             (df_raw['Activity Outcome'] == 'Inactive' ) ].rename(columns={"CID": "cid", "SID":"sid","Activity Outcome": "activity"})
+    #drop duplicates, and comnflicting activities, and substances with no cids
+    df=drop_sids_with_no_cids(df)
+    #label encoding
+    df['activity'] = [ 0 if x == 'Inactive' else 1 for x in df['activity'] ]
+    df_smiles=download_smiles_given_cids_from_pubmed(df.cid.astype(int).tolist())
+    X=df_smiles.smiles.tolist()
+    y=df.activity.astype(int).tolist()
+    return(list_of_smiles_to_nx_graphs(X),y)

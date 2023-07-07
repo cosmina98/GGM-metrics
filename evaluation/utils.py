@@ -89,7 +89,7 @@ def get_data(name, path='data/smiles/',return_smiles=False):
     splits={}
     RDLogger.EnableLog('rdApp.*')
     RDLogger.DisableLog('rdApp.*')  
-    split_names=['train_smiles','test_smiles', 'train1_pos_smiles','train1_neg_smiles','train2_pos_smiles','train2_neg_smiles','valid_smiles','train_targets','test_targets', 'valid_targets' ]
+    split_names=['train_smiles','test_smiles','train1_smiles','train1_pos_smiles','train1_neg_smiles','train2_pos_smiles','train2_neg_smiles','valid_smiles','train_targets','test_targets', 'valid_targets' ]
     for i,split in enumerate(split_names):
         exact_path=path+'{}/{}.txt'.format(name, split)
         #from data.smiles.carcinogens import test_smiles
@@ -110,23 +110,26 @@ def get_data(name, path='data/smiles/',return_smiles=False):
     train1_neg_graphs =list(list_of_smiles_to_nx_graphs(splits['train1_neg_smiles']))
     train1_graphs = train1_pos_graphs+ train1_neg_graphs
     train1_targets = np.array([1]*len(train1_pos_graphs) + [0]*len(train1_neg_graphs))
-    train1_graphs, train1_targets = shuffle(train1_graphs, train1_targets)
+    train1_graphs, train1_targets = shuffle(train1_graphs, train1_targets,random_state=0)
     train1_graphs, train1_targets = remove_empty_graphs_and_targets(train1_graphs, train1_targets)
 
     train2_pos_graphs =list(list_of_smiles_to_nx_graphs(splits['train2_pos_smiles']))
     train2_neg_graphs =list(list_of_smiles_to_nx_graphs(splits['train2_neg_smiles']))
     train2_graphs = train2_pos_graphs+ train2_neg_graphs
     train2_targets = np.array([1]*len(train2_pos_graphs) + [0]*len(train2_neg_graphs))
-    train2_graphs, train2_targets = shuffle(train2_graphs, train2_targets)
+    train2_graphs, train2_targets = shuffle(train2_graphs, train2_targets,random_state=0)
     train2_graphs, train2_targets = remove_empty_graphs_and_targets(train2_graphs, train2_targets)
-
-    graphs=[train1_graphs,train1_targets,train2_graphs,train2_targets,test_graphs,test_targets]
+    if len(train1_graphs)<len(train2_graphs):
+        first_n=len(train1_graphs)
+    else:
+        first_n=len(train2_graphs)
+    graphs=[train1_graphs,train1_targets,train2_graphs[:first_n],train2_targets[:first_n],test_graphs,test_targets]
     if return_smiles:
          return graphs,splits
     else:  return graphs
     
 
-def get_generated_data(name, path='data/smiles/', generator_name='stgg'):
+def get_generated_data(name, path='data/smiles/', generator_name='stgg',return_smiles=False):
     pos_list, neg_list=[],[]
     path_postives=path+'{}/{}_gen_pos_{}.txt'.format(name,name,generator_name)
     with open(path_postives) as my_file:
@@ -140,9 +143,11 @@ def get_generated_data(name, path='data/smiles/', generator_name='stgg'):
     neg_graphs=list_of_smiles_to_nx_graphs(neg_list)
     #print(len(neg_graphs))
     generated_graphs,generated_targets = pos_graphs + neg_graphs, [1]*len(pos_graphs)+[0]*len(neg_graphs)
-    generated_graphs, generated_targets = shuffle(generated_graphs, generated_targets)
+    #generated_graphs, generated_targets = shuffle(generated_graphs, generated_targets)
     generated_graphs, generated_targets = remove_empty_graphs_and_targets(generated_graphs, generated_targets)
-    return  generated_graphs, generated_targets
+    if return_smiles:
+         return  generated_graphs, generated_targets,pos_list+neg_list
+    return  generated_graphs, np.array(generated_targets)
 
 
  
