@@ -68,11 +68,10 @@ def list_of_smiles_to_nx_graphs(smiles):
     list_of_nx_graphs=[]
     for i,smile in enumerate(smiles):
         mol = Chem.MolFromSmiles(smile)
-        if mol:
+        if mol is not None:
            list_of_nx_graphs.append(rdkmol_to_nx(mol))
         else:
-           # print('Check smile entry no', i+1)
-            list_of_nx_graphs.append(rdkmol_to_nx(Chem.MolFromSmiles('C')))
+            continue
          
     return list_of_nx_graphs
 
