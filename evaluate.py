@@ -51,7 +51,7 @@ def evaluate(reference_nx_graphs, generated_nx_graphs, device,  metrics_type, st
         def func(reference_nx_graphs, generated_nx_graphs):
             reference_smiles_list=list_of_nx_graphs_to_smiles(reference_nx_graphs)
             generated_smiles_list=list_of_nx_graphs_to_smiles(generated_nx_graphs)
-            mol_metrics=get_all_metrics(gen=generated_smiles_list,train=reference_smiles_list)
+            mol_metrics=get_all_metrics(gen=generated_smiles_list,train=reference_smiles_list,test=reference_smiles_list)
             metrics.update(mol_metrics)
         try: 
             print('Now computing  molecular specific metrics')
