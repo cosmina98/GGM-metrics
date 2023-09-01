@@ -3,6 +3,7 @@ import torch
 from evaluation.mol_structure import list_of_smiles_to_nx_graphs
 from rdkit import RDLogger 
 import os 
+import pandas as pd 
 import sys
 import numpy as np
 from rdkit import Chem
@@ -19,37 +20,46 @@ parent = os.path.dirname(current)
 sys.path.append(parent)
 from sklearn.utils import shuffle                                                                                                                                                                                                                                                                                                                                                                                                                                                              
 
-def _preprocess(nx_dataset, set_label_equal_to_attribute=False,set_attribute_equal_to_label=False):
-    discrete_node_label_name='label' #leave it blank if this does not exist, default: 'label'
+def _preprocess(nx_dataset,label=0 ,cont_label=[0], discrete_node_label_name='label' , set_label_equal_to_attribute=False,set_attribute_equal_to_label=False,\
+    continuous_node_label_name='attr', discrete_edge_label_name='label' ,continuous_edge_label_name='attr' ):
+    discrete_node_label_name=discrete_node_label_name #leave it blank if this does not exist, default: 'label'
     #leave blank if this does not exist, default: 'label'
-    continuous_node_label_name='attr'  #leave it blank if this does not exist default: 'attr'
-    discrete_edge_label_name='label'  #leave it blank if this does not exist  ,default: 'label'
-    continuous_edge_label_name='attr' #leave it blank if this does not exist , default: 'attr'
+    continuous_node_label_name=continuous_node_label_name  #leave it blank if this does not exist default: 'attr'
+    discrete_edge_label_name=discrete_edge_label_name  #leave it blank if this does not exist  ,default: 'label'
+    continuous_edge_label_name=continuous_edge_label_name #leave it blank if this does not exist , default: 'attr'
     #dicrete labels should be set to 'label'
     #continous labels should be set to 'attr'
 
     processed_dataset=[]
     for G in nx_dataset:
+        labels = label
+        cont_labels = cont_label
         if (discrete_node_label_name!='label'):
             dict=nx.get_node_attributes(G, discrete_node_label_name)
-            if dict!='':   
-                nx.set_node_attributes(G, dict, 'label') 
-            else:  pass
+            if dict!={}:   
+               nx.set_node_attributes(G, dict, 'label') 
+            else:  
+                nx.set_node_attributes(G, labels, "label")
+       
         if (discrete_edge_label_name!='label'):
             dict=nx.get_edge_attributes(G, discrete_edge_label_name)
-            if dict!='':  
+            if dict!={}:  
                 nx.set_edge_attributes(G, dict, 'label')
-            else:  pass
+            else:  
+               nx.set_edge_attributes(G, labels, "label")
         if (continuous_node_label_name!='attr'):
             dict=nx.get_node_attributes(G, continuous_node_label_name)
-            if dict!='':   
+            if dict!={}:   
                 nx.set_node_attributes(G, dict, 'attr') 
-            else:  pass
+            else:  
+                nx.set_node_attributes(G, cont_labels, "attr")
+
         if (continuous_edge_label_name!='attr'):
             dict=nx.get_edge_attributes(G, continuous_edge_label_name)
-            if dict!='':  
+            if dict!={}:  
                 nx.set_edge_attributes(G, dict, 'attr') 
-            else:  pass
+            else:             
+               nx.set_edge_attributes(G, cont_labels, "attr")
         if set_label_equal_to_attribute: 
             dict=nx.get_node_attributes(G, discrete_node_label_name)
             nx.set_node_attributes(G, dict, 'attr')
@@ -59,11 +69,11 @@ def _preprocess(nx_dataset, set_label_equal_to_attribute=False,set_attribute_equ
             dict=nx.get_node_attributes(G, continuous_node_label_name)
             nx.set_node_attributes(G, dict, 'label')
             dict=nx.get_edge_attributes(G, continuous_node_label_name)
-            nx.set_edge_attributes(G, dict, 'label') 
-            
-        #H = nx.MultiDiGraph(G)
+            nx.set_edge_attributes(G, dict, 'label')
+
         processed_dataset.append(G)
-    return processed_dataset  
+        #print(G.nodes(data=True))
+    return processed_dataset
 
 def preprocess(reference_graphs=None,generated_graphs=None):
   
@@ -128,6 +138,24 @@ def get_data(name, path='data/smiles/',return_smiles=False):
          return graphs,splits
     else:  return graphs
     
+def get_graph_data(name, path=r'data/graphs/datasets'):
+    dataset=name[:name.rindex('_')]
+    train1_neg_graphs=pd.read_pickle(path + f'\{dataset}\{name}\{name}_train1_neg.p')
+    train1_pos_graphs=pd.read_pickle(path + f'\{dataset}\{name}\{name}_train1_pos.p')
+    train1_targets=[1]*len(train1_pos_graphs) + [0]*len(train1_neg_graphs)
+    train1_graphs=train1_pos_graphs+train1_neg_graphs
+    train2_neg_graphs=pd.read_pickle(path + f'\{dataset}\{name}\{name}_train2_neg.p')
+    train2_pos_graphs=pd.read_pickle(path + f'\{dataset}\{name}\{name}_train2_pos.p')
+    train2_targets=[1]*len(train2_pos_graphs) + [0]*len(train2_neg_graphs)
+    train2_graphs=train2_pos_graphs+train2_neg_graphs
+    test_neg_graphs=pd.read_pickle(path + f'\{dataset}\{name}\{name}_train1_neg_test.p')
+    test_pos_graphs=pd.read_pickle(path + f'\{dataset}\{name}\{name}_train1_pos_test.p')
+    test_targets=[1]*len(test_pos_graphs) + [0]*len(test_neg_graphs)
+    test_graphs=test_pos_graphs+test_neg_graphs
+    graphs=[train1_graphs,train1_targets,train2_graphs,train2_targets,test_graphs,test_targets]
+    return graphs 
+
+
 
 def get_generated_data(name, path='data/smiles/', generator_name='stgg',return_smiles=False):
     pos_list, neg_list=[],[]
@@ -149,8 +177,12 @@ def get_generated_data(name, path='data/smiles/', generator_name='stgg',return_s
          return  generated_graphs, generated_targets,shuffle(pos_list+neg_list, random_state=1)
     return  generated_graphs, np.array(generated_targets)
 
-
- 
+def get_generated_graph_data(name, path=r'data/graphs/datasets',generator_name='swingnn'):
+    dataset=name[:name.rindex('_')]
+    generated_neg_graphs=pd.read_pickle(path + f'\{dataset}\{name}\{name}_gen_neg_{generator_name}.p')
+    generated_pos_graphs=pd.read_pickle(path + f'\{dataset}\{name}\{name}_gen_pos_{generator_name}.p')
+    generated_graphs,generated_targets = generated_pos_graphs + generated_neg_graphs, [1]*len(generated_pos_graphs)+[0]*len(generated_neg_graphs)
+    return  generated_graphs, np.array(generated_targets)
 
 def get_mock_data(name, path='data/smiles/',return_smiles=False):
     RDLogger.EnableLog('rdApp.*')

@@ -37,7 +37,7 @@ class MMDEval():
             self.descriptor = Spectral(**kwargs)
         else:
             raise Exception('unsupported statistic'.format(statistic))
-
+    
 
     def evaluate(self, generated_dataset=None, reference_dataset=None):
         # import ipdb; ipdb.set_trace()

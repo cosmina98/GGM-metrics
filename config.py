@@ -103,7 +103,7 @@ class Config():
             Whether to compute graph statistics in parallel or not.")
 
         mmd_parser.add_argument(
-            '--max_workers', default=4, type=int,
+            '--max_workers', default=12, type=int,
             help="If is_parallel is true, this sets the maximum number of\
             workers.")
 

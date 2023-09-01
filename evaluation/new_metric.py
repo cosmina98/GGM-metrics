@@ -30,7 +30,7 @@ vectorizer = Vectorizer(
             normalization=False,
             inner_normalization=False,
             discrete=True,
-            nbits=10)
+            nbits=16)
 
 def time_function(func):
     def wrapper(*args, **kwargs):
