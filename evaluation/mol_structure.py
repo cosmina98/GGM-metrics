@@ -84,9 +84,11 @@ def nx_to_rdkit(graph):
     for a, b, d in graph.edges(data=True):
         start = atom_index[a]
         end = atom_index[b] 
+        bond_type=d['edge_label']
         try:
             mw.AddBond(start, end, eval("rdkit.Chem.rdchem.BondType.{}".format(bond_type)))
         except:
+            mw.AddBond(start, end, eval("rdkit.Chem.rdchem.BondType.{}".format('SINGLE')))
             #print('exc',bond_type)
             continue
             raise Exception('bond type not implemented')

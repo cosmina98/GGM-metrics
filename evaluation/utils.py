@@ -138,18 +138,18 @@ def get_data(name, path='data/smiles/',return_smiles=False):
          return graphs,splits
     else:  return graphs
     
-def get_graph_data(name, path=r'data/graphs/datasets'):
+def get_graph_data(name, path=r'data\graphs\datasets'):
     dataset=name[:name.rindex('_')]
-    train1_neg_graphs=pd.read_pickle(path + f'\{dataset}\{name}\{name}_train1_neg.p')
-    train1_pos_graphs=pd.read_pickle(path + f'\{dataset}\{name}\{name}_train1_pos.p')
+    train1_neg_graphs=pd.read_pickle(path + f'/{dataset}/{name}/{name}_train1_neg.p')
+    train1_pos_graphs=pd.read_pickle(path + f'/{dataset}/{name}/{name}_train1_pos.p')
     train1_targets=[1]*len(train1_pos_graphs) + [0]*len(train1_neg_graphs)
     train1_graphs=train1_pos_graphs+train1_neg_graphs
-    train2_neg_graphs=pd.read_pickle(path + f'\{dataset}\{name}\{name}_train2_neg.p')
-    train2_pos_graphs=pd.read_pickle(path + f'\{dataset}\{name}\{name}_train2_pos.p')
+    train2_neg_graphs=pd.read_pickle(path + f'/{dataset}/{name}/{name}_train2_neg.p')
+    train2_pos_graphs=pd.read_pickle(path + f'/{dataset}/{name}/{name}_train2_pos.p')
     train2_targets=[1]*len(train2_pos_graphs) + [0]*len(train2_neg_graphs)
     train2_graphs=train2_pos_graphs+train2_neg_graphs
-    test_neg_graphs=pd.read_pickle(path + f'\{dataset}\{name}\{name}_train1_neg_test.p')
-    test_pos_graphs=pd.read_pickle(path + f'\{dataset}\{name}\{name}_train1_pos_test.p')
+    test_neg_graphs=pd.read_pickle(path + f'/{dataset}/{name}/{name}_train1_neg_test.p')
+    test_pos_graphs=pd.read_pickle(path + f'/{dataset}/{name}/{name}_train1_pos_test.p')
     test_targets=[1]*len(test_pos_graphs) + [0]*len(test_neg_graphs)
     test_graphs=test_pos_graphs+test_neg_graphs
     graphs=[train1_graphs,train1_targets,train2_graphs,train2_targets,test_graphs,test_targets]
@@ -179,8 +179,12 @@ def get_generated_data(name, path='data/smiles/', generator_name='stgg',return_s
 
 def get_generated_graph_data(name, path=r'data/graphs/datasets',generator_name='swingnn'):
     dataset=name[:name.rindex('_')]
-    generated_neg_graphs=pd.read_pickle(path + f'\{dataset}\{name}\{name}_gen_neg_{generator_name}.p')
-    generated_pos_graphs=pd.read_pickle(path + f'\{dataset}\{name}\{name}_gen_pos_{generator_name}.p')
+    if generator_name=='swingnn': 
+        generated_neg_graphs=pd.read_pickle(path + f'/{dataset}/{name}/{name}_gen_neg_{generator_name}.pkl')
+        generated_pos_graphs=pd.read_pickle(path + f'/{dataset}/{name}/{name}_gen_pos_{generator_name}.pkl')
+    else:
+        generated_neg_graphs=pd.read_pickle(path + f'/{dataset}/{name}/{name}_gen_neg_{generator_name}.p')
+        generated_pos_graphs=pd.read_pickle(path + f'/{dataset}/{name}/{name}_gen_pos_{generator_name}.p')
     generated_graphs,generated_targets = generated_pos_graphs + generated_neg_graphs, [1]*len(generated_pos_graphs)+[0]*len(generated_neg_graphs)
     return  generated_graphs, np.array(generated_targets)
 

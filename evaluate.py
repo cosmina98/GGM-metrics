@@ -90,11 +90,11 @@ def evaluate(reference_nx_graphs, generated_nx_graphs, device,  metrics_type, st
             generated_smiles_list=list_of_nx_graphs_to_smiles(generated_nx_graphs)
             mol_metrics=get_all_metrics(gen=generated_smiles_list,train=reference_smiles_list,test=reference_smiles_list)
             metrics.update(mol_metrics)
-        try: 
-            print('Now computing  molecular specific metrics')
-            func(reference_nx_graphs,generated_nx_graphs)
-        except: 
-            print('Cannot compute molecular metrics for this type of graphs')
+        
+        print('Now computing  molecular specific metrics')
+        func(reference_nx_graphs,generated_nx_graphs)
+    
+        rint('Cannot compute molecular metrics for this type of graphs')
     else: None
     
     if 'auc_roc' in metrics_type:
