@@ -59,7 +59,7 @@ class MMDEval():
         if isinstance(dataset[0], nx.Graph):
             pass
         elif isinstance(dataset[0], dgl.DGLGraph):
-            dataset = [nx.Graph(g.cpu().to_networkx()) for g in dataset]
+            dataset = [nx.Graph(g.cpu().to_networkx(node_attrs=['label','attr'],edge_attrs=['label','attr'])) for g in dataset]
         else:
             raise Exception(f'Unsupported element type {type(dataset[0])} for dataset, \
                 expected list of nx.Graph or dgl.DGLGraph')
@@ -330,8 +330,8 @@ class Spectral(Descriptor):
 class WLMMDEvaluation():
     def evaluate(self, generated_dataset=None, reference_dataset=None):
         # prepare - dont include in timing
-        generated_dataset = [nx.Graph(g.cpu().to_networkx()) for g in generated_dataset if g.number_of_nodes() != 0]
-        reference_dataset = [nx.Graph(g.cpu().to_networkx()) for g in reference_dataset if g.number_of_nodes() != 0]
+        generated_dataset = [nx.Graph(g.cpu().to_networkx(node_attrs=['label','attr'], edge_attrs=['label','attr'])) for g in generated_dataset if g.number_of_nodes() != 0]
+        reference_dataset = [nx.Graph(g.cpu().to_networkx(node_attrs=['label','attr'], edge_attrs=['label','attr'])) for g in reference_dataset if g.number_of_nodes() != 0]
 
         if len(reference_dataset) == 0 or len(generated_dataset) == 0:
             return {'wl_mmd': 0}, 0
@@ -345,12 +345,12 @@ class WLMMDEvaluation():
     def evaluate_(self, generated_dataset, reference_dataset):
         gk = WeisfeilerLehman(n_iter=4, base_graph_kernel=VertexHistogram, normalize=True)
 
-        K_RR = gk.fit_transform(grakel.graph_from_networkx(reference_dataset, node_labels_tag='degree'))
+        K_RR = gk.fit_transform(grakel.graph_from_networkx(reference_dataset, node_labels_tag='label'))
         for g in reference_dataset:
             del g
 
-        K_GR = gk.transform(grakel.graph_from_networkx(generated_dataset, node_labels_tag='degree'))
-        K_GG = gk.fit_transform(grakel.graph_from_networkx(generated_dataset, node_labels_tag='degree'))
+        K_GR = gk.transform(grakel.graph_from_networkx(generated_dataset, node_labels_tag='label'))
+        K_GG = gk.fit_transform(grakel.graph_from_networkx(generated_dataset, node_labels_tag='label'))
         for g in generated_dataset:
             del g
 
@@ -362,8 +362,8 @@ class WLMMDEvaluation():
 class NSPDKEvaluation():
     def evaluate(self, generated_dataset=None, reference_dataset=None):
         # prepare - dont include in timing
-        generated_dataset_nx = [nx.Graph(g.cpu().to_networkx()) for g in generated_dataset if g.number_of_nodes() != 0]
-        reference_dataset_nx = [nx.Graph(g.cpu().to_networkx()) for g in reference_dataset if g.number_of_nodes() != 0]
+        generated_dataset_nx = [nx.Graph(g.cpu().to_networkx(node_attrs=['label','attr'], edge_attrs=['label','attr'])) for g in generated_dataset if g.number_of_nodes() != 0]
+        reference_dataset_nx = [nx.Graph(g.cpu().to_networkx(node_attrs=['label','attr'], edge_attrs=['label','attr'])) for g in reference_dataset if g.number_of_nodes() != 0]
 
         if len(reference_dataset_nx) == 0 or len(generated_dataset_nx) == 0:
             return {'nspdk_mmd': 0}, 0
