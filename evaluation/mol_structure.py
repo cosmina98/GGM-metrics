@@ -274,7 +274,7 @@ def download_smiles_given_cids_from_pubmed(list_of_cids,chunk_size = 200): #retu
 
     return df_smiles
 
-def load_PUBCHEM_dataset(assay_id):
+def load_PUBCHEM_dataset(assay_id,num_graphs=None):
     df_raw=load_csv_data_from_a_PubChem_assay(assay_id=assay_id)
     print(len(df_raw))
     #Drop substances without Inconclusive activity
@@ -289,4 +289,6 @@ def load_PUBCHEM_dataset(assay_id):
     df_smiles=download_smiles_given_cids_from_pubmed(df.cid.astype(int).tolist())
     X=df_smiles.smiles.tolist()
     y=df.activity.astype(int).tolist()
-    return(list_of_smiles_to_nx_graphs(X),y)
+    num_graphs=len(X) if num_graphs!=None else 
+    return(list_of_smiles_to_nx_graphs(X)[:num_graphs],y[:num_graphs])
+
