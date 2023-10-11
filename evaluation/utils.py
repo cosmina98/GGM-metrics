@@ -174,7 +174,7 @@ def get_generated_data(name, path='data/smiles/', generator_name='stgg',return_s
     #generated_graphs, generated_targets = shuffle(generated_graphs, generated_targets)
     generated_graphs, generated_targets = remove_empty_graphs_and_targets(generated_graphs, generated_targets)
     if return_smiles:
-         return  generated_graphs, generated_targets,shuffle(pos_list+neg_list, random_state=1)
+         return  generated_graphs, generated_targets,pos_list+neg_list
     return  generated_graphs, np.array(generated_targets)
 
 def get_generated_graph_data(name, path=r'data/graphs/datasets',generator_name='swingnn'):
