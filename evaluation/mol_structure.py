@@ -289,6 +289,6 @@ def load_PUBCHEM_dataset(assay_id,num_graphs=None):
     df_smiles=download_smiles_given_cids_from_pubmed(df.cid.astype(int).tolist())
     X=df_smiles.smiles.tolist()
     y=df.activity.astype(int).tolist()
-    num_graphs=len(X) if num_graphs!=None else 
+    num_graphs=len(X) if num_graphs!=None else num_graphs
     return(list_of_smiles_to_nx_graphs(X)[:num_graphs],y[:num_graphs])
 
