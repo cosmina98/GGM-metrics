@@ -116,24 +116,39 @@ def get_all_metrics(gen, k=None, n_jobs=1,
     try:
         metrics['FCD/Test'] = FCDMetric(**kwargs_fcd)(gen=gen, pref=ptest['FCD'])
     except:  metrics['FCD/Test']=np.nan
-    metrics['SNN/Test'] = SNNMetric(**kwargs)(gen=mols, pref=ptest['SNN'])
-    metrics['Frag/Test'] = FragMetric(**kwargs)(gen=mols, pref=ptest['Frag'])
-    metrics['Scaf/Test'] = ScafMetric(**kwargs)(gen=mols, pref=ptest['Scaf'])
+    try:
+        metrics['SNN/Test'] = SNNMetric(**kwargs)(gen=mols, pref=ptest['SNN'])
+    except: metrics['SNN/Test']=np.nan
+    try:
+        metrics['Frag/Test'] = FragMetric(**kwargs)(gen=mols, pref=ptest['Frag'])
+    except: metrics['Frag/Test']=np.nan
+    try:
+        metrics['Scaf/Test'] = ScafMetric(**kwargs)(gen=mols, pref=ptest['Scaf'])
+    except:metrics['Scaf/Test']=np.nan
     if ptest_scaffolds is not None:
         try:
             metrics['FCD/TestSF'] = FCDMetric(**kwargs_fcd)(
                 gen=gen, pref=ptest_scaffolds['FCD']
             )
         except: metrics['FCD/TestSF']=np.nan
-        metrics['SNN/TestSF'] = SNNMetric(**kwargs)(
-            gen=mols, pref=ptest_scaffolds['SNN']
-        )
-        metrics['Frag/TestSF'] = FragMetric(**kwargs)(
-            gen=mols, pref=ptest_scaffolds['Frag']
-        )
-        metrics['Scaf/TestSF'] = ScafMetric(**kwargs)(
-            gen=mols, pref=ptest_scaffolds['Scaf']
-        )
+        try:
+            metrics['SNN/TestSF'] = SNNMetric(**kwargs)(
+                gen=mols, pref=ptest_scaffolds['SNN']
+            )
+        except:
+            metrics['SNN/TestSF']=np.nan
+        try:
+            metrics['Frag/TestSF'] = FragMetric(**kwargs)(
+                gen=mols, pref=ptest_scaffolds['Frag']
+            )
+        except:
+             metrics['Frag/TestSF']=np.nan
+        try: 
+            metrics['Scaf/TestSF'] = ScafMetric(**kwargs)(
+                gen=mols, pref=ptest_scaffolds['Scaf']
+            )
+        except: 
+            metrics['Scaf/TestSF'] =np.nan
 
     metrics['IntDiv'] = internal_diversity(mols, pool, device=device)
     metrics['IntDiv2'] = internal_diversity(mols, pool, device=device, p=2)
