@@ -113,14 +113,18 @@ def get_all_metrics(gen, k=None, n_jobs=1,
     
     kwargs = {'n_jobs': pool, 'device': device, 'batch_size': batch_size}
     kwargs_fcd = {'n_jobs': n_jobs, 'device': device, 'batch_size': batch_size}
-    metrics['FCD/Test'] = FCDMetric(**kwargs_fcd)(gen=gen, pref=ptest['FCD'])
+    try:
+        metrics['FCD/Test'] = FCDMetric(**kwargs_fcd)(gen=gen, pref=ptest['FCD'])
+    except:  metrics['FCD/Test']=np.nan
     metrics['SNN/Test'] = SNNMetric(**kwargs)(gen=mols, pref=ptest['SNN'])
     metrics['Frag/Test'] = FragMetric(**kwargs)(gen=mols, pref=ptest['Frag'])
     metrics['Scaf/Test'] = ScafMetric(**kwargs)(gen=mols, pref=ptest['Scaf'])
     if ptest_scaffolds is not None:
-        metrics['FCD/TestSF'] = FCDMetric(**kwargs_fcd)(
-            gen=gen, pref=ptest_scaffolds['FCD']
-        )
+        try:
+            metrics['FCD/TestSF'] = FCDMetric(**kwargs_fcd)(
+                gen=gen, pref=ptest_scaffolds['FCD']
+            )
+        except: metrics['FCD/TestSF']=np.nan
         metrics['SNN/TestSF'] = SNNMetric(**kwargs)(
             gen=mols, pref=ptest_scaffolds['SNN']
         )
@@ -169,7 +173,9 @@ def compute_intermediate_statistics(smiles, n_jobs=1, device='cpu',
     mols = mapper(pool)(get_mol, smiles)
     kwargs = {'n_jobs': pool, 'device': device, 'batch_size': batch_size}
     kwargs_fcd = {'n_jobs': n_jobs, 'device': device, 'batch_size': batch_size}
-    statistics['FCD'] = FCDMetric(**kwargs_fcd).precalc(smiles)
+    try: 
+       statistics['FCD'] = FCDMetric(**kwargs_fcd).precalc(smiles)
+    except: statistics['FCD'] =np.nan
     statistics['SNN'] = SNNMetric(**kwargs).precalc(mols)
     statistics['Frag'] = FragMetric(**kwargs).precalc(mols)
     statistics['Scaf'] = ScafMetric(**kwargs).precalc(mols)
