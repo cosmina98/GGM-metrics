@@ -176,9 +176,16 @@ def compute_intermediate_statistics(smiles, n_jobs=1, device='cpu',
     try: 
        statistics['FCD'] = FCDMetric(**kwargs_fcd).precalc(smiles)
     except: statistics['FCD'] =np.nan
-    statistics['SNN'] = SNNMetric(**kwargs).precalc(mols)
-    statistics['Frag'] = FragMetric(**kwargs).precalc(mols)
-    statistics['Scaf'] = ScafMetric(**kwargs).precalc(mols)
+    try: 
+        statistics['SNN'] = SNNMetric(**kwargs).precalc(mols)
+    except: statistics['SNN'] = np.nan
+    try:
+        statistics['Frag'] = FragMetric(**kwargs).precalc(mols)
+    except: statistics['Frag'] = np.nan
+    try:
+        statistics['Scaf'] = ScafMetric(**kwargs).precalc(mols)
+    except: statistics['Scaf'] = np.nan
+
     for name, func in [('logP', logP), ('SA', SA),
                        ('QED', QED),
                        ('weight', weight)]:
