@@ -142,5 +142,6 @@ clones/
 tsne/
 evaluation_results/smiles/swingnn_as_we_increase_the_number_of_training_epochs.txt
 
+*.pkl
 .pkl
 *.pkl
