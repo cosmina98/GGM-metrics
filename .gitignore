@@ -145,3 +145,7 @@ evaluation_results/smiles/swingnn_as_we_increase_the_number_of_training_epochs.t
 *.pkl
 .pkl
 *.pkl
+evaluation/moses/dataset/data/test.ipynb
+evaluation/moses/dataset/data/test.ipynb
+evaluation/moses/dataset/data/test.ipynb
+evaluation/moses/dataset/data/test.ipynb
