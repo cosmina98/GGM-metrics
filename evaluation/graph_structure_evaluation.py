@@ -330,8 +330,12 @@ class Spectral(Descriptor):
 class WLMMDEvaluation():
     def evaluate(self, generated_dataset=None, reference_dataset=None):
         # prepare - dont include in timing
-        generated_dataset = [nx.Graph(g.cpu().to_networkx(node_attrs=['label','attr'], edge_attrs=['label','attr'])) for g in generated_dataset if g.number_of_nodes() != 0]
-        reference_dataset = [nx.Graph(g.cpu().to_networkx(node_attrs=['label','attr'], edge_attrs=['label','attr'])) for g in reference_dataset if g.number_of_nodes() != 0]
+        try:
+            generated_dataset = [nx.Graph(g.cpu().to_networkx(node_attrs=['label','attr'], edge_attrs=['label','attr'])) for g in generated_dataset if g.number_of_nodes() != 0]
+            reference_dataset = [nx.Graph(g.cpu().to_networkx(node_attrs=['label','attr'], edge_attrs=['label','attr'])) for g in reference_dataset if g.number_of_nodes() != 0]
+        except: 
+            generated_dataset = [nx.Graph(g.cpu().to_networkx(node_attrs=['label'], edge_attrs=['label'])) for g in generated_dataset if g.number_of_nodes() != 0]
+            reference_dataset = [nx.Graph(g.cpu().to_networkx(node_attrs=['label'], edge_attrs=['label'])) for g in reference_dataset if g.number_of_nodes() != 0]
 
         if len(reference_dataset) == 0 or len(generated_dataset) == 0:
             return {'wl_mmd': 0}, 0
@@ -345,12 +349,12 @@ class WLMMDEvaluation():
     def evaluate_(self, generated_dataset, reference_dataset):
         gk = WeisfeilerLehman(n_iter=4, base_graph_kernel=VertexHistogram, normalize=True)
 
-        K_RR = gk.fit_transform(grakel.graph_from_networkx(reference_dataset, node_labels_tag='label'))
+        K_RR = gk.fit_transform(grakel.graph_from_networkx(reference_dataset, node_labels_tag='degree'))
         for g in reference_dataset:
             del g
 
-        K_GR = gk.transform(grakel.graph_from_networkx(generated_dataset, node_labels_tag='label'))
-        K_GG = gk.fit_transform(grakel.graph_from_networkx(generated_dataset, node_labels_tag='label'))
+        K_GR = gk.transform(grakel.graph_from_networkx(generated_dataset, node_labels_tag='degree'))
+        K_GG = gk.fit_transform(grakel.graph_from_networkx(generated_dataset, node_labels_tag='degree'))
         for g in generated_dataset:
             del g
 

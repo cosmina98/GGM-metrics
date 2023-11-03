@@ -40,7 +40,7 @@ def evaluate(reference_nx_graphs, generated_nx_graphs, device,  metrics_type, st
     metrics={}
     #metrics_type=metrics_type[0]
     if  'nn'  in metrics_type:
-        print('Now computing classifier based metrics')
+        #print('Now computing classifier based metrics')
         try:
         
         
