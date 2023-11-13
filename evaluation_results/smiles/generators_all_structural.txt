@@ -1,0 +1,869 @@
+ames_25 hiervae
+Now computing structural based metrics
+{'wl_mmd': 0.0015919975673415604, 'wl_mmd_time': 1.5735328197479248, 'nspdk_mmd': 0.1822878666474563, 'nspdk_mmd_time': 6.909702777862549, 'degree_mmd': 0.16892888084908986, 'degree_mmd_time': 43.411986, 'cluster_mmd': 0.006830191286571585, 'cluster_mmd_time': 49.218482, 'spectral_mmd': 0.18046965144315985, 'spectral_mmd_time': 54.904723, 'dataset': 'ames_25', 'generator_name': 'hiervae'}
+ames_33 hiervae
+Now computing structural based metrics
+{'wl_mmd': 0.0011855868619827905, 'wl_mmd_time': 3.888261556625366, 'nspdk_mmd': 0.13888444348736975, 'nspdk_mmd_time': 15.793601751327515, 'degree_mmd': 0.09144442456227253, 'degree_mmd_time': 70.505489, 'cluster_mmd': 0.006084339505066927, 'cluster_mmd_time': 68.244258, 'spectral_mmd': 0.10239511986036387, 'spectral_mmd_time': 122.161899, 'dataset': 'ames_33', 'generator_name': 'hiervae'}
+ames_40 hiervae
+Now computing structural based metrics
+{'wl_mmd': 0.000990410258874949, 'wl_mmd_time': 3.4137747287750244, 'nspdk_mmd': 0.20524698924945894, 'nspdk_mmd_time': 13.047876358032227, 'degree_mmd': 0.16584747501973984, 'degree_mmd_time': 76.925847, 'cluster_mmd': 0.00488108059319603, 'cluster_mmd_time': 103.277448, 'spectral_mmd': 0.17667575206436892, 'spectral_mmd_time': 139.205596, 'dataset': 'ames_40', 'generator_name': 'hiervae'}
+ames_50 hiervae
+Now computing structural based metrics
+{'wl_mmd': 0.0007875634749179873, 'wl_mmd_time': 4.988379955291748, 'nspdk_mmd': 0.13875800195701232, 'nspdk_mmd_time': 20.296329498291016, 'degree_mmd': 0.112625491558485, 'degree_mmd_time': 128.337636, 'cluster_mmd': 0.0036721901657217337, 'cluster_mmd_time': 168.714378, 'spectral_mmd': 0.12339235261898485, 'spectral_mmd_time': 281.767536, 'dataset': 'ames_50', 'generator_name': 'hiervae'}
+bbb_martins_25 hiervae
+Now computing structural based metrics
+{'wl_mmd': 0.005633802816901409, 'wl_mmd_time': 0.9286377429962158, 'nspdk_mmd': 0.09270724725014695, 'nspdk_mmd_time': 4.9566099643707275, 'degree_mmd': 0.03540466024816036, 'degree_mmd_time': 15.270173, 'cluster_mmd': 0.0009838091880145505, 'cluster_mmd_time': 17.703013, 'spectral_mmd': 0.07439095566194442, 'spectral_mmd_time': 19.880955, 'dataset': 'bbb_martins_25', 'generator_name': 'hiervae'}
+bbb_martins_33 hiervae
+Now computing structural based metrics
+{'wl_mmd': 0.004228329809725159, 'wl_mmd_time': 1.053340196609497, 'nspdk_mmd': 0.13397778322586482, 'nspdk_mmd_time': 5.4179089069366455, 'degree_mmd': 0.06904303773210518, 'degree_mmd_time': 17.26046, 'cluster_mmd': 0.00027679779265521454, 'cluster_mmd_time': 19.684524, 'spectral_mmd': 0.1500114508413639, 'spectral_mmd_time': 22.473288, 'dataset': 'bbb_martins_33', 'generator_name': 'hiervae'}
+bbb_martins_40 hiervae
+Now computing structural based metrics
+{'wl_mmd': 0.0035494721459346417, 'wl_mmd_time': 1.4331719875335693, 'nspdk_mmd': 0.16224104288886754, 'nspdk_mmd_time': 6.883267879486084, 'degree_mmd': 0.12210923764114101, 'degree_mmd_time': 19.128084, 'cluster_mmd': 0.0008866949689927406, 'cluster_mmd_time': 21.713714, 'spectral_mmd': 0.14716338355803638, 'spectral_mmd_time': 26.247847, 'dataset': 'bbb_martins_40', 'generator_name': 'hiervae'}
+bbb_martins_50 hiervae
+Now computing structural based metrics
+{'wl_mmd': 0.002828905249679898, 'wl_mmd_time': 1.8715860843658447, 'nspdk_mmd': 0.16941828268594333, 'nspdk_mmd_time': 9.225464105606079, 'degree_mmd': 0.08280499876700476, 'degree_mmd_time': 21.730264, 'cluster_mmd': 0.0009875100860996522, 'cluster_mmd_time': 26.287111, 'spectral_mmd': 0.1255403260384529, 'spectral_mmd_time': 31.732393, 'dataset': 'bbb_martins_50', 'generator_name': 'hiervae'}
+cyp1a2_veith_25 hiervae
+Now computing structural based metrics
+{'wl_mmd': 0.0011465869770368041, 'wl_mmd_time': 4.870121955871582, 'nspdk_mmd': 0.18208791686579134, 'nspdk_mmd_time': 24.05856204032898, 'degree_mmd': 0.09536879112719499, 'degree_mmd_time': 71.928262, 'cluster_mmd': 0.0007908956812858747, 'cluster_mmd_time': 93.554293, 'spectral_mmd': 0.18332335219791873, 'spectral_mmd_time': 151.4747, 'dataset': 'cyp1a2_veith_25', 'generator_name': 'hiervae'}
+cyp1a2_veith_33 hiervae
+Now computing structural based metrics
+{'wl_mmd': 0.0006818957492297577, 'wl_mmd_time': 8.66283655166626, 'nspdk_mmd': 0.1410806477420333, 'nspdk_mmd_time': 35.65069651603699, 'degree_mmd': 0.10490470371457894, 'degree_mmd_time': 156.28889, 'cluster_mmd': 0.0011597650807628757, 'cluster_mmd_time': 208.886529, 'spectral_mmd': 0.1546858124916517, 'spectral_mmd_time': 333.255459, 'dataset': 'cyp1a2_veith_33', 'generator_name': 'hiervae'}
+cyp1a2_veith_40 hiervae
+Now computing structural based metrics
+{'wl_mmd': 0.00056826254876127, 'wl_mmd_time': 11.84657621383667, 'nspdk_mmd': 0.11244435705083161, 'nspdk_mmd_time': 43.441503047943115, 'degree_mmd': 0.0790707116389322, 'degree_mmd_time': 213.298916, 'cluster_mmd': 0.0006805233867015481, 'cluster_mmd_time': 299.982543, 'spectral_mmd': 0.1263503992464301, 'spectral_mmd_time': 468.328984, 'dataset': 'cyp1a2_veith_40', 'generator_name': 'hiervae'}
+cyp1a2_veith_50 hiervae
+Now computing structural based metrics
+{'wl_mmd': 0.0004580080697309158, 'wl_mmd_time': 14.083425521850586, 'nspdk_mmd': 0.18184685550596258, 'nspdk_mmd_time': 53.44224834442139, 'degree_mmd': 0.11896383734075733, 'degree_mmd_time': 333.046209, 'cluster_mmd': 0.0008317385372056396, 'cluster_mmd_time': 392.139059, 'spectral_mmd': 0.1564291441342458, 'spectral_mmd_time': 524.208922, 'dataset': 'cyp1a2_veith_50', 'generator_name': 'hiervae'}
+cyp2c19_veith_25 hiervae
+Now computing structural based metrics
+{'wl_mmd': 0.0009027308065291621, 'wl_mmd_time': 4.173732280731201, 'nspdk_mmd': 0.1891143805931771, 'nspdk_mmd_time': 18.97690725326538, 'degree_mmd': 0.12759290173292337, 'degree_mmd_time': 102.880027, 'cluster_mmd': 0.0010109543558816103, 'cluster_mmd_time': 100.13924, 'spectral_mmd': 0.1666028693592696, 'spectral_mmd_time': 151.468673, 'dataset': 'cyp2c19_veith_25', 'generator_name': 'hiervae'}
+cyp2c19_veith_33 hiervae
+Now computing structural based metrics
+{'wl_mmd': 0.000677277655743185, 'wl_mmd_time': 8.368772506713867, 'nspdk_mmd': 0.1596755007712042, 'nspdk_mmd_time': 30.18186092376709, 'degree_mmd': 0.10513545314803352, 'degree_mmd_time': 154.623762, 'cluster_mmd': 0.0007654140380950469, 'cluster_mmd_time': 194.263848, 'spectral_mmd': 0.14497306751782046, 'spectral_mmd_time': 267.099713, 'dataset': 'cyp2c19_veith_33', 'generator_name': 'hiervae'}
+cyp2c19_veith_40 hiervae
+Now computing structural based metrics
+{'wl_mmd': 0.0005644137264908582, 'wl_mmd_time': 10.616637706756592, 'nspdk_mmd': 0.07985425126921947, 'nspdk_mmd_time': 36.44516706466675, 'degree_mmd': 0.05424223853803234, 'degree_mmd_time': 213.891839, 'cluster_mmd': 0.0007891962300454747, 'cluster_mmd_time': 271.564679, 'spectral_mmd': 0.09820387680254261, 'spectral_mmd_time': 382.3503, 'dataset': 'cyp2c19_veith_40', 'generator_name': 'hiervae'}
+cyp2c19_veith_50 hiervae
+Now computing structural based metrics
+{'wl_mmd': 0.00045541309321975245, 'wl_mmd_time': 11.975766897201538, 'nspdk_mmd': 0.06182484353261819, 'nspdk_mmd_time': 48.33258032798767, 'degree_mmd': 0.03068875054340392, 'degree_mmd_time': 335.497074, 'cluster_mmd': 0.00035096980857018956, 'cluster_mmd_time': 395.284418, 'spectral_mmd': 0.07368105368626754, 'spectral_mmd_time': 772.138832, 'dataset': 'cyp2c19_veith_50', 'generator_name': 'hiervae'}
+herg_karim_25 hiervae
+Now computing structural based metrics
+{'wl_mmd': 0.0008499787505312367, 'wl_mmd_time': 8.397000074386597, 'nspdk_mmd': 0.1409462570424247, 'nspdk_mmd_time': 35.909157276153564, 'degree_mmd': 0.10778926374545938, 'degree_mmd_time': 131.234038, 'cluster_mmd': 0.004253859047665065, 'cluster_mmd_time': 163.982946, 'spectral_mmd': 0.1474001307254631, 'spectral_mmd_time': 244.986458, 'dataset': 'herg_karim_25', 'generator_name': 'hiervae'}
+herg_karim_33 hiervae
+Now computing structural based metrics
+{'wl_mmd': 0.000637551801083838, 'wl_mmd_time': 12.346127033233643, 'nspdk_mmd': 0.09809537563768034, 'nspdk_mmd_time': 49.90380811691284, 'degree_mmd': 0.06548134637644476, 'degree_mmd_time': 194.61592, 'cluster_mmd': 0.003878102765939806, 'cluster_mmd_time': 246.448626, 'spectral_mmd': 0.11158853415658032, 'spectral_mmd_time': 360.954675, 'dataset': 'herg_karim_33', 'generator_name': 'hiervae'}
+herg_karim_40 hiervae
+Now computing structural based metrics
+{'wl_mmd': 0.000531420229919206, 'wl_mmd_time': 10.831204175949097, 'nspdk_mmd': 0.1039698448821928, 'nspdk_mmd_time': 47.692044734954834, 'degree_mmd': 0.05418093912876576, 'degree_mmd_time': 240.430236, 'cluster_mmd': 0.00434670112833202, 'cluster_mmd_time': 307.474878, 'spectral_mmd': 0.11252793363813507, 'spectral_mmd_time': 421.35192, 'dataset': 'herg_karim_40', 'generator_name': 'hiervae'}
+herg_karim_50 hiervae
+Now computing structural based metrics
+{'wl_mmd': 0.00042498937526561835, 'wl_mmd_time': 17.849444150924683, 'nspdk_mmd': 0.06762383331836386, 'nspdk_mmd_time': 74.49990749359131, 'degree_mmd': 0.025360939067595734, 'degree_mmd_time': 359.423423, 'cluster_mmd': 0.0031926235845209927, 'cluster_mmd_time': 473.997921, 'spectral_mmd': 0.07447691773677168, 'spectral_mmd_time': 781.135007, 'dataset': 'herg_karim_50', 'generator_name': 'hiervae'}
+lipophilicity_astrazeneca_25 hiervae
+Now computing structural based metrics
+{'wl_mmd': 0.002745585768933612, 'wl_mmd_time': 1.205031394958496, 'nspdk_mmd': 0.23050386198869666, 'nspdk_mmd_time': 6.598954916000366, 'degree_mmd': 0.11653743001004013, 'degree_mmd_time': 21.894789, 'cluster_mmd': 0.0016909814712902094, 'cluster_mmd_time': 23.861866, 'spectral_mmd': 0.2061498184968742, 'spectral_mmd_time': 28.237227, 'dataset': 'lipophilicity_astrazeneca_25', 'generator_name': 'hiervae'}
+lipophilicity_astrazeneca_33 hiervae
+Now computing structural based metrics
+{'wl_mmd': 0.002063161030835692, 'wl_mmd_time': 2.421189546585083, 'nspdk_mmd': 0.19849787456282508, 'nspdk_mmd_time': 10.856847047805786, 'degree_mmd': 0.10194671491489582, 'degree_mmd_time': 40.683985, 'cluster_mmd': 0.0014095939876230812, 'cluster_mmd_time': 31.807483, 'spectral_mmd': 0.1587065532460954, 'spectral_mmd_time': 39.372375, 'dataset': 'lipophilicity_astrazeneca_33', 'generator_name': 'hiervae'}
+lipophilicity_astrazeneca_40 hiervae
+Now computing structural based metrics
+{'wl_mmd': 0.0017329526691523918, 'wl_mmd_time': 2.040236234664917, 'nspdk_mmd': 0.22643324733578343, 'nspdk_mmd_time': 9.964842319488525, 'degree_mmd': 0.1571050451759637, 'degree_mmd_time': 35.246152, 'cluster_mmd': 0.0026737372102794144, 'cluster_mmd_time': 38.913006, 'spectral_mmd': 0.20859324048308614, 'spectral_mmd_time': 49.030408, 'dataset': 'lipophilicity_astrazeneca_40', 'generator_name': 'hiervae'}
+lipophilicity_astrazeneca_50 hiervae
+Now computing structural based metrics
+{'wl_mmd': 0.0013869858897622653, 'wl_mmd_time': 2.6671788692474365, 'nspdk_mmd': 0.22919591531520053, 'nspdk_mmd_time': 12.631128787994385, 'degree_mmd': 0.09584300640685983, 'degree_mmd_time': 49.158338, 'cluster_mmd': 0.0013364283446914982, 'cluster_mmd_time': 54.058948, 'spectral_mmd': 0.18465618230380332, 'spectral_mmd_time': 69.871213, 'dataset': 'lipophilicity_astrazeneca_50', 'generator_name': 'hiervae'}
+ames_25 wgan
+Now computing structural based metrics
+{'wl_mmd': 0.001720125393690671, 'wl_mmd_time': 1.4884696006774902, 'nspdk_mmd': 0.23264374647410835, 'nspdk_mmd_time': 6.085507154464722, 'degree_mmd': 0.36461265163360723, 'degree_mmd_time': 36.055062, 'cluster_mmd': 0.005937669568214066, 'cluster_mmd_time': 39.100637, 'spectral_mmd': 0.28930839365837846, 'spectral_mmd_time': 49.135674, 'dataset': 'ames_25', 'generator_name': 'wgan'}
+ames_33 wgan
+Now computing structural based metrics
+{'wl_mmd': 0.004049135763222354, 'wl_mmd_time': 1.475541353225708, 'nspdk_mmd': 0.23304783654144287, 'nspdk_mmd_time': 8.005004167556763, 'degree_mmd': 0.2807532740060954, 'degree_mmd_time': 32.739923, 'cluster_mmd': 0.005304126475540238, 'cluster_mmd_time': 36.807369, 'spectral_mmd': 0.254247608224629, 'spectral_mmd_time': 45.523502, 'dataset': 'ames_33', 'generator_name': 'wgan'}
+ames_40 wgan
+Now computing structural based metrics
+{'wl_mmd': 0.0010874620574442386, 'wl_mmd_time': 2.416929006576538, 'nspdk_mmd': 0.26560836094073226, 'nspdk_mmd_time': 9.901127099990845, 'degree_mmd': 0.2624479620986988, 'degree_mmd_time': 82.756995, 'cluster_mmd': 0.013218856928568723, 'cluster_mmd_time': 81.109674, 'spectral_mmd': 0.248123116921678, 'spectral_mmd_time': 104.254206, 'dataset': 'ames_40', 'generator_name': 'wgan'}
+ames_50 wgan
+Now computing structural based metrics
+{'wl_mmd': 0.0011624417079007046, 'wl_mmd_time': 2.773852586746216, 'nspdk_mmd': 0.27900821434595124, 'nspdk_mmd_time': 12.079136610031128, 'degree_mmd': 0.26161123240352935, 'degree_mmd_time': 75.652621, 'cluster_mmd': 0.0025707139277069135, 'cluster_mmd_time': 85.092496, 'spectral_mmd': 0.2482588521708644, 'spectral_mmd_time': 117.431949, 'dataset': 'ames_50', 'generator_name': 'wgan'}
+bbb_martins_25 wgan
+Now computing structural based metrics
+{'wl_mmd': 0.010335698400931907, 'wl_mmd_time': 0.374910831451416, 'nspdk_mmd': 0.4168947461226325, 'nspdk_mmd_time': 2.4120030403137207, 'degree_mmd': 0.42664716754790133, 'degree_mmd_time': 15.197784, 'cluster_mmd': 0.0010794986714277588, 'cluster_mmd_time': 15.502806, 'spectral_mmd': 0.37666107207037536, 'spectral_mmd_time': 16.783412, 'dataset': 'bbb_martins_25', 'generator_name': 'wgan'}
+bbb_martins_33 wgan
+Now computing structural based metrics
+{'wl_mmd': 0.009747752691122121, 'wl_mmd_time': 0.51511549949646, 'nspdk_mmd': 0.30212411238213827, 'nspdk_mmd_time': 3.3280553817749023, 'degree_mmd': 0.40527336672816716, 'degree_mmd_time': 15.953324, 'cluster_mmd': 0.00026265019071547435, 'cluster_mmd_time': 16.354067, 'spectral_mmd': 0.36145180527200815, 'spectral_mmd_time': 18.136265, 'dataset': 'bbb_martins_33', 'generator_name': 'wgan'}
+bbb_martins_40 wgan
+Now computing structural based metrics
+{'wl_mmd': 0.003953545836422041, 'wl_mmd_time': 0.844196081161499, 'nspdk_mmd': 0.24746872766495856, 'nspdk_mmd_time': 5.000857591629028, 'degree_mmd': 0.3449757327673173, 'degree_mmd_time': 18.74247, 'cluster_mmd': 0.006959055837687078, 'cluster_mmd_time': 19.32147, 'spectral_mmd': 0.2958465360136018, 'spectral_mmd_time': 21.517365, 'dataset': 'bbb_martins_40', 'generator_name': 'wgan'}
+bbb_martins_50 wgan
+Now computing structural based metrics
+{'wl_mmd': 0.0030806915069009374, 'wl_mmd_time': 0.9015915393829346, 'nspdk_mmd': 0.2741302795058311, 'nspdk_mmd_time': 4.9540534019470215, 'degree_mmd': 0.3637725140453456, 'degree_mmd_time': 22.070486, 'cluster_mmd': 0.0007181077792521862, 'cluster_mmd_time': 22.468378, 'spectral_mmd': 0.33172812233008875, 'spectral_mmd_time': 26.811003, 'dataset': 'bbb_martins_50', 'generator_name': 'wgan'}
+cyp1a2_veith_25 wgan
+Now computing structural based metrics
+{'wl_mmd': 0.0011115756779357306, 'wl_mmd_time': 3.4487802982330322, 'nspdk_mmd': 0.6140476918565327, 'nspdk_mmd_time': 17.06254744529724, 'degree_mmd': 0.3636511347620319, 'degree_mmd_time': 111.402206, 'cluster_mmd': 0.050209351699020965, 'cluster_mmd_time': 148.453878, 'spectral_mmd': 0.31052856526748385, 'spectral_mmd_time': 196.426019, 'dataset': 'cyp1a2_veith_25', 'generator_name': 'wgan'}
+cyp1a2_veith_33 wgan
+Now computing structural based metrics
+{'wl_mmd': 0.0006926965130597758, 'wl_mmd_time': 16.168666124343872, 'nspdk_mmd': 0.3115592376322422, 'nspdk_mmd_time': 93.64712905883789, 'degree_mmd': 0.2224792404471343, 'degree_mmd_time': 297.823075, 'cluster_mmd': 0.05362100860131136, 'cluster_mmd_time': 347.413768, 'spectral_mmd': 0.20971183244597413, 'spectral_mmd_time': 532.100067, 'dataset': 'cyp1a2_veith_33', 'generator_name': 'wgan'}
+cyp1a2_veith_40 wgan
+Now computing structural based metrics
+{'wl_mmd': 0.0005691531158744077, 'wl_mmd_time': 16.66768503189087, 'nspdk_mmd': 0.6505959520951251, 'nspdk_mmd_time': 73.25916838645935, 'degree_mmd': 0.3769168651672401, 'degree_mmd_time': 395.124575, 'cluster_mmd': 0.0006776808465158712, 'cluster_mmd_time': 437.440464, 'spectral_mmd': 0.36227808970390063, 'spectral_mmd_time': 389.388794, 'dataset': 'cyp1a2_veith_40', 'generator_name': 'wgan'}
+cyp1a2_veith_50 wgan
+Now computing structural based metrics
+{'wl_mmd': 0.00045897079642965373, 'wl_mmd_time': 20.824414491653442, 'nspdk_mmd': 0.3415214255760743, 'nspdk_mmd_time': 140.93581223487854, 'degree_mmd': 0.3145925733813544, 'degree_mmd_time': 390.352794, 'cluster_mmd': 0.2797687013423732, 'cluster_mmd_time': 511.506502, 'spectral_mmd': 0.16495951387654006, 'spectral_mmd_time': 749.518716, 'dataset': 'cyp1a2_veith_50', 'generator_name': 'wgan'}
+cyp2c19_veith_25 wgan
+Now computing structural based metrics
+{'wl_mmd': 0.0009027308065291621, 'wl_mmd_time': 6.3126630783081055, 'nspdk_mmd': 0.3246938188712383, 'nspdk_mmd_time': 37.250197410583496, 'degree_mmd': 0.2714723809120787, 'degree_mmd_time': 97.476471, 'cluster_mmd': 0.03695918000675147, 'cluster_mmd_time': 129.48369, 'spectral_mmd': 0.27073189051351143, 'spectral_mmd_time': 211.665565, 'dataset': 'cyp2c19_veith_25', 'generator_name': 'wgan'}
+cyp2c19_veith_33 wgan
+Now computing structural based metrics
+{'wl_mmd': 0.0008018015051224029, 'wl_mmd_time': 12.492135524749756, 'nspdk_mmd': 0.4493151909707394, 'nspdk_mmd_time': 59.0477294921875, 'degree_mmd': 0.28612180629015027, 'degree_mmd_time': 121.090267, 'cluster_mmd': 0.0017779892367859595, 'cluster_mmd_time': 173.037763, 'spectral_mmd': 0.2559651522487483, 'spectral_mmd_time': 255.005819, 'dataset': 'cyp2c19_veith_33', 'generator_name': 'wgan'}
+cyp2c19_veith_40 wgan
+Now computing structural based metrics
+{'wl_mmd': 0.000651250373638368, 'wl_mmd_time': 16.278995513916016, 'nspdk_mmd': 0.44621672354844216, 'nspdk_mmd_time': 60.587785720825195, 'degree_mmd': 0.2847025987544327, 'degree_mmd_time': 198.799808, 'cluster_mmd': 0.13694314614438885, 'cluster_mmd_time': 251.751219, 'spectral_mmd': 0.1932332910646195, 'spectral_mmd_time': 414.829661, 'dataset': 'cyp2c19_veith_40', 'generator_name': 'wgan'}
+cyp2c19_veith_50 wgan
+Now computing structural based metrics
+{'wl_mmd': 0.0005438494894563558, 'wl_mmd_time': 12.617178440093994, 'nspdk_mmd': 0.2920875367378924, 'nspdk_mmd_time': 43.87158203125, 'degree_mmd': 0.49185770827291075, 'degree_mmd_time': 259.276067, 'cluster_mmd': 0.0007303374010940722, 'cluster_mmd_time': 390.71766, 'spectral_mmd': 0.4007931654474901, 'spectral_mmd_time': 644.163032, 'dataset': 'cyp2c19_veith_50', 'generator_name': 'wgan'}
+herg_karim_25 wgan
+Now computing structural based metrics
+{'wl_mmd': 0.0038496469095121934, 'wl_mmd_time': 5.1005940437316895, 'nspdk_mmd': 0.40472823884282977, 'nspdk_mmd_time': 28.165372848510742, 'degree_mmd': 0.4270547542200984, 'degree_mmd_time': 66.551098, 'cluster_mmd': 0.005967048430268074, 'cluster_mmd_time': 64.488558, 'spectral_mmd': 0.3880924435735533, 'spectral_mmd_time': 89.848877, 'dataset': 'herg_karim_25', 'generator_name': 'wgan'}
+herg_karim_33 wgan
+Now computing structural based metrics
+{'wl_mmd': 0.0006777134454091121, 'wl_mmd_time': 9.197767972946167, 'nspdk_mmd': 0.7002845209057441, 'nspdk_mmd_time': 38.845325231552124, 'degree_mmd': 0.49300679630832, 'degree_mmd_time': 160.976137, 'cluster_mmd': 0.004151013027892114, 'cluster_mmd_time': 245.953284, 'spectral_mmd': 0.41200396025852415, 'spectral_mmd_time': 360.527728, 'dataset': 'herg_karim_33', 'generator_name': 'wgan'}
+herg_karim_40 wgan
+Now computing structural based metrics
+{'wl_mmd': 0.0005712049087419596, 'wl_mmd_time': 12.804261445999146, 'nspdk_mmd': 0.6060363270617573, 'nspdk_mmd_time': 48.73493313789368, 'degree_mmd': 0.4731026341748097, 'degree_mmd_time': 221.324549, 'cluster_mmd': 0.004351379077337736, 'cluster_mmd_time': 334.963367, 'spectral_mmd': 0.4123773792506782, 'spectral_mmd_time': 515.56014, 'dataset': 'herg_karim_40', 'generator_name': 'wgan'}
+herg_karim_50 wgan
+Now computing structural based metrics
+{'wl_mmd': 0.0029006667306435622, 'wl_mmd_time': 10.985386371612549, 'nspdk_mmd': 0.36515449365402897, 'nspdk_mmd_time': 57.430824518203735, 'degree_mmd': 0.36737794470324125, 'degree_mmd_time': 164.199771, 'cluster_mmd': 0.0479989600486288, 'cluster_mmd_time': 213.573797, 'spectral_mmd': 0.36938118920774454, 'spectral_mmd_time': 345.551703, 'dataset': 'herg_karim_50', 'generator_name': 'wgan'}
+lipophilicity_astrazeneca_25 wgan
+Now computing structural based metrics
+{'wl_mmd': 0.0039378638053159404, 'wl_mmd_time': 1.2030267715454102, 'nspdk_mmd': 0.31538662667503325, 'nspdk_mmd_time': 7.845412969589233, 'degree_mmd': 0.41335004811501586, 'degree_mmd_time': 16.153416, 'cluster_mmd': 0.0015723081461147537, 'cluster_mmd_time': 19.33536, 'spectral_mmd': 0.3642334709221935, 'spectral_mmd_time': 22.617362, 'dataset': 'lipophilicity_astrazeneca_25', 'generator_name': 'wgan'}
+lipophilicity_astrazeneca_33 wgan
+Now computing structural based metrics
+{'wl_mmd': 0.0021109207041595263, 'wl_mmd_time': 2.3490631580352783, 'nspdk_mmd': 0.42459623225185783, 'nspdk_mmd_time': 10.670578241348267, 'degree_mmd': 0.38499537135883366, 'degree_mmd_time': 23.769751, 'cluster_mmd': 0.013334133528181802, 'cluster_mmd_time': 29.724312, 'spectral_mmd': 0.30528131275242854, 'spectral_mmd_time': 38.098678, 'dataset': 'lipophilicity_astrazeneca_33', 'generator_name': 'wgan'}
+lipophilicity_astrazeneca_40 wgan
+Now computing structural based metrics
+{'wl_mmd': 0.001870748299319728, 'wl_mmd_time': 2.934967279434204, 'nspdk_mmd': 0.3347036846050688, 'nspdk_mmd_time': 13.148056030273438, 'degree_mmd': 0.35300274341232574, 'degree_mmd_time': 27.155252, 'cluster_mmd': 0.016873095306061847, 'cluster_mmd_time': 34.481172, 'spectral_mmd': 0.33643378011405756, 'spectral_mmd_time': 45.731606, 'dataset': 'lipophilicity_astrazeneca_40', 'generator_name': 'wgan'}
+lipophilicity_astrazeneca_50 wgan
+Now computing structural based metrics
+{'wl_mmd': 0.0019840530736414514, 'wl_mmd_time': 3.3701283931732178, 'nspdk_mmd': 0.29641045791467174, 'nspdk_mmd_time': 15.57897400856018, 'degree_mmd': 0.27210803126222505, 'degree_mmd_time': 30.538467, 'cluster_mmd': 0.14284779298471317, 'cluster_mmd_time': 39.069513, 'spectral_mmd': 0.3018488158622419, 'spectral_mmd_time': 50.550161, 'dataset': 'lipophilicity_astrazeneca_50', 'generator_name': 'wgan'}
+ames_25 stgg
+Now computing structural based metrics
+{'wl_mmd': 0.0015710919088766694, 'wl_mmd_time': 4.385843276977539, 'nspdk_mmd': 0.006528023674143069, 'nspdk_mmd_time': 15.584379434585571, 'degree_mmd': 0.0021906135659648385, 'degree_mmd_time': 32.17155, 'cluster_mmd': 0.0013080327392167579, 'cluster_mmd_time': 44.310694, 'spectral_mmd': 0.0022780794638672663, 'spectral_mmd_time': 58.446663, 'dataset': 'ames_25', 'generator_name': 'stgg'}
+ames_33 stgg
+Now computing structural based metrics
+{'wl_mmd': 0.001177856301531213, 'wl_mmd_time': 5.636054754257202, 'nspdk_mmd': 0.003735836208720311, 'nspdk_mmd_time': 19.985822200775146, 'degree_mmd': 0.0008434626214213203, 'degree_mmd_time': 67.052475, 'cluster_mmd': 0.0010487859776557862, 'cluster_mmd_time': 71.257764, 'spectral_mmd': 0.001377837200582821, 'spectral_mmd_time': 97.316091, 'dataset': 'ames_33', 'generator_name': 'stgg'}
+ames_40 stgg
+Now computing structural based metrics
+{'wl_mmd': 0.0009823182711198428, 'wl_mmd_time': 7.110779523849487, 'nspdk_mmd': 0.0037675272010184724, 'nspdk_mmd_time': 25.310596227645874, 'degree_mmd': 0.001098364279531694, 'degree_mmd_time': 71.26155, 'cluster_mmd': 0.00017444041296044155, 'cluster_mmd_time': 100.96451, 'spectral_mmd': 0.0006158392020889636, 'spectral_mmd_time': 137.200447, 'dataset': 'ames_40', 'generator_name': 'stgg'}
+ames_50 stgg
+Now computing structural based metrics
+{'wl_mmd': 0.000807040648652413, 'wl_mmd_time': 8.876779317855835, 'nspdk_mmd': 0.0015897284381819476, 'nspdk_mmd_time': 31.535013675689697, 'degree_mmd': 0.0001563340126142787, 'degree_mmd_time': 119.123939, 'cluster_mmd': 0.0001000347559918513, 'cluster_mmd_time': 144.784277, 'spectral_mmd': 0.0006463986353895113, 'spectral_mmd_time': 209.933748, 'dataset': 'ames_50', 'generator_name': 'stgg'}
+bbb_martins_25 stgg
+Now computing structural based metrics
+{'wl_mmd': 0.0056659042574535535, 'wl_mmd_time': 1.1487696170806885, 'nspdk_mmd': 0.02639779076210269, 'nspdk_mmd_time': 5.815464973449707, 'degree_mmd': 0.011231776744571986, 'degree_mmd_time': 13.009672, 'cluster_mmd': 0.0005019311765295242, 'cluster_mmd_time': 15.781729, 'spectral_mmd': 0.004992471280362398, 'spectral_mmd_time': 17.852422, 'dataset': 'bbb_martins_25', 'generator_name': 'stgg'}
+bbb_martins_33 stgg
+Now computing structural based metrics
+{'wl_mmd': 0.004341336397067479, 'wl_mmd_time': 1.7474143505096436, 'nspdk_mmd': 0.025079409229543714, 'nspdk_mmd_time': 7.808616876602173, 'degree_mmd': 0.008220610378314674, 'degree_mmd_time': 14.323507, 'cluster_mmd': 0.0008332604756591255, 'cluster_mmd_time': 17.504283, 'spectral_mmd': 0.010558549377228887, 'spectral_mmd_time': 20.360573, 'dataset': 'bbb_martins_33', 'generator_name': 'stgg'}
+bbb_martins_40 stgg
+Now computing structural based metrics
+{'wl_mmd': 0.003572157583180241, 'wl_mmd_time': 2.013829231262207, 'nspdk_mmd': 0.01349328842743086, 'nspdk_mmd_time': 9.86508321762085, 'degree_mmd': 0.005057657356275946, 'degree_mmd_time': 15.032075, 'cluster_mmd': 7.179142822977269e-05, 'cluster_mmd_time': 18.962472, 'spectral_mmd': 0.002223352557899627, 'spectral_mmd_time': 22.255544, 'dataset': 'bbb_martins_40', 'generator_name': 'stgg'}
+bbb_martins_50 stgg
+Now computing structural based metrics
+{'wl_mmd': 0.002903219015137161, 'wl_mmd_time': 2.487675428390503, 'nspdk_mmd': 0.010580973890480572, 'nspdk_mmd_time': 12.343728303909302, 'degree_mmd': 0.0038643092546537527, 'degree_mmd_time': 17.123719, 'cluster_mmd': 0.0023586187996611496, 'cluster_mmd_time': 21.634007, 'spectral_mmd': 0.0031566350967884294, 'spectral_mmd_time': 26.153602, 'dataset': 'bbb_martins_50', 'generator_name': 'stgg'}
+cyp1a2_veith_25 stgg
+Now computing structural based metrics
+{'wl_mmd': 0.0009229295294869065, 'wl_mmd_time': 10.995577573776245, 'nspdk_mmd': 0.0036481924856897052, 'nspdk_mmd_time': 38.9534854888916, 'degree_mmd': 0.000904730199304371, 'degree_mmd_time': 94.906346, 'cluster_mmd': 0.000150831897663517, 'cluster_mmd_time': 111.482777, 'spectral_mmd': 0.0010864017375822321, 'spectral_mmd_time': 160.669141, 'dataset': 'cyp1a2_veith_25', 'generator_name': 'stgg'}
+cyp1a2_veith_33 stgg
+Now computing structural based metrics
+{'wl_mmd': 0.000692201973518125, 'wl_mmd_time': 14.371456623077393, 'nspdk_mmd': 0.0030033731464482183, 'nspdk_mmd_time': 58.42461681365967, 'degree_mmd': 0.0005949055856908636, 'degree_mmd_time': 138.537044, 'cluster_mmd': 0.00015022018914034874, 'cluster_mmd_time': 212.631434, 'spectral_mmd': 0.0006901496695908005, 'spectral_mmd_time': 299.956969, 'dataset': 'cyp1a2_veith_33', 'generator_name': 'stgg'}
+cyp1a2_veith_40 stgg
+Now computing structural based metrics
+{'wl_mmd': 0.0005777711699111125, 'wl_mmd_time': 18.465461492538452, 'nspdk_mmd': 0.00103061474479893, 'nspdk_mmd_time': 69.26954054832458, 'degree_mmd': 6.034417161737693e-05, 'degree_mmd_time': 207.534634, 'cluster_mmd': 0.0003452378514852139, 'cluster_mmd_time': 275.67247, 'spectral_mmd': 0.0002994409370049578, 'spectral_mmd_time': 416.398508, 'dataset': 'cyp1a2_veith_40', 'generator_name': 'stgg'}
+cyp1a2_veith_50 stgg
+Now computing structural based metrics
+{'wl_mmd': 0.0004668568397712369, 'wl_mmd_time': 24.09219980239868, 'nspdk_mmd': 0.001919377424618507, 'nspdk_mmd_time': 87.7932653427124, 'degree_mmd': 0.0006809220555670237, 'degree_mmd_time': 316.991671, 'cluster_mmd': 5.507445971408842e-05, 'cluster_mmd_time': 433.285054, 'spectral_mmd': 0.0008084422116259038, 'spectral_mmd_time': 649.398002, 'dataset': 'cyp1a2_veith_50', 'generator_name': 'stgg'}
+cyp2c19_veith_25 stgg
+Now computing structural based metrics
+{'wl_mmd': 0.0009118724251607781, 'wl_mmd_time': 11.4949791431427, 'nspdk_mmd': 0.0031719595537189615, 'nspdk_mmd_time': 42.164047956466675, 'degree_mmd': 0.0002136131098462446, 'degree_mmd_time': 99.468807, 'cluster_mmd': 0.00015472008062644704, 'cluster_mmd_time': 116.741169, 'spectral_mmd': 0.0006469300327536232, 'spectral_mmd_time': 163.307754, 'dataset': 'cyp2c19_veith_25', 'generator_name': 'stgg'}
+cyp2c19_veith_33 stgg
+Now computing structural based metrics
+{'wl_mmd': 0.0006868415312144419, 'wl_mmd_time': 15.40057897567749, 'nspdk_mmd': 0.002699148820346664, 'nspdk_mmd_time': 58.72402739524841, 'degree_mmd': 0.0004246180132891908, 'degree_mmd_time': 142.164275, 'cluster_mmd': 0.0002754973289613716, 'cluster_mmd_time': 213.84908, 'spectral_mmd': 0.0005933158765150104, 'spectral_mmd_time': 281.854503, 'dataset': 'cyp2c19_veith_33', 'generator_name': 'stgg'}
+cyp2c19_veith_40 stgg
+Now computing structural based metrics
+{'wl_mmd': 0.0005729443580200723, 'wl_mmd_time': 19.691713333129883, 'nspdk_mmd': 0.002645454574895567, 'nspdk_mmd_time': 70.12119746208191, 'degree_mmd': 0.0005880491334364635, 'degree_mmd_time': 204.619599, 'cluster_mmd': 3.9330838810025526e-05, 'cluster_mmd_time': 301.111225, 'spectral_mmd': 0.0007584691123134757, 'spectral_mmd_time': 423.399286, 'dataset': 'cyp2c19_veith_40', 'generator_name': 'stgg'}
+cyp2c19_veith_50 stgg
+Now computing structural based metrics
+{'wl_mmd': 0.00046401673149561835, 'wl_mmd_time': 25.51735520362854, 'nspdk_mmd': 0.0012733432713320503, 'nspdk_mmd_time': 91.42908811569214, 'degree_mmd': 0.0002732767214654874, 'degree_mmd_time': 318.663778, 'cluster_mmd': 0.0006688793687252836, 'cluster_mmd_time': 444.680449, 'spectral_mmd': 0.0005615514943866362, 'spectral_mmd_time': 695.898407, 'dataset': 'cyp2c19_veith_50', 'generator_name': 'stgg'}
+herg_karim_25 stgg
+Now computing structural based metrics
+{'wl_mmd': 0.0008571414928109943, 'wl_mmd_time': 15.571415185928345, 'nspdk_mmd': 0.00641645741003527, 'nspdk_mmd_time': 71.07902383804321, 'degree_mmd': 0.0007322208092448435, 'degree_mmd_time': 112.316205, 'cluster_mmd': 0.00015867780230549577, 'cluster_mmd_time': 132.68657, 'spectral_mmd': 0.0009418304675219424, 'spectral_mmd_time': 182.545043, 'dataset': 'herg_karim_25', 'generator_name': 'stgg'}
+herg_karim_33 stgg
+Now computing structural based metrics
+{'wl_mmd': 0.0006421911657424366, 'wl_mmd_time': 20.896556615829468, 'nspdk_mmd': 0.004396090588359658, 'nspdk_mmd_time': 80.18797063827515, 'degree_mmd': 0.0008978851791667797, 'degree_mmd_time': 175.876086, 'cluster_mmd': 0.0005871744051555439, 'cluster_mmd_time': 228.939572, 'spectral_mmd': 0.0009741948499026876, 'spectral_mmd_time': 336.215668, 'dataset': 'herg_karim_33', 'generator_name': 'stgg'}
+herg_karim_40 stgg
+Now computing structural based metrics
+{'wl_mmd': 0.0005332691410278978, 'wl_mmd_time': 26.93752121925354, 'nspdk_mmd': 0.003124664145760847, 'nspdk_mmd_time': 100.41906952857971, 'degree_mmd': 0.00021914045139537208, 'degree_mmd_time': 248.316354, 'cluster_mmd': 0.0013111669101946166, 'cluster_mmd_time': 320.707342, 'spectral_mmd': 0.000601848158378715, 'spectral_mmd_time': 494.811698, 'dataset': 'herg_karim_40', 'generator_name': 'stgg'}
+herg_karim_50 stgg
+Now computing structural based metrics
+{'wl_mmd': 0.00042950857652169805, 'wl_mmd_time': 33.63041353225708, 'nspdk_mmd': 0.0018080787072961568, 'nspdk_mmd_time': 130.10238432884216, 'degree_mmd': 0.00010236511465500087, 'degree_mmd_time': 370.151014, 'cluster_mmd': 0.00013378196509594709, 'cluster_mmd_time': 507.870819, 'spectral_mmd': 0.00047584542316125855, 'spectral_mmd_time': 794.893214, 'dataset': 'herg_karim_50', 'generator_name': 'stgg'}
+lipophilicity_astrazeneca_25 stgg
+Now computing structural based metrics
+{'wl_mmd': 0.0027210884353741495, 'wl_mmd_time': 4.095952987670898, 'nspdk_mmd': 0.012915209835289154, 'nspdk_mmd_time': 14.69068169593811, 'degree_mmd': 0.002430552775837924, 'degree_mmd_time': 32.576147, 'cluster_mmd': 0.0005689642354864688, 'cluster_mmd_time': 22.552785, 'spectral_mmd': 0.0020455057810748745, 'spectral_mmd_time': 27.716757, 'dataset': 'lipophilicity_astrazeneca_25', 'generator_name': 'stgg'}
+lipophilicity_astrazeneca_33 stgg
+Now computing structural based metrics
+{'wl_mmd': 0.0020408163265306124, 'wl_mmd_time': 4.644618988037109, 'nspdk_mmd': 0.010879204228729678, 'nspdk_mmd_time': 21.446062088012695, 'degree_mmd': 0.002594987950398586, 'degree_mmd_time': 22.890529, 'cluster_mmd': 0.0007710295085836538, 'cluster_mmd_time': 31.034304, 'spectral_mmd': 0.0018098662511043528, 'spectral_mmd_time': 40.35068, 'dataset': 'lipophilicity_astrazeneca_33', 'generator_name': 'stgg'}
+lipophilicity_astrazeneca_40 stgg
+Now computing structural based metrics
+{'wl_mmd': 0.0017006802721088435, 'wl_mmd_time': 5.699509859085083, 'nspdk_mmd': 0.010173270793632228, 'nspdk_mmd_time': 25.993773460388184, 'degree_mmd': 0.001114424342696596, 'degree_mmd_time': 28.21082, 'cluster_mmd': 0.00023722947393234328, 'cluster_mmd_time': 39.71283, 'spectral_mmd': 0.0017509262298265327, 'spectral_mmd_time': 50.879164, 'dataset': 'lipophilicity_astrazeneca_40', 'generator_name': 'stgg'}
+lipophilicity_astrazeneca_50 stgg
+Now computing structural based metrics
+{'wl_mmd': 0.0013776221785785443, 'wl_mmd_time': 7.869738578796387, 'nspdk_mmd': 0.004356358878697342, 'nspdk_mmd_time': 33.11663007736206, 'degree_mmd': 0.0002093415347252936, 'degree_mmd_time': 43.707766, 'cluster_mmd': 0.0009491729443322772, 'cluster_mmd_time': 56.643043, 'spectral_mmd': 0.000919155149831985, 'spectral_mmd_time': 79.932471, 'dataset': 'lipophilicity_astrazeneca_50', 'generator_name': 'stgg'}
+ames_25 moflow
+Now computing structural based metrics
+{'wl_mmd': 0.0016650534302518792, 'wl_mmd_time': 2.0740842819213867, 'nspdk_mmd': 0.14988709430411934, 'nspdk_mmd_time': 9.479140281677246, 'degree_mmd': 0.0808410597652045, 'degree_mmd_time': 47.002157, 'cluster_mmd': 0.003243321241464203, 'cluster_mmd_time': 39.740331, 'spectral_mmd': 0.1263254651610728, 'spectral_mmd_time': 53.871178, 'dataset': 'ames_25', 'generator_name': 'moflow'}
+ames_33 moflow
+Now computing structural based metrics
+{'wl_mmd': 0.0012234459172630685, 'wl_mmd_time': 3.244673252105713, 'nspdk_mmd': 0.13532727451208768, 'nspdk_mmd_time': 11.975033044815063, 'degree_mmd': 0.08538185987327518, 'degree_mmd_time': 54.834772, 'cluster_mmd': 0.0032047737362572715, 'cluster_mmd_time': 67.137295, 'spectral_mmd': 0.12486291049559739, 'spectral_mmd_time': 94.389698, 'dataset': 'ames_33', 'generator_name': 'moflow'}
+ames_40 moflow
+Now computing structural based metrics
+{'wl_mmd': 0.0010397054877266795, 'wl_mmd_time': 4.179315090179443, 'nspdk_mmd': 0.13487867218084304, 'nspdk_mmd_time': 15.305032014846802, 'degree_mmd': 0.08745916674391174, 'degree_mmd_time': 67.288677, 'cluster_mmd': 0.002773871963065444, 'cluster_mmd_time': 89.601511, 'spectral_mmd': 0.13305107234669422, 'spectral_mmd_time': 124.69252, 'dataset': 'ames_40', 'generator_name': 'moflow'}
+ames_50 moflow
+Now computing structural based metrics
+{'wl_mmd': 0.0008149160644743684, 'wl_mmd_time': 5.431910753250122, 'nspdk_mmd': 0.125808090685185, 'nspdk_mmd_time': 18.483624935150146, 'degree_mmd': 0.07377090745895853, 'degree_mmd_time': 118.603069, 'cluster_mmd': 0.0031639087602457483, 'cluster_mmd_time': 141.50415, 'spectral_mmd': 0.10071855699734722, 'spectral_mmd_time': 204.26404, 'dataset': 'ames_50', 'generator_name': 'moflow'}
+bbb_martins_25 moflow
+Now computing structural based metrics
+{'wl_mmd': 0.005633802816901409, 'wl_mmd_time': 0.7869415283203125, 'nspdk_mmd': 0.14833258515948947, 'nspdk_mmd_time': 3.6192915439605713, 'degree_mmd': 0.06370570747674775, 'degree_mmd_time': 13.052514, 'cluster_mmd': 0.0010123319424066857, 'cluster_mmd_time': 15.416572, 'spectral_mmd': 0.10128096039631251, 'spectral_mmd_time': 18.051461, 'dataset': 'bbb_martins_25', 'generator_name': 'moflow'}
+bbb_martins_33 moflow
+Now computing structural based metrics
+{'wl_mmd': 0.004336387127084802, 'wl_mmd_time': 0.8279383182525635, 'nspdk_mmd': 0.14009012836208493, 'nspdk_mmd_time': 5.524598121643066, 'degree_mmd': 0.07460654199839367, 'degree_mmd_time': 14.436199, 'cluster_mmd': 0.0024853710225294368, 'cluster_mmd_time': 17.831225, 'spectral_mmd': 0.13230724119162307, 'spectral_mmd_time': 19.952411, 'dataset': 'bbb_martins_33', 'generator_name': 'moflow'}
+bbb_martins_40 moflow
+Now computing structural based metrics
+{'wl_mmd': 0.0035820570050540037, 'wl_mmd_time': 2.1470465660095215, 'nspdk_mmd': 0.1168378617396158, 'nspdk_mmd_time': 9.60716199874878, 'degree_mmd': 0.05584592586481074, 'degree_mmd_time': 15.318062, 'cluster_mmd': 0.007387484201415884, 'cluster_mmd_time': 18.897468, 'spectral_mmd': 0.06945745825161276, 'spectral_mmd_time': 22.552871, 'dataset': 'bbb_martins_40', 'generator_name': 'moflow'}
+bbb_martins_50 moflow
+Now computing structural based metrics
+{'wl_mmd': 0.002930520719446052, 'wl_mmd_time': 1.6439836025238037, 'nspdk_mmd': 0.1509214879485732, 'nspdk_mmd_time': 7.571956157684326, 'degree_mmd': 0.08672652148686666, 'degree_mmd_time': 17.234171, 'cluster_mmd': 0.0010482777682465638, 'cluster_mmd_time': 21.731745, 'spectral_mmd': 0.14731409380615546, 'spectral_mmd_time': 26.631776, 'dataset': 'bbb_martins_50', 'generator_name': 'moflow'}
+cyp1a2_veith_25 moflow
+Now computing structural based metrics
+{'wl_mmd': 0.0009244702665755297, 'wl_mmd_time': 6.416255235671997, 'nspdk_mmd': 0.21243489663698534, 'nspdk_mmd_time': 25.438811779022217, 'degree_mmd': 0.19453193186614826, 'degree_mmd_time': 98.889771, 'cluster_mmd': 0.0006332533264958862, 'cluster_mmd_time': 111.401679, 'spectral_mmd': 0.19422093642224003, 'spectral_mmd_time': 159.062899, 'dataset': 'cyp1a2_veith_25', 'generator_name': 'moflow'}
+cyp1a2_veith_33 moflow
+Now computing structural based metrics
+{'wl_mmd': 0.0006860163029756707, 'wl_mmd_time': 9.056045055389404, 'nspdk_mmd': 0.21060853128409446, 'nspdk_mmd_time': 33.9029004573822, 'degree_mmd': 0.17688563342194508, 'degree_mmd_time': 149.501864, 'cluster_mmd': 0.0007798729355921186, 'cluster_mmd_time': 196.35329, 'spectral_mmd': 0.2166623409374433, 'spectral_mmd_time': 323.052932, 'dataset': 'cyp1a2_veith_33', 'generator_name': 'moflow'}
+cyp1a2_veith_40 moflow
+Now computing structural based metrics
+{'wl_mmd': 0.0006351719906707118, 'wl_mmd_time': 12.059391736984253, 'nspdk_mmd': 0.236943488139973, 'nspdk_mmd_time': 36.83724331855774, 'degree_mmd': 0.32430687843344064, 'degree_mmd_time': 176.198828, 'cluster_mmd': 0.000415687726909475, 'cluster_mmd_time': 237.607624, 'spectral_mmd': 0.23978714067604123, 'spectral_mmd_time': 387.679383, 'dataset': 'cyp1a2_veith_40', 'generator_name': 'moflow'}
+cyp1a2_veith_50 moflow
+Now computing structural based metrics
+{'wl_mmd': 0.0004968355374513833, 'wl_mmd_time': 15.737244844436646, 'nspdk_mmd': 0.20116584975445134, 'nspdk_mmd_time': 51.25048303604126, 'degree_mmd': 0.19558185588913402, 'degree_mmd_time': 281.233661, 'cluster_mmd': 0.0005818825480499168, 'cluster_mmd_time': 399.153259, 'spectral_mmd': 0.2331167164653527, 'spectral_mmd_time': 582.420625, 'dataset': 'cyp1a2_veith_50', 'generator_name': 'moflow'}
+cyp2c19_veith_25 moflow
+Now computing structural based metrics
+{'wl_mmd': 0.0009290221874386885, 'wl_mmd_time': 5.6867356300354, 'nspdk_mmd': 0.22781077652360432, 'nspdk_mmd_time': 24.36342430114746, 'degree_mmd': 0.24999655073734361, 'degree_mmd_time': 98.334571, 'cluster_mmd': 0.0008858576142110053, 'cluster_mmd_time': 115.085636, 'spectral_mmd': 0.2794313196740068, 'spectral_mmd_time': 167.012584, 'dataset': 'cyp2c19_veith_25', 'generator_name': 'moflow'}
+cyp2c19_veith_33 moflow
+Now computing structural based metrics
+{'wl_mmd': 0.000685150113468087, 'wl_mmd_time': 19.82752752304077, 'nspdk_mmd': 0.20908701589739087, 'nspdk_mmd_time': 120.41826057434082, 'degree_mmd': 0.11091028828116145, 'degree_mmd_time': 153.079306, 'cluster_mmd': 0.05573842855443023, 'cluster_mmd_time': 204.11554, 'spectral_mmd': 0.08083206698301915, 'spectral_mmd_time': 288.676673, 'dataset': 'cyp2c19_veith_33', 'generator_name': 'moflow'}
+cyp2c19_veith_40 moflow
+Now computing structural based metrics
+{'wl_mmd': 0.0005660956759375448, 'wl_mmd_time': 43.62332892417908, 'nspdk_mmd': 0.15488536227599653, 'nspdk_mmd_time': 637.0530486106873, 'degree_mmd': 0.07641690977110538, 'degree_mmd_time': 243.264894, 'cluster_mmd': 0.3003463901117813, 'cluster_mmd_time': 294.586649, 'spectral_mmd': 0.09345681389280003, 'spectral_mmd_time': 424.451011, 'dataset': 'cyp2c19_veith_40', 'generator_name': 'moflow'}
+cyp2c19_veith_50 moflow
+Now computing structural based metrics
+{'wl_mmd': 0.0004599924975588512, 'wl_mmd_time': 17.87602472305298, 'nspdk_mmd': 0.16436708481057702, 'nspdk_mmd_time': 58.994643688201904, 'degree_mmd': 0.08598983220019973, 'degree_mmd_time': 329.574442, 'cluster_mmd': 0.0007233711235745677, 'cluster_mmd_time': 463.39178, 'spectral_mmd': 0.09379820767329172, 'spectral_mmd_time': 700.14225, 'dataset': 'cyp2c19_veith_50', 'generator_name': 'moflow'}
+herg_karim_25 moflow
+Now computing structural based metrics
+{'wl_mmd': 0.0008514286076749999, 'wl_mmd_time': 10.613982915878296, 'nspdk_mmd': 0.3565304996086331, 'nspdk_mmd_time': 41.76993131637573, 'degree_mmd': 0.11716230001216266, 'degree_mmd_time': 111.132131, 'cluster_mmd': 0.004651752492420558, 'cluster_mmd_time': 132.345788, 'spectral_mmd': 0.05911689078302751, 'spectral_mmd_time': 185.39639, 'dataset': 'herg_karim_25', 'generator_name': 'moflow'}
+herg_karim_33 moflow
+Now computing structural based metrics
+{'wl_mmd': 0.000637551801083838, 'wl_mmd_time': 14.50674319267273, 'nspdk_mmd': 0.3897329471113097, 'nspdk_mmd_time': 54.18856978416443, 'degree_mmd': 0.11742947297739348, 'degree_mmd_time': 185.450271, 'cluster_mmd': 0.004161209843057234, 'cluster_mmd_time': 232.139092, 'spectral_mmd': 0.059831907201299384, 'spectral_mmd_time': 356.265538, 'dataset': 'herg_karim_33', 'generator_name': 'moflow'}
+herg_karim_40 moflow
+Now computing structural based metrics
+{'wl_mmd': 0.0005313496280552603, 'wl_mmd_time': 18.916858911514282, 'nspdk_mmd': 0.2546368940041219, 'nspdk_mmd_time': 65.68500685691833, 'degree_mmd': 0.07830128261701863, 'degree_mmd_time': 255.490771, 'cluster_mmd': 0.0022939181701917555, 'cluster_mmd_time': 332.413921, 'spectral_mmd': 0.059129064708702606, 'spectral_mmd_time': 526.10171, 'dataset': 'herg_karim_40', 'generator_name': 'moflow'}
+herg_karim_50 moflow
+Now computing structural based metrics
+{'wl_mmd': 0.0004260786261206349, 'wl_mmd_time': 23.431763172149658, 'nspdk_mmd': 0.31993207928175255, 'nspdk_mmd_time': 86.93474841117859, 'degree_mmd': 0.10843766718641268, 'degree_mmd_time': 393.331763, 'cluster_mmd': 0.0015831314889060977, 'cluster_mmd_time': 517.693529, 'spectral_mmd': 0.08599005271923255, 'spectral_mmd_time': 770.36329, 'dataset': 'herg_karim_50', 'generator_name': 'moflow'}
+lipophilicity_astrazeneca_25 moflow
+Now computing structural based metrics
+{'wl_mmd': 0.0027248006979053558, 'wl_mmd_time': 1.4488005638122559, 'nspdk_mmd': 0.1882987332173763, 'nspdk_mmd_time': 6.723092794418335, 'degree_mmd': 0.07793235465362569, 'degree_mmd_time': 22.492764, 'cluster_mmd': 0.0007744845091022245, 'cluster_mmd_time': 24.20308, 'spectral_mmd': 0.11905738157030776, 'spectral_mmd_time': 28.490567, 'dataset': 'lipophilicity_astrazeneca_25', 'generator_name': 'moflow'}
+lipophilicity_astrazeneca_33 moflow
+Now computing structural based metrics
+{'wl_mmd': 0.002068626192615411, 'wl_mmd_time': 1.833470344543457, 'nspdk_mmd': 0.17935853292236167, 'nspdk_mmd_time': 8.59670376777649, 'degree_mmd': 0.08451593677241198, 'degree_mmd_time': 29.566181, 'cluster_mmd': 0.0009316513625194922, 'cluster_mmd_time': 43.839955, 'spectral_mmd': 0.1372663222344126, 'spectral_mmd_time': 38.728788, 'dataset': 'lipophilicity_astrazeneca_33', 'generator_name': 'moflow'}
+lipophilicity_astrazeneca_40 moflow
+Now computing structural based metrics
+{'wl_mmd': 0.0019210039476175909, 'wl_mmd_time': 2.1906299591064453, 'nspdk_mmd': 0.1865822107315199, 'nspdk_mmd_time': 10.61271071434021, 'degree_mmd': 0.08996459108520649, 'degree_mmd_time': 32.077607, 'cluster_mmd': 0.0021190018299406255, 'cluster_mmd_time': 34.826191, 'spectral_mmd': 0.11796065605471973, 'spectral_mmd_time': 43.971295, 'dataset': 'lipophilicity_astrazeneca_40', 'generator_name': 'moflow'}
+lipophilicity_astrazeneca_50 moflow
+Now computing structural based metrics
+{'wl_mmd': 0.0013884874062939623, 'wl_mmd_time': 3.0504040718078613, 'nspdk_mmd': 0.17886805679442608, 'nspdk_mmd_time': 14.05275011062622, 'degree_mmd': 0.08181507851293368, 'degree_mmd_time': 50.082586, 'cluster_mmd': 0.0009138568426718674, 'cluster_mmd_time': 53.481682, 'spectral_mmd': 0.11679221215338753, 'spectral_mmd_time': 70.300536, 'dataset': 'lipophilicity_astrazeneca_50', 'generator_name': 'moflow'}
+ames_25 gdss
+Now computing structural based metrics
+{'wl_mmd': 0.0011800232719925753, 'wl_mmd_time': 4.515217065811157, 'nspdk_mmd': 0.05051885289121122, 'nspdk_mmd_time': 19.019657373428345, 'degree_mmd': 0.0034752156718051985, 'degree_mmd_time': 74.468955, 'cluster_mmd': 0.0500722971513865, 'cluster_mmd_time': 86.898202, 'spectral_mmd': 0.008251688147560277, 'spectral_mmd_time': 120.826604, 'dataset': 'ames_25', 'generator_name': 'gdss'}
+ames_33 gdss
+Now computing structural based metrics
+{'wl_mmd': 0.0008842618778772427, 'wl_mmd_time': 6.518629312515259, 'nspdk_mmd': 0.04915936173394553, 'nspdk_mmd_time': 26.403276681900024, 'degree_mmd': 0.003196680162629084, 'degree_mmd_time': 133.34003, 'cluster_mmd': 0.03691155591708739, 'cluster_mmd_time': 143.558766, 'spectral_mmd': 0.006378260506414879, 'spectral_mmd_time': 202.613002, 'dataset': 'ames_33', 'generator_name': 'gdss'}
+ames_40 gdss
+Now computing structural based metrics
+{'wl_mmd': 0.0007369801778411406, 'wl_mmd_time': 8.24669361114502, 'nspdk_mmd': 0.04709791241511985, 'nspdk_mmd_time': 29.64125895500183, 'degree_mmd': 0.002987556445218642, 'degree_mmd_time': 167.068261, 'cluster_mmd': 0.019547460386375892, 'cluster_mmd_time': 218.67167, 'spectral_mmd': 0.004986517279618408, 'spectral_mmd_time': 291.456412, 'dataset': 'ames_40', 'generator_name': 'gdss'}
+ames_50 gdss
+Now computing structural based metrics
+{'wl_mmd': 0.0005893529792565517, 'wl_mmd_time': 9.804371118545532, 'nspdk_mmd': 0.0449889540807174, 'nspdk_mmd_time': 32.57903718948364, 'degree_mmd': 0.008072592438619353, 'degree_mmd_time': 251.373373, 'cluster_mmd': 0.008007281824442547, 'cluster_mmd_time': 350.112208, 'spectral_mmd': 0.005669412747786984, 'spectral_mmd_time': 492.376412, 'dataset': 'ames_50', 'generator_name': 'gdss'}
+bbb_martins_25 gdss
+Now computing structural based metrics
+{'wl_mmd': 0.005197853789403085, 'wl_mmd_time': 0.9334602355957031, 'nspdk_mmd': 0.06991505177011859, 'nspdk_mmd_time': 5.686318397521973, 'degree_mmd': 0.007558156738664001, 'degree_mmd_time': 16.184584, 'cluster_mmd': 0.14245068685093454, 'cluster_mmd_time': 17.507933, 'spectral_mmd': 0.01576689822764954, 'spectral_mmd_time': 19.619141, 'dataset': 'bbb_martins_25', 'generator_name': 'gdss'}
+bbb_martins_33 gdss
+Now computing structural based metrics
+{'wl_mmd': 0.003174610291925146, 'wl_mmd_time': 1.8178281784057617, 'nspdk_mmd': 0.06472119659686099, 'nspdk_mmd_time': 8.656632423400879, 'degree_mmd': 0.006108250589693887, 'degree_mmd_time': 22.56438, 'cluster_mmd': 0.012736897504339595, 'cluster_mmd_time': 35.432633, 'spectral_mmd': 0.014476540123715465, 'spectral_mmd_time': 28.462071, 'dataset': 'bbb_martins_33', 'generator_name': 'gdss'}
+bbb_martins_40 gdss
+Now computing structural based metrics
+{'wl_mmd': 0.0024120291783272926, 'wl_mmd_time': 3.377685785293579, 'nspdk_mmd': 0.058007300760987535, 'nspdk_mmd_time': 15.323779821395874, 'degree_mmd': 0.001149031073754303, 'degree_mmd_time': 33.173304, 'cluster_mmd': 0.04292755984069352, 'cluster_mmd_time': 36.918755, 'spectral_mmd': 0.011578444782548436, 'spectral_mmd_time': 46.370132, 'dataset': 'bbb_martins_40', 'generator_name': 'gdss'}
+bbb_martins_50 gdss
+Now computing structural based metrics
+{'wl_mmd': 0.0021141670062719293, 'wl_mmd_time': 3.4078917503356934, 'nspdk_mmd': 0.047058391567741276, 'nspdk_mmd_time': 15.624038457870483, 'degree_mmd': 0.0028637819416859056, 'degree_mmd_time': 33.040944, 'cluster_mmd': 0.114130889042243, 'cluster_mmd_time': 38.341634, 'spectral_mmd': 0.014196577505891872, 'spectral_mmd_time': 45.815397, 'dataset': 'bbb_martins_50', 'generator_name': 'gdss'}
+cyp1a2_veith_25 gdss
+Now computing structural based metrics
+{'wl_mmd': 0.0009090909090909091, 'wl_mmd_time': 6.126177787780762, 'nspdk_mmd': 0.07978957303339901, 'nspdk_mmd_time': 26.901407480239868, 'degree_mmd': 0.009211308874639057, 'degree_mmd_time': 88.451533, 'cluster_mmd': 0.013401597860611014, 'cluster_mmd_time': 105.871915, 'spectral_mmd': 0.024916658269111158, 'spectral_mmd_time': 143.440513, 'dataset': 'cyp1a2_veith_25', 'generator_name': 'gdss'}
+cyp1a2_veith_33 gdss
+Now computing structural based metrics
+{'wl_mmd': 0.0006817794641564353, 'wl_mmd_time': 9.779670476913452, 'nspdk_mmd': 0.0732683224025974, 'nspdk_mmd_time': 44.03915190696716, 'degree_mmd': 0.0024626627521111555, 'degree_mmd_time': 161.147638, 'cluster_mmd': 0.02525776031287097, 'cluster_mmd_time': 185.99805, 'spectral_mmd': 0.020817803661091316, 'spectral_mmd_time': 293.692413, 'dataset': 'cyp1a2_veith_33', 'generator_name': 'gdss'}
+cyp1a2_veith_40 gdss
+Now computing structural based metrics
+{'wl_mmd': 0.000568504878225948, 'wl_mmd_time': 12.16465163230896, 'nspdk_mmd': 0.06780465136613995, 'nspdk_mmd_time': 52.466087341308594, 'degree_mmd': 0.0035658433322234284, 'degree_mmd_time': 221.829014, 'cluster_mmd': 0.018720037067537332, 'cluster_mmd_time': 268.629772, 'spectral_mmd': 0.018279273979895816, 'spectral_mmd_time': 401.728364, 'dataset': 'cyp1a2_veith_40', 'generator_name': 'gdss'}
+cyp1a2_veith_50 gdss
+Now computing structural based metrics
+{'wl_mmd': 0.0004544421722335833, 'wl_mmd_time': 16.626686334609985, 'nspdk_mmd': 0.056634439306630646, 'nspdk_mmd_time': 68.47750902175903, 'degree_mmd': 0.0015837220766170557, 'degree_mmd_time': 340.069334, 'cluster_mmd': 0.017242044771856424, 'cluster_mmd_time': 438.821918, 'spectral_mmd': 0.01743462320909228, 'spectral_mmd_time': 573.091794, 'dataset': 'cyp1a2_veith_50', 'generator_name': 'gdss'}
+cyp2c19_veith_25 gdss
+Now computing structural based metrics
+{'wl_mmd': 0.0006779165439853436, 'wl_mmd_time': 11.455039739608765, 'nspdk_mmd': 0.06950978482405507, 'nspdk_mmd_time': 46.33996820449829, 'degree_mmd': 0.0030310353874916096, 'degree_mmd_time': 210.544259, 'cluster_mmd': 0.02226015202490994, 'cluster_mmd_time': 257.142916, 'spectral_mmd': 0.02186726173008391, 'spectral_mmd_time': 339.218403, 'dataset': 'cyp2c19_veith_25', 'generator_name': 'gdss'}
+cyp2c19_veith_33 gdss
+Now computing structural based metrics
+{'wl_mmd': 0.0005716728297923483, 'wl_mmd_time': 14.342026472091675, 'nspdk_mmd': 0.04748944570849434, 'nspdk_mmd_time': 62.153273582458496, 'degree_mmd': 0.0005351551316787884, 'degree_mmd_time': 243.916059, 'cluster_mmd': 0.05309589783541724, 'cluster_mmd_time': 303.345723, 'spectral_mmd': 0.023450107638475215, 'spectral_mmd_time': 412.979238, 'dataset': 'cyp2c19_veith_33', 'generator_name': 'gdss'}
+cyp2c19_veith_40 gdss
+Now computing structural based metrics
+{'wl_mmd': 0.0005644137264908582, 'wl_mmd_time': 15.114798784255981, 'nspdk_mmd': 0.05772009028685249, 'nspdk_mmd_time': 56.469138622283936, 'degree_mmd': 0.0007116286468669131, 'degree_mmd_time': 214.11005, 'cluster_mmd': 0.036101244981430414, 'cluster_mmd_time': 278.173019, 'spectral_mmd': 0.02071781421281993, 'spectral_mmd_time': 393.145833, 'dataset': 'cyp2c19_veith_40', 'generator_name': 'gdss'}
+cyp2c19_veith_50 gdss
+Now computing structural based metrics
+{'wl_mmd': 0.00037078197427054785, 'wl_mmd_time': 26.594542264938354, 'nspdk_mmd': 0.049654358452596525, 'nspdk_mmd_time': 86.8324339389801, 'degree_mmd': 0.003792391578772092, 'degree_mmd_time': 541.855578, 'cluster_mmd': 0.017239424443888263, 'cluster_mmd_time': 733.027483, 'spectral_mmd': 0.02041159158922623, 'spectral_mmd_time': 1118.825064, 'dataset': 'cyp2c19_veith_50', 'generator_name': 'gdss'}
+herg_karim_25 gdss
+Now computing structural based metrics
+{'wl_mmd': 0.0008499787505312367, 'wl_mmd_time': 9.315140008926392, 'nspdk_mmd': 0.06588242715327708, 'nspdk_mmd_time': 48.30667853355408, 'degree_mmd': 0.00047316738927172253, 'degree_mmd_time': 102.857044, 'cluster_mmd': 0.04478986779142269, 'cluster_mmd_time': 136.205943, 'spectral_mmd': 0.033273254174691846, 'spectral_mmd_time': 169.081266, 'dataset': 'herg_karim_25', 'generator_name': 'gdss'}
+herg_karim_33 gdss
+Now computing structural based metrics
+{'wl_mmd': 0.000637551801083838, 'wl_mmd_time': 12.066996097564697, 'nspdk_mmd': 0.09061040622113614, 'nspdk_mmd_time': 54.12866759300232, 'degree_mmd': 0.009171128297481346, 'degree_mmd_time': 170.884674, 'cluster_mmd': 0.004048317067641527, 'cluster_mmd_time': 211.460159, 'spectral_mmd': 0.025705353148213206, 'spectral_mmd_time': 309.909572, 'dataset': 'herg_karim_33', 'generator_name': 'gdss'}
+herg_karim_40 gdss
+Now computing structural based metrics
+{'wl_mmd': 0.00039851222104144525, 'wl_mmd_time': 31.48765778541565, 'nspdk_mmd': 0.07741543151857672, 'nspdk_mmd_time': 122.8482494354248, 'degree_mmd': 0.0016734189595979387, 'degree_mmd_time': 559.263487, 'cluster_mmd': 0.018942449028513053, 'cluster_mmd_time': 775.209136, 'spectral_mmd': 0.02725559628110008, 'spectral_mmd_time': 1212.425348, 'dataset': 'herg_karim_40', 'generator_name': 'gdss'}
+herg_karim_50 gdss
+Now computing structural based metrics
+{'wl_mmd': 0.0003187420314492138, 'wl_mmd_time': 44.00692272186279, 'nspdk_mmd': 0.06595176508471895, 'nspdk_mmd_time': 162.6934039592743, 'degree_mmd': 0.0010066515203590587, 'degree_mmd_time': 880.108656, 'cluster_mmd': 0.01510475964660829, 'cluster_mmd_time': 1214.034801, 'spectral_mmd': 0.027182378178952415, 'spectral_mmd_time': 1953.916028, 'dataset': 'herg_karim_50', 'generator_name': 'gdss'}
+lipophilicity_astrazeneca_25 gdss
+Now computing structural based metrics
+{'wl_mmd': 0.002056438441765015, 'wl_mmd_time': 4.033007383346558, 'nspdk_mmd': 0.08486100720256168, 'nspdk_mmd_time': 29.30963706970215, 'degree_mmd': 0.00218443648747213, 'degree_mmd_time': 35.713157, 'cluster_mmd': 0.04894999772351194, 'cluster_mmd_time': 43.546635, 'spectral_mmd': 0.03367661372191155, 'spectral_mmd_time': 61.666798, 'dataset': 'lipophilicity_astrazeneca_25', 'generator_name': 'gdss'}
+lipophilicity_astrazeneca_33 gdss
+Now computing structural based metrics
+{'wl_mmd': 0.0015747318883207386, 'wl_mmd_time': 9.158076047897339, 'nspdk_mmd': 0.0649448618147429, 'nspdk_mmd_time': 36.69974994659424, 'degree_mmd': 0.0053268330213340764, 'degree_mmd_time': 62.424006, 'cluster_mmd': 0.10310992903066363, 'cluster_mmd_time': 60.260348, 'spectral_mmd': 0.035753874021861254, 'spectral_mmd_time': 89.508998, 'dataset': 'lipophilicity_astrazeneca_33', 'generator_name': 'gdss'}
+lipophilicity_astrazeneca_40 gdss
+Now computing structural based metrics
+{'wl_mmd': 0.001285122744750074, 'wl_mmd_time': 9.80690598487854, 'nspdk_mmd': 0.09539504768646856, 'nspdk_mmd_time': 31.060797929763794, 'degree_mmd': 0.00921704578598126, 'degree_mmd_time': 62.184471, 'cluster_mmd': 0.008594147191694823, 'cluster_mmd_time': 97.026548, 'spectral_mmd': 0.02568278879007857, 'spectral_mmd_time': 139.789516, 'dataset': 'lipophilicity_astrazeneca_40', 'generator_name': 'gdss'}
+lipophilicity_astrazeneca_50 gdss
+Now computing structural based metrics
+{'wl_mmd': 0.001020408163265306, 'wl_mmd_time': 13.876601457595825, 'nspdk_mmd': 0.07482048459642332, 'nspdk_mmd_time': 48.991655111312866, 'degree_mmd': 0.0029624894482283004, 'degree_mmd_time': 114.842307, 'cluster_mmd': 0.00863729714434891, 'cluster_mmd_time': 155.133674, 'spectral_mmd': 0.02337663080870067, 'spectral_mmd_time': 241.601526, 'dataset': 'lipophilicity_astrazeneca_50', 'generator_name': 'gdss'}
+ames_25 jtnn
+Now computing structural based metrics
+{'wl_mmd': 0.0016315696431016173, 'wl_mmd_time': 2.521517515182495, 'nspdk_mmd': 0.24638346097638253, 'nspdk_mmd_time': 9.24246621131897, 'degree_mmd': 0.19164410506547092, 'degree_mmd_time': 35.361787, 'cluster_mmd': 0.00661252341709484, 'cluster_mmd_time': 46.13097, 'spectral_mmd': 0.1850452308634989, 'spectral_mmd_time': 69.197242, 'dataset': 'ames_25', 'generator_name': 'jtnn'}
+ames_33 jtnn
+Now computing structural based metrics
+{'wl_mmd': 0.0011972006568483316, 'wl_mmd_time': 4.166768789291382, 'nspdk_mmd': 0.12724657913105689, 'nspdk_mmd_time': 13.741446018218994, 'degree_mmd': 0.09092123807627628, 'degree_mmd_time': 77.680673, 'cluster_mmd': 0.004435074540322326, 'cluster_mmd_time': 83.691439, 'spectral_mmd': 0.1126706004395821, 'spectral_mmd_time': 127.407534, 'dataset': 'ames_33', 'generator_name': 'jtnn'}
+ames_40 jtnn
+Now computing structural based metrics
+{'wl_mmd': 0.0009972320100538486, 'wl_mmd_time': 5.203523874282837, 'nspdk_mmd': 0.13949762671542285, 'nspdk_mmd_time': 16.20014762878418, 'degree_mmd': 0.08882472693038923, 'degree_mmd_time': 82.331942, 'cluster_mmd': 0.00563160036803767, 'cluster_mmd_time': 119.358363, 'spectral_mmd': 0.11461698908737117, 'spectral_mmd_time': 182.157863, 'dataset': 'ames_40', 'generator_name': 'jtnn'}
+ames_50 jtnn
+Now computing structural based metrics
+{'wl_mmd': 0.0007897593549451409, 'wl_mmd_time': 8.199620008468628, 'nspdk_mmd': 0.15272714230410878, 'nspdk_mmd_time': 20.80915331840515, 'degree_mmd': 0.11775813635786614, 'degree_mmd_time': 141.645734, 'cluster_mmd': 0.004797116969229798, 'cluster_mmd_time': 194.115801, 'spectral_mmd': 0.14152480101195342, 'spectral_mmd_time': 280.358315, 'dataset': 'ames_50', 'generator_name': 'jtnn'}
+bbb_martins_25 jtnn
+Now computing structural based metrics
+{'wl_mmd': 0.005740878016637838, 'wl_mmd_time': 0.8594241142272949, 'nspdk_mmd': 0.1746430677056545, 'nspdk_mmd_time': 4.160798072814941, 'degree_mmd': 0.12290600013298048, 'degree_mmd_time': 14.033282, 'cluster_mmd': 0.0010794986714279808, 'cluster_mmd_time': 15.843723, 'spectral_mmd': 0.17633437773093696, 'spectral_mmd_time': 19.670425, 'dataset': 'bbb_martins_25', 'generator_name': 'jtnn'}
+bbb_martins_33 jtnn
+Now computing structural based metrics
+{'wl_mmd': 0.004376608343776607, 'wl_mmd_time': 1.335592269897461, 'nspdk_mmd': 0.1266783410483596, 'nspdk_mmd_time': 5.858318328857422, 'degree_mmd': 0.08423086614248487, 'degree_mmd_time': 15.136849, 'cluster_mmd': 0.00034986704093564747, 'cluster_mmd_time': 19.087695, 'spectral_mmd': 0.13044850126393182, 'spectral_mmd_time': 22.185266, 'dataset': 'bbb_martins_33', 'generator_name': 'jtnn'}
+bbb_martins_40 jtnn
+Now computing structural based metrics
+{'wl_mmd': 0.003575445412949567, 'wl_mmd_time': 1.4488279819488525, 'nspdk_mmd': 0.26752961837942046, 'nspdk_mmd_time': 5.725411891937256, 'degree_mmd': 0.18375294525970798, 'degree_mmd_time': 17.480235, 'cluster_mmd': 0.0008866949689925185, 'cluster_mmd_time': 20.499412, 'spectral_mmd': 0.2319696457401459, 'spectral_mmd_time': 25.780985, 'dataset': 'bbb_martins_40', 'generator_name': 'jtnn'}
+bbb_martins_50 jtnn
+Now computing structural based metrics
+{'wl_mmd': 0.0028228778612267667, 'wl_mmd_time': 2.122572183609009, 'nspdk_mmd': 0.1150373524333975, 'nspdk_mmd_time': 9.270036220550537, 'degree_mmd': 0.060792530722719285, 'degree_mmd_time': 38.258305, 'cluster_mmd': 0.0009323354882300183, 'cluster_mmd_time': 23.455919, 'spectral_mmd': 0.13361337638312176, 'spectral_mmd_time': 29.802621, 'dataset': 'bbb_martins_50', 'generator_name': 'jtnn'}
+cyp1a2_veith_25 jtnn
+Now computing structural based metrics
+{'wl_mmd': 0.0009175084175084175, 'wl_mmd_time': 7.198637008666992, 'nspdk_mmd': 0.14771523940716905, 'nspdk_mmd_time': 25.04700016975403, 'degree_mmd': 0.09588165226702161, 'degree_mmd_time': 95.0817, 'cluster_mmd': 0.0007908956812843204, 'cluster_mmd_time': 136.211171, 'spectral_mmd': 0.15887130555329887, 'spectral_mmd_time': 212.996267, 'dataset': 'cyp1a2_veith_25', 'generator_name': 'jtnn'}
+cyp1a2_veith_33 jtnn
+Now computing structural based metrics
+{'wl_mmd': 0.00068388480241704, 'wl_mmd_time': 9.851047039031982, 'nspdk_mmd': 0.20190179022298482, 'nspdk_mmd_time': 35.98265051841736, 'degree_mmd': 0.14347783714508022, 'degree_mmd_time': 177.845631, 'cluster_mmd': 0.001179274559035326, 'cluster_mmd_time': 257.6401, 'spectral_mmd': 0.1778613169343124, 'spectral_mmd_time': 398.844923, 'dataset': 'cyp1a2_veith_33', 'generator_name': 'jtnn'}
+cyp1a2_veith_40 jtnn
+Now computing structural based metrics
+{'wl_mmd': 0.0005737748832266887, 'wl_mmd_time': 12.934443473815918, 'nspdk_mmd': 0.12730297574474705, 'nspdk_mmd_time': 47.46999979019165, 'degree_mmd': 0.07709082610263374, 'degree_mmd_time': 243.092956, 'cluster_mmd': 0.0006890074974814642, 'cluster_mmd_time': 379.303945, 'spectral_mmd': 0.11997760203584895, 'spectral_mmd_time': 580.617239, 'dataset': 'cyp1a2_veith_40', 'generator_name': 'jtnn'}
+cyp1a2_veith_50 jtnn
+Now computing structural based metrics
+{'wl_mmd': 0.00045521926213138353, 'wl_mmd_time': 18.085928440093994, 'nspdk_mmd': 0.13630861712518794, 'nspdk_mmd_time': 57.49255323410034, 'degree_mmd': 0.08832240951212866, 'degree_mmd_time': 365.07572, 'cluster_mmd': 0.0007523810791256746, 'cluster_mmd_time': 567.232246, 'spectral_mmd': 0.14272107627667996, 'spectral_mmd_time': 885.07795, 'dataset': 'cyp1a2_veith_50', 'generator_name': 'jtnn'}
+cyp2c19_veith_25 jtnn
+Now computing structural based metrics
+{'wl_mmd': 0.0009110260921524366, 'wl_mmd_time': 6.99676251411438, 'nspdk_mmd': 0.1941776974625618, 'nspdk_mmd_time': 29.16681456565857, 'degree_mmd': 0.12559711209700697, 'degree_mmd_time': 115.723538, 'cluster_mmd': 0.0010109543558822764, 'cluster_mmd_time': 123.55106, 'spectral_mmd': 0.16040221849460634, 'spectral_mmd_time': 142.424798, 'dataset': 'cyp2c19_veith_25', 'generator_name': 'jtnn'}
+cyp2c19_veith_33 jtnn
+Now computing structural based metrics
+{'wl_mmd': 0.000682170217988517, 'wl_mmd_time': 6.015413522720337, 'nspdk_mmd': 0.1749853667262157, 'nspdk_mmd_time': 25.24168300628662, 'degree_mmd': 0.1289423455142913, 'degree_mmd_time': 156.721798, 'cluster_mmd': 0.0007175013538482933, 'cluster_mmd_time': 182.68069, 'spectral_mmd': 0.1863876082125291, 'spectral_mmd_time': 265.034762, 'dataset': 'cyp2c19_veith_33', 'generator_name': 'jtnn'}
+cyp2c19_veith_40 jtnn
+Now computing structural based metrics
+{'wl_mmd': 0.0005683697165056165, 'wl_mmd_time': 8.165362358093262, 'nspdk_mmd': 0.14752935278626766, 'nspdk_mmd_time': 32.218836069107056, 'degree_mmd': 0.07612456237223264, 'degree_mmd_time': 216.397753, 'cluster_mmd': 0.0007954747744105539, 'cluster_mmd_time': 258.293085, 'spectral_mmd': 0.1458717787615338, 'spectral_mmd_time': 392.241668, 'dataset': 'cyp2c19_veith_40', 'generator_name': 'jtnn'}
+cyp2c19_veith_50 jtnn
+Now computing structural based metrics
+{'wl_mmd': 0.00046004745925329825, 'wl_mmd_time': 12.534977674484253, 'nspdk_mmd': 0.11643819260249552, 'nspdk_mmd_time': 46.05669116973877, 'degree_mmd': 0.06429727590216427, 'degree_mmd_time': 348.989762, 'cluster_mmd': 0.0007953420206594508, 'cluster_mmd_time': 764.311331, 'spectral_mmd': 0.14316537047784972, 'spectral_mmd_time': 1142.486459, 'dataset': 'cyp2c19_veith_50', 'generator_name': 'jtnn'}
+herg_karim_25 jtnn
+Now computing structural based metrics
+{'wl_mmd': 0.0008643566863376746, 'wl_mmd_time': 13.285557985305786, 'nspdk_mmd': 0.1780949603158782, 'nspdk_mmd_time': 70.00414991378784, 'degree_mmd': 0.1430075905160555, 'degree_mmd_time': 210.187251, 'cluster_mmd': 0.004744029810576977, 'cluster_mmd_time': 210.561868, 'spectral_mmd': 0.17734561118273962, 'spectral_mmd_time': 174.168981, 'dataset': 'herg_karim_25', 'generator_name': 'jtnn'}
+herg_karim_33 jtnn
+Now computing structural based metrics
+{'wl_mmd': 0.0006442967338752524, 'wl_mmd_time': 7.7208311557769775, 'nspdk_mmd': 0.15840834511033253, 'nspdk_mmd_time': 35.54177188873291, 'degree_mmd': 0.09606422100697265, 'degree_mmd_time': 175.674187, 'cluster_mmd': 0.0045018990353971056, 'cluster_mmd_time': 219.916275, 'spectral_mmd': 0.14868820928991378, 'spectral_mmd_time': 299.575069, 'dataset': 'herg_karim_33', 'generator_name': 'jtnn'}
+herg_karim_40 jtnn
+Now computing structural based metrics
+{'wl_mmd': 0.0005339871295629132, 'wl_mmd_time': 9.555704355239868, 'nspdk_mmd': 0.1764160293579992, 'nspdk_mmd_time': 44.754127740859985, 'degree_mmd': 0.1254127896177668, 'degree_mmd_time': 268.00783, 'cluster_mmd': 0.00453327840341422, 'cluster_mmd_time': 311.67279, 'spectral_mmd': 0.1716281481627122, 'spectral_mmd_time': 448.163155, 'dataset': 'herg_karim_40', 'generator_name': 'jtnn'}
+herg_karim_50 jtnn
+Now computing structural based metrics
+{'wl_mmd': 0.00042815136220688725, 'wl_mmd_time': 12.990607976913452, 'nspdk_mmd': 0.21570868070791835, 'nspdk_mmd_time': 53.81253480911255, 'degree_mmd': 0.16249160562539755, 'degree_mmd_time': 385.166909, 'cluster_mmd': 0.004103256898234875, 'cluster_mmd_time': 495.664339, 'spectral_mmd': 0.1942474920043522, 'spectral_mmd_time': 725.750495, 'dataset': 'herg_karim_50', 'generator_name': 'jtnn'}
+lipophilicity_astrazeneca_25 jtnn
+Now computing structural based metrics
+{'wl_mmd': 0.0027494331065759637, 'wl_mmd_time': 1.22768235206604, 'nspdk_mmd': 0.21908237174720654, 'nspdk_mmd_time': 6.560873985290527, 'degree_mmd': 0.1155361188553925, 'degree_mmd_time': 20.649422, 'cluster_mmd': 0.0016909814712908755, 'cluster_mmd_time': 23.571464, 'spectral_mmd': 0.17826109759112607, 'spectral_mmd_time': 27.856836, 'dataset': 'lipophilicity_astrazeneca_25', 'generator_name': 'jtnn'}
+lipophilicity_astrazeneca_33 jtnn
+Now computing structural based metrics
+{'wl_mmd': 0.0020853708895698857, 'wl_mmd_time': 1.6182069778442383, 'nspdk_mmd': 0.2748437545496722, 'nspdk_mmd_time': 8.152813196182251, 'degree_mmd': 0.19369362455615247, 'degree_mmd_time': 28.209418, 'cluster_mmd': 0.0009962012323234681, 'cluster_mmd_time': 31.569004, 'spectral_mmd': 0.21022319374830456, 'spectral_mmd_time': 46.732452, 'dataset': 'lipophilicity_astrazeneca_33', 'generator_name': 'jtnn'}
+lipophilicity_astrazeneca_40 jtnn
+Now computing structural based metrics
+{'wl_mmd': 0.0017057721292109656, 'wl_mmd_time': 2.4238665103912354, 'nspdk_mmd': 0.16122087364727275, 'nspdk_mmd_time': 11.160419702529907, 'degree_mmd': 0.10318888826044592, 'degree_mmd_time': 37.468584, 'cluster_mmd': 0.002577256984470644, 'cluster_mmd_time': 41.012322, 'spectral_mmd': 0.13457980192441688, 'spectral_mmd_time': 51.93989, 'dataset': 'lipophilicity_astrazeneca_40', 'generator_name': 'jtnn'}
+lipophilicity_astrazeneca_50 jtnn
+Now computing structural based metrics
+{'wl_mmd': 0.0013713571122989624, 'wl_mmd_time': 2.7623751163482666, 'nspdk_mmd': 0.21364670200125654, 'nspdk_mmd_time': 13.318505764007568, 'degree_mmd': 0.15747303401344181, 'degree_mmd_time': 66.323061, 'cluster_mmd': 0.0014795333594865845, 'cluster_mmd_time': 56.9737, 'spectral_mmd': 0.19987146795952704, 'spectral_mmd_time': 74.719855, 'dataset': 'lipophilicity_astrazeneca_50', 'generator_name': 'jtnn'}
+ames_25 swingnn
+Now computing structural based metrics
+{'wl_mmd': 0.001574189487561363, 'wl_mmd_time': 2.417893409729004, 'nspdk_mmd': 0.030277269060659306, 'nspdk_mmd_time': 9.828493118286133, 'degree_mmd': 0.010087721030628716, 'degree_mmd_time': 39.599615, 'cluster_mmd': 9.157355756217456e-05, 'cluster_mmd_time': 45.406567, 'spectral_mmd': 0.011818812235589116, 'spectral_mmd_time': 58.379892, 'dataset': 'ames_25', 'generator_name': 'swingnn'}
+ames_33 swingnn
+Now computing structural based metrics
+{'wl_mmd': 0.0011802942063540158, 'wl_mmd_time': 3.5192010402679443, 'nspdk_mmd': 0.03700061786724873, 'nspdk_mmd_time': 13.273321151733398, 'degree_mmd': 0.013351065418405472, 'degree_mmd_time': 60.653764, 'cluster_mmd': 0.002472444664028517, 'cluster_mmd_time': 71.760179, 'spectral_mmd': 0.010985862936099045, 'spectral_mmd_time': 94.242633, 'dataset': 'ames_33', 'generator_name': 'swingnn'}
+ames_40 swingnn
+Now computing structural based metrics
+{'wl_mmd': 0.0009866992743111603, 'wl_mmd_time': 4.553937673568726, 'nspdk_mmd': 0.018196072805137353, 'nspdk_mmd_time': 17.015310764312744, 'degree_mmd': 0.006184081623654469, 'degree_mmd_time': 80.430106, 'cluster_mmd': 0.0014081493524689126, 'cluster_mmd_time': 113.4724, 'spectral_mmd': 0.005412617958366894, 'spectral_mmd_time': 130.135993, 'dataset': 'ames_40', 'generator_name': 'swingnn'}
+ames_50 swingnn
+Now computing structural based metrics
+{'wl_mmd': 0.0007861646152683737, 'wl_mmd_time': 7.069779396057129, 'nspdk_mmd': 0.016293410547610854, 'nspdk_mmd_time': 21.737830877304077, 'degree_mmd': 0.006595904758991189, 'degree_mmd_time': 116.680103, 'cluster_mmd': 0.00013464194719414735, 'cluster_mmd_time': 145.907332, 'spectral_mmd': 0.005091839172000956, 'spectral_mmd_time': 197.534251, 'dataset': 'ames_50', 'generator_name': 'swingnn'}
+bbb_martins_25 swingnn
+Now computing structural based metrics
+{'wl_mmd': 0.005657810499359796, 'wl_mmd_time': 0.8311336040496826, 'nspdk_mmd': 0.03504243461012346, 'nspdk_mmd_time': 3.894758462905884, 'degree_mmd': 0.010387870397258414, 'degree_mmd_time': 16.823805, 'cluster_mmd': 0.0005551911013774724, 'cluster_mmd_time': 17.721412, 'spectral_mmd': 0.012690496692464137, 'spectral_mmd_time': 19.169497, 'dataset': 'bbb_martins_25', 'generator_name': 'swingnn'}
+bbb_martins_33 swingnn
+Now computing structural based metrics
+{'wl_mmd': 0.004246361066909487, 'wl_mmd_time': 0.9043519496917725, 'nspdk_mmd': 0.07466972134548233, 'nspdk_mmd_time': 4.553735256195068, 'degree_mmd': 0.03235983454580715, 'degree_mmd_time': 18.639104, 'cluster_mmd': 0.0001388454958104468, 'cluster_mmd_time': 30.968766, 'spectral_mmd': 0.047806039585981175, 'spectral_mmd_time': 22.048671, 'dataset': 'bbb_martins_33', 'generator_name': 'swingnn'}
+bbb_martins_40 swingnn
+Now computing structural based metrics
+{'wl_mmd': 0.0035242318106167873, 'wl_mmd_time': 1.207998514175415, 'nspdk_mmd': 0.05239701460227564, 'nspdk_mmd_time': 5.833009243011475, 'degree_mmd': 0.016141021632443353, 'degree_mmd_time': 20.129431, 'cluster_mmd': 0.0007320763275369124, 'cluster_mmd_time': 21.674994, 'spectral_mmd': 0.027924768542528122, 'spectral_mmd_time': 24.403184, 'dataset': 'bbb_martins_40', 'generator_name': 'swingnn'}
+bbb_martins_50 swingnn
+Now computing structural based metrics
+{'wl_mmd': 0.0028208800827564254, 'wl_mmd_time': 1.8307182788848877, 'nspdk_mmd': 0.01606634732229556, 'nspdk_mmd_time': 8.818634271621704, 'degree_mmd': 0.0037042849331079264, 'degree_mmd_time': 26.063549, 'cluster_mmd': 0.0006000718224747903, 'cluster_mmd_time': 28.123146, 'spectral_mmd': 0.006499901535328645, 'spectral_mmd_time': 29.094517, 'dataset': 'bbb_martins_50', 'generator_name': 'swingnn'}
+cyp1a2_veith_25 swingnn
+Now computing structural based metrics
+{'wl_mmd': 0.0009088843913923424, 'wl_mmd_time': 5.76710844039917, 'nspdk_mmd': 0.0741115454224539, 'nspdk_mmd_time': 24.006457567214966, 'degree_mmd': 0.01993829871633057, 'degree_mmd_time': 91.325936, 'cluster_mmd': 0.00040420359970161357, 'cluster_mmd_time': 108.94608, 'spectral_mmd': 0.036028303061163, 'spectral_mmd_time': 148.272159, 'dataset': 'cyp1a2_veith_25', 'generator_name': 'swingnn'}
+cyp1a2_veith_33 swingnn
+Now computing structural based metrics
+{'wl_mmd': 0.0006818957492297577, 'wl_mmd_time': 8.84084677696228, 'nspdk_mmd': 0.044052434424191766, 'nspdk_mmd_time': 35.49496054649353, 'degree_mmd': 0.010854865499947852, 'degree_mmd_time': 164.036345, 'cluster_mmd': 0.00013282427345395753, 'cluster_mmd_time': 195.706726, 'spectral_mmd': 0.01956666047461164, 'spectral_mmd_time': 293.382697, 'dataset': 'cyp1a2_veith_33', 'generator_name': 'swingnn'}
+cyp1a2_veith_40 swingnn
+Now computing structural based metrics
+{'wl_mmd': 0.00056826254876127, 'wl_mmd_time': 10.913915395736694, 'nspdk_mmd': 0.053199201877476066, 'nspdk_mmd_time': 44.63400888442993, 'degree_mmd': 0.014675045905143014, 'degree_mmd_time': 231.01173, 'cluster_mmd': 0.00022644578799146942, 'cluster_mmd_time': 281.594929, 'spectral_mmd': 0.022833569502778817, 'spectral_mmd_time': 398.036365, 'dataset': 'cyp1a2_veith_40', 'generator_name': 'swingnn'}
+cyp1a2_veith_50 swingnn
+Now computing structural based metrics
+{'wl_mmd': 0.00045428738947737293, 'wl_mmd_time': 15.280494213104248, 'nspdk_mmd': 0.044018981378096234, 'nspdk_mmd_time': 57.076797008514404, 'degree_mmd': 0.012299812350340833, 'degree_mmd_time': 331.851774, 'cluster_mmd': 0.00036973275011198403, 'cluster_mmd_time': 421.045249, 'spectral_mmd': 0.01562592494467352, 'spectral_mmd_time': 599.795222, 'dataset': 'cyp1a2_veith_50', 'generator_name': 'swingnn'}
+cyp2c19_veith_25 swingnn
+Now computing structural based metrics
+{'wl_mmd': 0.0009211713550485767, 'wl_mmd_time': 5.85844874382019, 'nspdk_mmd': 0.06553755022082713, 'nspdk_mmd_time': 24.807961225509644, 'degree_mmd': 0.016506275915701307, 'degree_mmd_time': 90.974063, 'cluster_mmd': 0.0003657643453569559, 'cluster_mmd_time': 110.822704, 'spectral_mmd': 0.02837998550377918, 'spectral_mmd_time': 155.145008, 'dataset': 'cyp2c19_veith_25', 'generator_name': 'swingnn'}
+cyp2c19_veith_33 swingnn
+Now computing structural based metrics
+{'wl_mmd': 0.000728729537916523, 'wl_mmd_time': 9.719142436981201, 'nspdk_mmd': 0.05351861060633323, 'nspdk_mmd_time': 33.208390951156616, 'degree_mmd': 0.015811974844421206, 'degree_mmd_time': 134.739623, 'cluster_mmd': 0.0002535046918583639, 'cluster_mmd_time': 169.790821, 'spectral_mmd': 0.024111931359167116, 'spectral_mmd_time': 232.440695, 'dataset': 'cyp2c19_veith_33', 'generator_name': 'swingnn'}
+cyp2c19_veith_40 swingnn
+Now computing structural based metrics
+{'wl_mmd': 0.000564652783573227, 'wl_mmd_time': 11.176429986953735, 'nspdk_mmd': 0.051948698730168885, 'nspdk_mmd_time': 45.18972086906433, 'degree_mmd': 0.01256355391040076, 'degree_mmd_time': 225.078715, 'cluster_mmd': 0.0005108715493271632, 'cluster_mmd_time': 272.62746, 'spectral_mmd': 0.025583174537457065, 'spectral_mmd_time': 418.222918, 'dataset': 'cyp2c19_veith_40', 'generator_name': 'swingnn'}
+cyp2c19_veith_50 swingnn
+Now computing structural based metrics
+{'wl_mmd': 0.00045716956921367565, 'wl_mmd_time': 14.23117208480835, 'nspdk_mmd': 0.07830906244597324, 'nspdk_mmd_time': 56.328346252441406, 'degree_mmd': 0.015599465860384631, 'degree_mmd_time': 325.728559, 'cluster_mmd': 0.0075212538261757445, 'cluster_mmd_time': 421.370024, 'spectral_mmd': 0.028906336743625083, 'spectral_mmd_time': 605.430358, 'dataset': 'cyp2c19_veith_50', 'generator_name': 'swingnn'}
+herg_karim_25 swingnn
+Now computing structural based metrics
+{'wl_mmd': 0.0008499787505312367, 'wl_mmd_time': 8.427278518676758, 'nspdk_mmd': 0.06268373032638269, 'nspdk_mmd_time': 36.52447867393494, 'degree_mmd': 0.013065157361216162, 'degree_mmd_time': 115.581826, 'cluster_mmd': 0.0023508159652567695, 'cluster_mmd_time': 124.393162, 'spectral_mmd': 0.01836707340328747, 'spectral_mmd_time': 170.094535, 'dataset': 'herg_karim_25', 'generator_name': 'swingnn'}
+herg_karim_33 swingnn
+Now computing structural based metrics
+{'wl_mmd': 0.000637551801083838, 'wl_mmd_time': 11.611183166503906, 'nspdk_mmd': 0.07770065753418492, 'nspdk_mmd_time': 50.10966968536377, 'degree_mmd': 0.019387997381792088, 'degree_mmd_time': 174.10998, 'cluster_mmd': 0.0018026142934899347, 'cluster_mmd_time': 236.706293, 'spectral_mmd': 0.022515174904841784, 'spectral_mmd_time': 314.936531, 'dataset': 'herg_karim_33', 'generator_name': 'swingnn'}
+herg_karim_40 swingnn
+Now computing structural based metrics
+{'wl_mmd': 0.0005302250785778947, 'wl_mmd_time': 14.676080465316772, 'nspdk_mmd': 0.06879049711883789, 'nspdk_mmd_time': 68.68196940422058, 'degree_mmd': 0.01547284355992029, 'degree_mmd_time': 256.776742, 'cluster_mmd': 0.0011053098403155381, 'cluster_mmd_time': 317.719473, 'spectral_mmd': 0.019336129394429857, 'spectral_mmd_time': 432.935939, 'dataset': 'herg_karim_40', 'generator_name': 'swingnn'}
+herg_karim_50 swingnn
+Now computing structural based metrics
+{'wl_mmd': 0.00042498937526561835, 'wl_mmd_time': 20.66943120956421, 'nspdk_mmd': 0.03701329066708009, 'nspdk_mmd_time': 83.68965721130371, 'degree_mmd': 0.008614301959394721, 'degree_mmd_time': 404.519997, 'cluster_mmd': 0.0011574892301224882, 'cluster_mmd_time': 531.189568, 'spectral_mmd': 0.009363117220483108, 'spectral_mmd_time': 732.732926, 'dataset': 'herg_karim_50', 'generator_name': 'swingnn'}
+lipophilicity_astrazeneca_25 swingnn
+Now computing structural based metrics
+{'wl_mmd': 0.0027552443571570886, 'wl_mmd_time': 1.3527805805206299, 'nspdk_mmd': 0.23462150711773833, 'nspdk_mmd_time': 6.673519849777222, 'degree_mmd': 0.0819361849376592, 'degree_mmd_time': 21.300239, 'cluster_mmd': 0.0013696072027025163, 'cluster_mmd_time': 27.50671, 'spectral_mmd': 0.14125500750668452, 'spectral_mmd_time': 28.320398, 'dataset': 'lipophilicity_astrazeneca_25', 'generator_name': 'swingnn'}
+lipophilicity_astrazeneca_33 swingnn
+Now computing structural based metrics
+{'wl_mmd': 0.0020408163265306124, 'wl_mmd_time': 2.8276171684265137, 'nspdk_mmd': 0.04477930883869735, 'nspdk_mmd_time': 12.572325229644775, 'degree_mmd': 0.010344794269476099, 'degree_mmd_time': 27.527899, 'cluster_mmd': 0.00025565685887807277, 'cluster_mmd_time': 32.146883, 'spectral_mmd': 0.010568174080088033, 'spectral_mmd_time': 40.827, 'dataset': 'lipophilicity_astrazeneca_33', 'generator_name': 'swingnn'}
+lipophilicity_astrazeneca_40 swingnn
+Now computing structural based metrics
+{'wl_mmd': 0.001723702581469269, 'wl_mmd_time': 3.3262956142425537, 'nspdk_mmd': 0.056296802726074624, 'nspdk_mmd_time': 14.475135326385498, 'degree_mmd': 0.0119147964221471, 'degree_mmd_time': 32.956742, 'cluster_mmd': 0.0020180466835739708, 'cluster_mmd_time': 40.228459, 'spectral_mmd': 0.016496509780641988, 'spectral_mmd_time': 51.094532, 'dataset': 'lipophilicity_astrazeneca_40', 'generator_name': 'swingnn'}
+lipophilicity_astrazeneca_50 swingnn
+Now computing structural based metrics
+{'wl_mmd': 0.0013605442176870747, 'wl_mmd_time': 4.282389879226685, 'nspdk_mmd': 0.07916486794136318, 'nspdk_mmd_time': 18.3303804397583, 'degree_mmd': 0.01778510522011767, 'degree_mmd_time': 46.641814, 'cluster_mmd': 0.0004530048457089819, 'cluster_mmd_time': 59.150759, 'spectral_mmd': 0.018631969157621553, 'spectral_mmd_time': 88.00239, 'dataset': 'lipophilicity_astrazeneca_50', 'generator_name': 'swingnn'}
+ames_25
+Now computing classifier based metrics
+Now computing structural based metrics
+{'activations_time': 0.205826997756958, 'fid': -2.2567547830476542e-08, 'fid_time': 0.22293400764465332, 'kid': -0.8460189, 'kid_time': 0.2536158561706543, 'precision': 1.0, 'recall': 1.0, 'f1_pr': 1.00001, 'precision_time': 0.5248329639434814, 'recall_time': 0.5248329639434814, 'f1_pr_time': 0.5248329639434814, 'density': 1.2000000000000002, 'coverage': 1.0, 'f1_dc': 1.090919173552968, 'density_time': 0.5214190483093262, 'coverage_time': 0.5214190483093262, 'f1_dc_time': 0.5214190483093262, 'mmd_rbf': 0, 'mmd_rbf_time': 2.4878199100494385, 'mmd_linear': 0.0, 'mmd_linear_time': 0.2059192657470703, 'wl_mmd': 0.0015710919088766694, 'wl_mmd_time': 1.4966740608215332, 'nspdk_mmd': 0.0, 'nspdk_mmd_time': 17.289324045181274, 'degree_mmd': 0.0, 'degree_mmd_time': 15.477958, 'cluster_mmd': 0.0, 'cluster_mmd_time': 47.859157, 'spectral_mmd': 0.0, 'spectral_mmd_time': 27.999799, 'dataset': 'ames_25', 'generator_name': 'train1'}
+ames_33
+Now computing classifier based metrics
+Now computing structural based metrics
+{'activations_time': 0.24080777168273926, 'fid': 6.881037961647962e-10, 'fid_time': 0.2491168975830078, 'kid': -0.23837739, 'kid_time': 0.3392479419708252, 'precision': 1.0, 'recall': 1.0, 'f1_pr': 1.00001, 'precision_time': 0.914212703704834, 'recall_time': 0.914212703704834, 'f1_pr_time': 0.914212703704834, 'density': 1.2000000000000002, 'coverage': 1.0, 'f1_dc': 1.090919173552968, 'density_time': 3.284050703048706, 'coverage_time': 3.284050703048706, 'f1_dc_time': 3.284050703048706, 'mmd_rbf': 0, 'mmd_rbf_time': 1.2582507133483887, 'mmd_linear': 0.0, 'mmd_linear_time': 0.2409217357635498, 'wl_mmd': 0.001177856301531213, 'wl_mmd_time': 1.722851037979126, 'nspdk_mmd': 0.0, 'nspdk_mmd_time': 12.112498760223389, 'degree_mmd': 0.0, 'degree_mmd_time': 39.258483, 'cluster_mmd': 0.0, 'cluster_mmd_time': 32.227426, 'spectral_mmd': 0.0, 'spectral_mmd_time': 62.891102, 'dataset': 'ames_33', 'generator_name': 'train1'}
+ames_40
+Now computing classifier based metrics
+Now computing structural based metrics
+{'activations_time': 0.1548290252685547, 'fid': -2.76931189091556e-08, 'fid_time': 0.15934514999389648, 'kid': -0.032761216, 'kid_time': 0.2252957820892334, 'precision': 1.0, 'recall': 1.0, 'f1_pr': 1.00001, 'precision_time': 0.6064281463623047, 'recall_time': 0.6064281463623047, 'f1_pr_time': 0.6064281463623047, 'density': 1.2001964636542242, 'coverage': 1.0, 'f1_dc': 1.0910003497796583, 'density_time': 0.3964881896972656, 'coverage_time': 0.3964881896972656, 'f1_dc_time': 0.3964881896972656, 'mmd_rbf': 0, 'mmd_rbf_time': 5.656976938247681, 'mmd_linear': 0.0, 'mmd_linear_time': 0.1549549102783203, 'wl_mmd': 0.0009823182711198428, 'wl_mmd_time': 2.0082528591156006, 'nspdk_mmd': 0.0, 'nspdk_mmd_time': 13.197003841400146, 'degree_mmd': 0.0, 'degree_mmd_time': 46.49563, 'cluster_mmd': 0.0, 'cluster_mmd_time': 58.849861, 'spectral_mmd': 0.0, 'spectral_mmd_time': 77.284415, 'dataset': 'ames_40', 'generator_name': 'train1'}
+ames_50
+Now computing classifier based metrics
+Now computing structural based metrics
+{'activations_time': 0.19742774963378906, 'fid': 2.0566318426062935e-08, 'fid_time': 0.24024677276611328, 'kid': -0.2125438, 'kid_time': 0.27190685272216797, 'precision': 1.0, 'recall': 1.0, 'f1_pr': 1.00001, 'precision_time': 0.9661579132080078, 'recall_time': 0.9661579132080078, 'f1_pr_time': 0.9661579132080078, 'density': 1.2003926187671772, 'coverage': 1.0, 'f1_dc': 1.0910813840596132, 'density_time': 0.647559642791748, 'coverage_time': 0.647559642791748, 'f1_dc_time': 0.647559642791748, 'mmd_rbf': 0, 'mmd_rbf_time': 1.4585566520690918, 'mmd_linear': 0.0, 'mmd_linear_time': 0.19755887985229492, 'wl_mmd': 0.0007852375343541421, 'wl_mmd_time': 8.639328002929688, 'nspdk_mmd': 0.0, 'nspdk_mmd_time': 15.819655179977417, 'degree_mmd': 0.0, 'degree_mmd_time': 62.762117, 'cluster_mmd': 0.0, 'cluster_mmd_time': 77.539929, 'spectral_mmd': 0.0, 'spectral_mmd_time': 148.106226, 'dataset': 'ames_50', 'generator_name': 'train1'}
+bbb_martins_25
+Now computing classifier based metrics
+Now computing structural based metrics
+{'activations_time': 0.03286409378051758, 'fid': -2.585545644251397e-08, 'fid_time': 0.0642859935760498, 'kid': -0.5095477, 'kid_time': 0.12533807754516602, 'precision': 1.0, 'recall': 1.0, 'f1_pr': 1.00001, 'precision_time': 0.26436901092529297, 'recall_time': 0.26436901092529297, 'f1_pr_time': 0.26436901092529297, 'density': 1.2000000000000002, 'coverage': 1.0, 'f1_dc': 1.090919173552968, 'density_time': 0.12074899673461914, 'coverage_time': 0.12074899673461914, 'f1_dc_time': 0.12074899673461914, 'mmd_rbf': 0, 'mmd_rbf_time': 0.19306087493896484, 'mmd_linear': 0.0, 'mmd_linear_time': 0.03290820121765137, 'wl_mmd': 0.005633802816901409, 'wl_mmd_time': 0.39617085456848145, 'nspdk_mmd': 0.0, 'nspdk_mmd_time': 3.07886004447937, 'degree_mmd': 0.0, 'degree_mmd_time': 7.918833, 'cluster_mmd': 0.0, 'cluster_mmd_time': 11.5761, 'spectral_mmd': 0.0, 'spectral_mmd_time': 22.151753, 'dataset': 'bbb_martins_25', 'generator_name': 'train1'}
+bbb_martins_33
+Now computing classifier based metrics
+Now computing structural based metrics
+{'activations_time': 0.04849696159362793, 'fid': -6.620638259846601e-09, 'fid_time': 0.07500505447387695, 'kid': -0.056058407, 'kid_time': 0.12269401550292969, 'precision': 1.0, 'recall': 1.0, 'f1_pr': 1.00001, 'precision_time': 0.13673925399780273, 'recall_time': 0.13673925399780273, 'f1_pr_time': 0.13673925399780273, 'density': 1.2016913319238902, 'coverage': 1.0, 'f1_dc': 1.0916175354260755, 'density_time': 0.1380159854888916, 'coverage_time': 0.1380159854888916, 'f1_dc_time': 0.1380159854888916, 'mmd_rbf': 0, 'mmd_rbf_time': 0.18117690086364746, 'mmd_linear': 0.0, 'mmd_linear_time': 0.0485529899597168, 'wl_mmd': 0.004228329809725159, 'wl_mmd_time': 0.5417280197143555, 'nspdk_mmd': 0.0, 'nspdk_mmd_time': 4.183074235916138, 'degree_mmd': 0.0, 'degree_mmd_time': 8.827914, 'cluster_mmd': 0.0, 'cluster_mmd_time': 12.738969, 'spectral_mmd': 0.0, 'spectral_mmd_time': 15.425671, 'dataset': 'bbb_martins_33', 'generator_name': 'train1'}
+bbb_martins_40
+Now computing classifier based metrics
+Now computing structural based metrics
+{'activations_time': 0.05020499229431152, 'fid': -7.612641184095992e-09, 'fid_time': 0.08136701583862305, 'kid': -0.4359697, 'kid_time': 0.09732580184936523, 'precision': 1.0, 'recall': 1.0, 'f1_pr': 1.00001, 'precision_time': 0.24536514282226562, 'recall_time': 0.24536514282226562, 'f1_pr_time': 0.24536514282226562, 'density': 1.202112676056338, 'coverage': 1.0, 'f1_dc': 1.091791344230836, 'density_time': 0.1654651165008545, 'coverage_time': 0.1654651165008545, 'f1_dc_time': 0.1654651165008545, 'mmd_rbf': 0, 'mmd_rbf_time': 0.39113283157348633, 'mmd_linear': 0.0, 'mmd_linear_time': 0.050261735916137695, 'wl_mmd': 0.0035211267605633804, 'wl_mmd_time': 0.6560261249542236, 'nspdk_mmd': 0.0, 'nspdk_mmd_time': 14.256664752960205, 'degree_mmd': 0.0, 'degree_mmd_time': 11.147292, 'cluster_mmd': 0.0, 'cluster_mmd_time': 10.249823, 'spectral_mmd': 0.0, 'spectral_mmd_time': 12.999628, 'dataset': 'bbb_martins_40', 'generator_name': 'train1'}
+bbb_martins_50
+Now computing classifier based metrics
+Now computing structural based metrics
+{'activations_time': 0.06966185569763184, 'fid': -2.8705926524708048e-12, 'fid_time': 0.10482072830200195, 'kid': -0.049772978, 'kid_time': 0.1044306755065918, 'precision': 1.0, 'recall': 1.0, 'f1_pr': 1.00001, 'precision_time': 0.227586030960083, 'recall_time': 0.227586030960083, 'f1_pr_time': 0.227586030960083, 'density': 1.2022535211267606, 'coverage': 1.0, 'f1_dc': 1.0918494294449361, 'density_time': 0.1680757999420166, 'coverage_time': 0.1680757999420166, 'f1_dc_time': 0.1680757999420166, 'mmd_rbf': 0, 'mmd_rbf_time': 0.28038716316223145, 'mmd_linear': 0.0, 'mmd_linear_time': 0.06972122192382812, 'wl_mmd': 0.0028169014084507044, 'wl_mmd_time': 0.869377851486206, 'nspdk_mmd': 0.0, 'nspdk_mmd_time': 6.44892692565918, 'degree_mmd': 0.0, 'degree_mmd_time': 10.689351, 'cluster_mmd': 0.0, 'cluster_mmd_time': 25.649377, 'spectral_mmd': 0.0, 'spectral_mmd_time': 24.687299, 'dataset': 'bbb_martins_50', 'generator_name': 'train1'}
+cyp1a2_veith_25
+Now computing classifier based metrics
+Now computing structural based metrics
+{'activations_time': 0.1798110008239746, 'fid': -3.1735680749989115e-10, 'fid_time': 0.240311861038208, 'kid': -1.5531632, 'kid_time': 0.23453617095947266, 'precision': 1.0, 'recall': 1.0, 'f1_pr': 1.00001, 'precision_time': 0.9290521144866943, 'recall_time': 0.9290521144866943, 'f1_pr_time': 0.9290521144866943, 'density': 1.200090909090909, 'coverage': 1.0, 'f1_dc': 1.0909567378090859, 'density_time': 0.7323713302612305, 'coverage_time': 0.7323713302612305, 'f1_dc_time': 0.7323713302612305, 'mmd_rbf': 0, 'mmd_rbf_time': 1.2703118324279785, 'mmd_linear': 0.0, 'mmd_linear_time': 0.1799302101135254, 'wl_mmd': 0.0009090909090909091, 'wl_mmd_time': 9.822394847869873, 'nspdk_mmd': 0.0, 'nspdk_mmd_time': 28.61309289932251, 'degree_mmd': 0.0, 'degree_mmd_time': 51.811833, 'cluster_mmd': 0.0, 'cluster_mmd_time': 64.845005, 'spectral_mmd': 0.0, 'spectral_mmd_time': 88.095228, 'dataset': 'cyp1a2_veith_25', 'generator_name': 'train1'}
+cyp1a2_veith_33
+Now computing classifier based metrics
+Now computing structural based metrics
+{'activations_time': 0.638718843460083, 'fid': -6.902212135173613e-10, 'fid_time': 0.6454226970672607, 'kid': -0.40149614, 'kid_time': 0.7266998291015625, 'precision': 1.0, 'recall': 1.0, 'f1_pr': 1.00001, 'precision_time': 1.4460399150848389, 'recall_time': 1.4460399150848389, 'f1_pr_time': 1.4460399150848389, 'density': 1.2000000000000002, 'coverage': 1.0, 'f1_dc': 1.090919173552968, 'density_time': 1.2945258617401123, 'coverage_time': 1.2945258617401123, 'f1_dc_time': 1.2945258617401123, 'mmd_rbf': 0, 'mmd_rbf_time': 2.1574249267578125, 'mmd_linear': 0.0, 'mmd_linear_time': 0.6388678550720215, 'wl_mmd': 0.0006816632583503749, 'wl_mmd_time': 11.253275871276855, 'nspdk_mmd': 0.0, 'nspdk_mmd_time': 28.695646047592163, 'degree_mmd': 0.0, 'degree_mmd_time': 74.651917, 'cluster_mmd': 0.0, 'cluster_mmd_time': 95.237969, 'spectral_mmd': 0.0, 'spectral_mmd_time': 177.498493, 'dataset': 'cyp1a2_veith_33', 'generator_name': 'train1'}
+cyp1a2_veith_40
+Now computing classifier based metrics
+Now computing structural based metrics
+{'activations_time': 0.3030579090118408, 'fid': 1.2336244026300847e-08, 'fid_time': 0.3177947998046875, 'kid': -0.8088579, 'kid_time': 0.4802849292755127, 'precision': 1.0, 'recall': 1.0, 'f1_pr': 1.00001, 'precision_time': 1.409388780593872, 'recall_time': 1.409388780593872, 'f1_pr_time': 1.409388780593872, 'density': 1.2000000000000002, 'coverage': 1.0, 'f1_dc': 1.090919173552968, 'density_time': 0.8906700611114502, 'coverage_time': 0.8906700611114502, 'f1_dc_time': 0.8906700611114502, 'mmd_rbf': 0, 'mmd_rbf_time': 2.368765115737915, 'mmd_linear': 0.0, 'mmd_linear_time': 0.30323100090026855, 'wl_mmd': 0.0005683432793407218, 'wl_mmd_time': 7.013735055923462, 'nspdk_mmd': 0.0, 'nspdk_mmd_time': 42.09793305397034, 'degree_mmd': 0.0, 'degree_mmd_time': 91.410418, 'cluster_mmd': 0.0, 'cluster_mmd_time': 170.564814, 'spectral_mmd': 0.0, 'spectral_mmd_time': 179.972998, 'dataset': 'cyp1a2_veith_40', 'generator_name': 'train1'}
+cyp1a2_veith_50
+Now computing classifier based metrics
+Now computing structural based metrics
+{'activations_time': 0.3604710102081299, 'fid': 1.212754341395339e-09, 'fid_time': 0.3748311996459961, 'kid': -0.59077394, 'kid_time': 0.48902392387390137, 'precision': 1.0, 'recall': 1.0, 'f1_pr': 1.00001, 'precision_time': 1.4258549213409424, 'recall_time': 1.4258549213409424, 'f1_pr_time': 1.4258549213409424, 'density': 1.2000908884344468, 'coverage': 1.0, 'f1_dc': 1.0909567292740474, 'density_time': 0.9535579681396484, 'coverage_time': 0.9535579681396484, 'f1_dc_time': 0.9535579681396484, 'mmd_rbf': 0, 'mmd_rbf_time': 2.7520389556884766, 'mmd_linear': 0.0, 'mmd_linear_time': 0.3606750965118408, 'wl_mmd': 0.0004544421722335833, 'wl_mmd_time': 7.124085903167725, 'nspdk_mmd': 0.0, 'nspdk_mmd_time': 39.757445096969604, 'degree_mmd': 0.0, 'degree_mmd_time': 104.63991, 'cluster_mmd': 0.0, 'cluster_mmd_time': 172.446593, 'spectral_mmd': 0.0, 'spectral_mmd_time': 256.614146, 'dataset': 'cyp1a2_veith_50', 'generator_name': 'train1'}
+cyp2c19_veith_25
+Now computing classifier based metrics
+Now computing structural based metrics
+{'activations_time': 0.18158888816833496, 'fid': -3.1818103707337286e-11, 'fid_time': 0.18471598625183105, 'kid': -0.39742526, 'kid_time': 0.25891590118408203, 'precision': 1.0, 'recall': 1.0, 'f1_pr': 1.00001, 'precision_time': 0.5313007831573486, 'recall_time': 0.5313007831573486, 'f1_pr_time': 0.5313007831573486, 'density': 1.2000000000000002, 'coverage': 1.0, 'f1_dc': 1.090919173552968, 'density_time': 0.3925929069519043, 'coverage_time': 0.3925929069519043, 'f1_dc_time': 0.3925929069519043, 'mmd_rbf': 0, 'mmd_rbf_time': 0.9480860233306885, 'mmd_linear': 0.0, 'mmd_linear_time': 0.18171072006225586, 'wl_mmd': 0.0009029345372460496, 'wl_mmd_time': 3.1362388134002686, 'nspdk_mmd': 0.0, 'nspdk_mmd_time': 19.7851140499115, 'degree_mmd': 0.0, 'degree_mmd_time': 31.4566, 'cluster_mmd': 0.0, 'cluster_mmd_time': 41.854192, 'spectral_mmd': 0.0, 'spectral_mmd_time': 64.88846, 'dataset': 'cyp2c19_veith_25', 'generator_name': 'train1'}
+cyp2c19_veith_33
+Now computing classifier based metrics
+Now computing structural based metrics
+{'activations_time': 0.23378705978393555, 'fid': -2.71620592684485e-09, 'fid_time': 0.2474660873413086, 'kid': -0.31338844, 'kid_time': 0.35329413414001465, 'precision': 1.0, 'recall': 1.0, 'f1_pr': 1.00001, 'precision_time': 0.7764742374420166, 'recall_time': 0.7764742374420166, 'f1_pr_time': 0.7764742374420166, 'density': 1.2000000000000002, 'coverage': 1.0, 'f1_dc': 1.090919173552968, 'density_time': 0.6796169281005859, 'coverage_time': 0.6796169281005859, 'f1_dc_time': 0.6796169281005859, 'mmd_rbf': 0, 'mmd_rbf_time': 1.6504292488098145, 'mmd_linear': 0.0, 'mmd_linear_time': 0.2339329719543457, 'wl_mmd': 0.0006768189509306261, 'wl_mmd_time': 4.393338918685913, 'nspdk_mmd': 0.0, 'nspdk_mmd_time': 26.576663970947266, 'degree_mmd': 0.0, 'degree_mmd_time': 51.438765, 'cluster_mmd': 0.0, 'cluster_mmd_time': 72.172823, 'spectral_mmd': 0.0, 'spectral_mmd_time': 115.936652, 'dataset': 'cyp2c19_veith_33', 'generator_name': 'train1'}
+cyp2c19_veith_40
+Now computing classifier based metrics
+Now computing structural based metrics
+{'activations_time': 0.2929539680480957, 'fid': 4.515001705840405e-09, 'fid_time': 0.3114597797393799, 'kid': -0.75675094, 'kid_time': 0.41544294357299805, 'precision': 1.0, 'recall': 1.0, 'f1_pr': 1.00001, 'precision_time': 1.1401941776275635, 'recall_time': 1.1401941776275635, 'f1_pr_time': 1.1401941776275635, 'density': 1.2000000000000002, 'coverage': 1.0, 'f1_dc': 1.090919173552968, 'density_time': 0.8143670558929443, 'coverage_time': 0.8143670558929443, 'f1_dc_time': 0.8143670558929443, 'mmd_rbf': 0, 'mmd_rbf_time': 1.923694133758545, 'mmd_linear': 0.0, 'mmd_linear_time': 0.29312896728515625, 'wl_mmd': 0.0005644933672029354, 'wl_mmd_time': 5.844520330429077, 'nspdk_mmd': 0.0, 'nspdk_mmd_time': 32.18384790420532, 'degree_mmd': 0.0, 'degree_mmd_time': 91.988221, 'cluster_mmd': 0.0, 'cluster_mmd_time': 147.697767, 'spectral_mmd': 0.0, 'spectral_mmd_time': 282.26814, 'dataset': 'cyp2c19_veith_40', 'generator_name': 'train1'}
+cyp2c19_veith_50
+Now computing classifier based metrics
+Now computing structural based metrics
+{'activations_time': 0.3589460849761963, 'fid': -2.827349021572445e-09, 'fid_time': 0.3939824104309082, 'kid': -0.490738, 'kid_time': 0.48887109756469727, 'precision': 1.0, 'recall': 1.0, 'f1_pr': 1.00001, 'precision_time': 1.9997119903564453, 'recall_time': 1.9997119903564453, 'f1_pr_time': 1.9997119903564453, 'density': 1.2000000000000002, 'coverage': 1.0, 'f1_dc': 1.090919173552968, 'density_time': 1.3807451725006104, 'coverage_time': 1.3807451725006104, 'f1_dc_time': 1.3807451725006104, 'mmd_rbf': 0, 'mmd_rbf_time': 3.5331270694732666, 'mmd_linear': 0.0, 'mmd_linear_time': 0.3592560291290283, 'wl_mmd': 0.00045116174148432213, 'wl_mmd_time': 7.7698609828948975, 'nspdk_mmd': 0.0, 'nspdk_mmd_time': 40.464508295059204, 'degree_mmd': 0.0, 'degree_mmd_time': 105.46994, 'cluster_mmd': 0.0, 'cluster_mmd_time': 177.378881, 'spectral_mmd': 0.0, 'spectral_mmd_time': 252.038309, 'dataset': 'cyp2c19_veith_50', 'generator_name': 'train1'}
+herg_karim_25
+Now computing classifier based metrics
+Now computing structural based metrics
+{'activations_time': 0.20333218574523926, 'fid': 1.4045099305803888e-08, 'fid_time': 0.20972013473510742, 'kid': -0.24548173, 'kid_time': 0.31517839431762695, 'precision': 1.0, 'recall': 1.0, 'f1_pr': 1.00001, 'precision_time': 0.5647470951080322, 'recall_time': 0.5647470951080322, 'f1_pr_time': 0.5647470951080322, 'density': 1.2000000000000002, 'coverage': 1.0, 'f1_dc': 1.090919173552968, 'density_time': 0.4385380744934082, 'coverage_time': 0.4385380744934082, 'f1_dc_time': 0.4385380744934082, 'mmd_rbf': 0, 'mmd_rbf_time': 1.0120360851287842, 'mmd_linear': 0.0, 'mmd_linear_time': 0.2035372257232666, 'wl_mmd': 0.0008499787505312367, 'wl_mmd_time': 4.146636009216309, 'nspdk_mmd': 0.0, 'nspdk_mmd_time': 26.58615493774414, 'degree_mmd': 0.0, 'degree_mmd_time': 35.002493, 'cluster_mmd': 0.0, 'cluster_mmd_time': 45.807956, 'spectral_mmd': 0.0, 'spectral_mmd_time': 75.604107, 'dataset': 'herg_karim_25', 'generator_name': 'train1'}
+herg_karim_33
+Now computing classifier based metrics
+Now computing structural based metrics
+{'activations_time': 0.25664424896240234, 'fid': -1.599214272118843e-08, 'fid_time': 0.2692084312438965, 'kid': -0.031009555, 'kid_time': 0.3449831008911133, 'precision': 1.0, 'recall': 1.0, 'f1_pr': 1.00001, 'precision_time': 0.8212580680847168, 'recall_time': 0.8212580680847168, 'f1_pr_time': 0.8212580680847168, 'density': 1.2000000000000002, 'coverage': 1.0, 'f1_dc': 1.090919173552968, 'density_time': 0.5975291728973389, 'coverage_time': 0.5975291728973389, 'f1_dc_time': 0.5975291728973389, 'mmd_rbf': 0, 'mmd_rbf_time': 1.5172390937805176, 'mmd_linear': 0.0, 'mmd_linear_time': 0.2567911148071289, 'wl_mmd': 0.000637551801083838, 'wl_mmd_time': 5.991078853607178, 'nspdk_mmd': 0.0, 'nspdk_mmd_time': 36.090718030929565, 'degree_mmd': 0.0, 'degree_mmd_time': 56.263773, 'cluster_mmd': 0.0, 'cluster_mmd_time': 79.831614, 'spectral_mmd': 0.0, 'spectral_mmd_time': 127.384091, 'dataset': 'herg_karim_33', 'generator_name': 'train1'}
+herg_karim_40
+Now computing classifier based metrics
+Now computing structural based metrics
+{'activations_time': 0.3234140872955322, 'fid': -1.1448832992755342e-09, 'fid_time': 0.32846808433532715, 'kid': -1.0481577, 'kid_time': 0.47579526901245117, 'precision': 1.0, 'recall': 1.0, 'f1_pr': 1.00001, 'precision_time': 1.0778191089630127, 'recall_time': 1.0778191089630127, 'f1_pr_time': 1.0778191089630127, 'density': 1.2000000000000002, 'coverage': 1.0, 'f1_dc': 1.090919173552968, 'density_time': 0.8562781810760498, 'coverage_time': 0.8562781810760498, 'f1_dc_time': 0.8562781810760498, 'mmd_rbf': 0, 'mmd_rbf_time': 2.120406150817871, 'mmd_linear': 0.0, 'mmd_linear_time': 0.3235819339752197, 'wl_mmd': 0.0005313496280552603, 'wl_mmd_time': 7.349968194961548, 'nspdk_mmd': 0.0, 'nspdk_mmd_time': 43.45848226547241, 'degree_mmd': 0.0, 'degree_mmd_time': 76.332052, 'cluster_mmd': 0.0, 'cluster_mmd_time': 114.038885, 'spectral_mmd': 0.0, 'spectral_mmd_time': 188.964548, 'dataset': 'herg_karim_40', 'generator_name': 'train1'}
+herg_karim_50
+Now computing classifier based metrics
+Now computing structural based metrics
+{'activations_time': 0.38342809677124023, 'fid': -1.065092192220618e-08, 'fid_time': 0.3867161273956299, 'kid': -0.7621664, 'kid_time': 0.5472700595855713, 'precision': 1.0, 'recall': 1.0, 'f1_pr': 1.00001, 'precision_time': 1.6240110397338867, 'recall_time': 1.6240110397338867, 'f1_pr_time': 1.6240110397338867, 'density': 1.2000000000000002, 'coverage': 1.0, 'f1_dc': 1.090919173552968, 'density_time': 1.1305742263793945, 'coverage_time': 1.1305742263793945, 'f1_dc_time': 1.1305742263793945, 'mmd_rbf': 0, 'mmd_rbf_time': 3.056204080581665, 'mmd_linear': 0.0, 'mmd_linear_time': 0.3836221694946289, 'wl_mmd': 0.00042498937526561835, 'wl_mmd_time': 9.588484048843384, 'nspdk_mmd': 0.0, 'nspdk_mmd_time': 67.43216109275818, 'degree_mmd': 0.0, 'degree_mmd_time': 403.554416, 'cluster_mmd': 0.0, 'cluster_mmd_time': 198.440133, 'spectral_mmd': 0.0, 'spectral_mmd_time': 285.055679, 'dataset': 'herg_karim_50', 'generator_name': 'train1'}
+lipophilicity_astrazeneca_25
+Now computing classifier based metrics
+Now computing structural based metrics
+{'activations_time': 0.06640481948852539, 'fid': -4.756799398819567e-09, 'fid_time': 0.07041382789611816, 'kid': -0.452016, 'kid_time': 0.09297466278076172, 'precision': 1.0, 'recall': 1.0, 'f1_pr': 1.00001, 'precision_time': 0.15721774101257324, 'recall_time': 0.15721774101257324, 'f1_pr_time': 0.15721774101257324, 'density': 1.2000000000000002, 'coverage': 1.0, 'f1_dc': 1.090919173552968, 'density_time': 0.1115419864654541, 'coverage_time': 0.1115419864654541, 'f1_dc_time': 0.1115419864654541, 'mmd_rbf': 0, 'mmd_rbf_time': 0.2025289535522461, 'mmd_linear': 0.0, 'mmd_linear_time': 0.06663179397583008, 'wl_mmd': 0.0027210884353741495, 'wl_mmd_time': 0.9783470630645752, 'nspdk_mmd': 0.0, 'nspdk_mmd_time': 7.083755016326904, 'degree_mmd': 0.0, 'degree_mmd_time': 10.131381, 'cluster_mmd': 0.0, 'cluster_mmd_time': 17.375462, 'spectral_mmd': 0.0, 'spectral_mmd_time': 14.589097, 'dataset': 'lipophilicity_astrazeneca_25', 'generator_name': 'train1'}
+lipophilicity_astrazeneca_33
+Now computing classifier based metrics
+Now computing structural based metrics
+{'activations_time': 0.09842085838317871, 'fid': 3.9664769246883225e-09, 'fid_time': 0.10157108306884766, 'kid': -0.07253981, 'kid_time': 0.13677310943603516, 'precision': 1.0, 'recall': 1.0, 'f1_pr': 1.00001, 'precision_time': 0.21498370170593262, 'recall_time': 0.21498370170593262, 'f1_pr_time': 0.21498370170593262, 'density': 1.2000000000000002, 'coverage': 1.0, 'f1_dc': 1.090919173552968, 'density_time': 0.14346790313720703, 'coverage_time': 0.14346790313720703, 'f1_dc_time': 0.14346790313720703, 'mmd_rbf': 0, 'mmd_rbf_time': 0.30022192001342773, 'mmd_linear': 0.0, 'mmd_linear_time': 0.09849667549133301, 'wl_mmd': 0.0020408163265306124, 'wl_mmd_time': 1.3492469787597656, 'nspdk_mmd': 0.0, 'nspdk_mmd_time': 9.369185209274292, 'degree_mmd': 0.0, 'degree_mmd_time': 12.019663, 'cluster_mmd': 0.0, 'cluster_mmd_time': 19.475729, 'spectral_mmd': 0.0, 'spectral_mmd_time': 18.942189, 'dataset': 'lipophilicity_astrazeneca_33', 'generator_name': 'train1'}
+lipophilicity_astrazeneca_40
+Now computing classifier based metrics
+Now computing structural based metrics
+{'activations_time': 0.10201406478881836, 'fid': 1.1998039894933754e-08, 'fid_time': 0.10375380516052246, 'kid': -0.642838, 'kid_time': 0.16800999641418457, 'precision': 1.0, 'recall': 1.0, 'f1_pr': 1.00001, 'precision_time': 0.23431801795959473, 'recall_time': 0.23431801795959473, 'f1_pr_time': 0.23431801795959473, 'density': 1.2000000000000002, 'coverage': 1.0, 'f1_dc': 1.090919173552968, 'density_time': 0.17341089248657227, 'coverage_time': 0.17341089248657227, 'f1_dc_time': 0.17341089248657227, 'mmd_rbf': 0, 'mmd_rbf_time': 0.34734225273132324, 'mmd_linear': 0.0, 'mmd_linear_time': 0.10210108757019043, 'wl_mmd': 0.0017006802721088435, 'wl_mmd_time': 1.6199069023132324, 'nspdk_mmd': 0.0, 'nspdk_mmd_time': 11.20046591758728, 'degree_mmd': 0.0, 'degree_mmd_time': 13.909388, 'cluster_mmd': 0.0, 'cluster_mmd_time': 21.050649, 'spectral_mmd': 0.0, 'spectral_mmd_time': 23.045024, 'dataset': 'lipophilicity_astrazeneca_40', 'generator_name': 'train1'}
+lipophilicity_astrazeneca_50
+Now computing classifier based metrics
+Now computing structural based metrics
+{'activations_time': 0.131364107131958, 'fid': -3.2225955237663584e-09, 'fid_time': 0.15457391738891602, 'kid': -0.3662213, 'kid_time': 0.22138500213623047, 'precision': 1.0, 'recall': 1.0, 'f1_pr': 1.00001, 'precision_time': 0.6131241321563721, 'recall_time': 0.6131241321563721, 'f1_pr_time': 0.6131241321563721, 'density': 1.2002721088435375, 'coverage': 1.0, 'f1_dc': 1.0910316015226675, 'density_time': 0.24746918678283691, 'coverage_time': 0.24746918678283691, 'f1_dc_time': 0.24746918678283691, 'mmd_rbf': 0, 'mmd_rbf_time': 0.47843194007873535, 'mmd_linear': 0.0, 'mmd_linear_time': 0.13146495819091797, 'wl_mmd': 0.0013605442176870747, 'wl_mmd_time': 2.0640640258789062, 'nspdk_mmd': 0.0, 'nspdk_mmd_time': 14.085659265518188, 'degree_mmd': 0.0, 'degree_mmd_time': 18.438854, 'cluster_mmd': 0.0, 'cluster_mmd_time': 22.451879, 'spectral_mmd': 0.0, 'spectral_mmd_time': 31.709341, 'dataset': 'lipophilicity_astrazeneca_50', 'generator_name': 'train1'}
+ames_25
+Now computing structural based metrics
+{'wl_mmd': 0.0015710919088766694, 'wl_mmd_time': 2.7628238201141357, 'nspdk_mmd': 0.0014566324309758794, 'nspdk_mmd_time': 11.826602935791016, 'degree_mmd': 0.0, 'degree_mmd_time': 34.698241, 'cluster_mmd': 0.0, 'cluster_mmd_time': 43.042229, 'spectral_mmd': 0.0, 'spectral_mmd_time': 54.989333, 'dataset': 'ames_25', 'generator_name': 'train2'}
+ames_33
+Now computing structural based metrics
+{'wl_mmd': 0.001177856301531213, 'wl_mmd_time': 3.993765115737915, 'nspdk_mmd': 0.0009141427324704243, 'nspdk_mmd_time': 16.164170026779175, 'degree_mmd': 0.0, 'degree_mmd_time': 55.034232, 'cluster_mmd': 0.0, 'cluster_mmd_time': 70.317731, 'spectral_mmd': 0.0, 'spectral_mmd_time': 89.484119, 'dataset': 'ames_33', 'generator_name': 'train2'}
+ames_40
+Now computing structural based metrics
+{'wl_mmd': 0.0009823182711198428, 'wl_mmd_time': 4.607314109802246, 'nspdk_mmd': 0.0007109272364919095, 'nspdk_mmd_time': 19.40947651863098, 'degree_mmd': 0.0, 'degree_mmd_time': 74.090318, 'cluster_mmd': 0.0, 'cluster_mmd_time': 96.01051, 'spectral_mmd': 0.0, 'spectral_mmd_time': 134.267531, 'dataset': 'ames_40', 'generator_name': 'train2'}
+ames_50
+Now computing structural based metrics
+{'wl_mmd': 0.0007852375343541421, 'wl_mmd_time': 6.084884881973267, 'nspdk_mmd': 0.0006338698381965213, 'nspdk_mmd_time': 24.636280059814453, 'degree_mmd': 0.0, 'degree_mmd_time': 109.366403, 'cluster_mmd': 0.0, 'cluster_mmd_time': 142.217161, 'spectral_mmd': 0.0, 'spectral_mmd_time': 184.465794, 'dataset': 'ames_50', 'generator_name': 'train2'}
+bbb_martins_25
+Now computing structural based metrics
+{'wl_mmd': 0.005633802816901409, 'wl_mmd_time': 0.9381375312805176, 'nspdk_mmd': 0.004550336948718148, 'nspdk_mmd_time': 5.10458779335022, 'degree_mmd': 0.0, 'degree_mmd_time': 14.518716, 'cluster_mmd': 0.0, 'cluster_mmd_time': 15.70897, 'spectral_mmd': 0.0, 'spectral_mmd_time': 17.164408, 'dataset': 'bbb_martins_25', 'generator_name': 'train2'}
+bbb_martins_33
+Now computing structural based metrics
+{'wl_mmd': 0.004228329809725159, 'wl_mmd_time': 1.3211467266082764, 'nspdk_mmd': 0.003062648053049344, 'nspdk_mmd_time': 6.562584161758423, 'degree_mmd': 0.0, 'degree_mmd_time': 16.148841, 'cluster_mmd': 0.0, 'cluster_mmd_time': 19.209828, 'spectral_mmd': 0.0, 'spectral_mmd_time': 19.712758, 'dataset': 'bbb_martins_33', 'generator_name': 'train2'}
+bbb_martins_40
+Now computing structural based metrics
+{'wl_mmd': 0.0035211267605633804, 'wl_mmd_time': 1.7345588207244873, 'nspdk_mmd': 0.0026872307881003477, 'nspdk_mmd_time': 7.921422719955444, 'degree_mmd': 0.0, 'degree_mmd_time': 17.237275, 'cluster_mmd': 0.0, 'cluster_mmd_time': 19.166005, 'spectral_mmd': 0.0, 'spectral_mmd_time': 22.394551, 'dataset': 'bbb_martins_40', 'generator_name': 'train2'}
+bbb_martins_50
+Now computing structural based metrics
+{'wl_mmd': 0.0028169014084507044, 'wl_mmd_time': 2.023092269897461, 'nspdk_mmd': 0.0025010964958107618, 'nspdk_mmd_time': 10.073328971862793, 'degree_mmd': 0.0, 'degree_mmd_time': 20.094601, 'cluster_mmd': 0.0, 'cluster_mmd_time': 33.181168, 'spectral_mmd': 0.0, 'spectral_mmd_time': 26.979975, 'dataset': 'bbb_martins_50', 'generator_name': 'train2'}
+cyp1a2_veith_25
+Now computing structural based metrics
+{'wl_mmd': 0.0009090909090909091, 'wl_mmd_time': 7.354281663894653, 'nspdk_mmd': 0.0007253130011037334, 'nspdk_mmd_time': 32.491448402404785, 'degree_mmd': 0.0, 'degree_mmd_time': 91.396556, 'cluster_mmd': 0.0, 'cluster_mmd_time': 123.390756, 'spectral_mmd': 0.0, 'spectral_mmd_time': 142.345135, 'dataset': 'cyp1a2_veith_25', 'generator_name': 'train2'}
+cyp1a2_veith_33
+Now computing structural based metrics
+{'wl_mmd': 0.0006816632583503749, 'wl_mmd_time': 10.16736102104187, 'nspdk_mmd': 0.0004565047875500494, 'nspdk_mmd_time': 45.70648145675659, 'degree_mmd': 0.0, 'degree_mmd_time': 144.735087, 'cluster_mmd': 0.0, 'cluster_mmd_time': 199.639549, 'spectral_mmd': 0.0, 'spectral_mmd_time': 277.230989, 'dataset': 'cyp1a2_veith_33', 'generator_name': 'train2'}
+cyp1a2_veith_40
+Now computing structural based metrics
+{'wl_mmd': 0.0005683432793407218, 'wl_mmd_time': 12.635033130645752, 'nspdk_mmd': 0.00047772223304243244, 'nspdk_mmd_time': 55.14988565444946, 'degree_mmd': 0.0, 'degree_mmd_time': 204.650751, 'cluster_mmd': 0.0, 'cluster_mmd_time': 279.644035, 'spectral_mmd': 0.0, 'spectral_mmd_time': 374.988919, 'dataset': 'cyp1a2_veith_40', 'generator_name': 'train2'}
+cyp1a2_veith_50
+Now computing structural based metrics
+{'wl_mmd': 0.0004544421722335833, 'wl_mmd_time': 17.11323356628418, 'nspdk_mmd': 0.0003359646840030428, 'nspdk_mmd_time': 70.29081320762634, 'degree_mmd': 0.0, 'degree_mmd_time': 332.059177, 'cluster_mmd': 0.0, 'cluster_mmd_time': 418.820947, 'spectral_mmd': 0.0, 'spectral_mmd_time': 577.939494, 'dataset': 'cyp1a2_veith_50', 'generator_name': 'train2'}
+cyp2c19_veith_25
+Now computing structural based metrics
+{'wl_mmd': 0.0009029345372460496, 'wl_mmd_time': 10.417179822921753, 'nspdk_mmd': 0.0007379471420319028, 'nspdk_mmd_time': 47.481239557266235, 'degree_mmd': 0.0, 'degree_mmd_time': 89.597906, 'cluster_mmd': 0.0, 'cluster_mmd_time': 111.954279, 'spectral_mmd': 0.0, 'spectral_mmd_time': 143.675231, 'dataset': 'cyp2c19_veith_25', 'generator_name': 'train2'}
+cyp2c19_veith_33
+Now computing structural based metrics
+{'wl_mmd': 0.0006768189509306261, 'wl_mmd_time': 10.630554676055908, 'nspdk_mmd': 0.0004753229691603633, 'nspdk_mmd_time': 45.3480019569397, 'degree_mmd': 0.0, 'degree_mmd_time': 156.978013, 'cluster_mmd': 0.0, 'cluster_mmd_time': 189.890174, 'spectral_mmd': 0.0, 'spectral_mmd_time': 250.103259, 'dataset': 'cyp2c19_veith_33', 'generator_name': 'train2'}
+cyp2c19_veith_40
+Now computing structural based metrics
+{'wl_mmd': 0.0005644933672029354, 'wl_mmd_time': 13.565807819366455, 'nspdk_mmd': 0.00041480202961352575, 'nspdk_mmd_time': 56.11074709892273, 'degree_mmd': 0.0, 'degree_mmd_time': 215.311624, 'cluster_mmd': 0.0, 'cluster_mmd_time': 273.237447, 'spectral_mmd': 0.0, 'spectral_mmd_time': 377.933352, 'dataset': 'cyp2c19_veith_40', 'generator_name': 'train2'}
+cyp2c19_veith_50
+Now computing structural based metrics
+{'wl_mmd': 0.00045121263969522966, 'wl_mmd_time': 17.632907152175903, 'nspdk_mmd': 0.000338469308959477, 'nspdk_mmd_time': 72.2994933128357, 'degree_mmd': 0.0, 'degree_mmd_time': 329.901584, 'cluster_mmd': 0.0, 'cluster_mmd_time': 429.990622, 'spectral_mmd': 0.0, 'spectral_mmd_time': 631.638518, 'dataset': 'cyp2c19_veith_50', 'generator_name': 'train2'}
+herg_karim_25
+Now computing structural based metrics
+{'wl_mmd': 0.0008499787505312367, 'wl_mmd_time': 9.687435865402222, 'nspdk_mmd': 0.0006070142807266254, 'nspdk_mmd_time': 45.78259229660034, 'degree_mmd': 0.0, 'degree_mmd_time': 108.912049, 'cluster_mmd': 0.0, 'cluster_mmd_time': 126.858833, 'spectral_mmd': 0.0, 'spectral_mmd_time': 162.421629, 'dataset': 'herg_karim_25', 'generator_name': 'train2'}
+herg_karim_33
+Now computing structural based metrics
+{'wl_mmd': 0.000637551801083838, 'wl_mmd_time': 14.120347261428833, 'nspdk_mmd': 0.00046323086128763347, 'nspdk_mmd_time': 62.429054737091064, 'degree_mmd': 0.0, 'degree_mmd_time': 181.545673, 'cluster_mmd': 0.0, 'cluster_mmd_time': 224.032174, 'spectral_mmd': 0.0, 'spectral_mmd_time': 298.328594, 'dataset': 'herg_karim_33', 'generator_name': 'train2'}
+herg_karim_40
+Now computing structural based metrics
+{'wl_mmd': 0.0005313496280552603, 'wl_mmd_time': 17.497255086898804, 'nspdk_mmd': 0.0004191164903988298, 'nspdk_mmd_time': 76.1461763381958, 'degree_mmd': 0.0, 'degree_mmd_time': 248.627586, 'cluster_mmd': 0.0, 'cluster_mmd_time': 304.198874, 'spectral_mmd': 0.0, 'spectral_mmd_time': 414.908958, 'dataset': 'herg_karim_40', 'generator_name': 'train2'}
+herg_karim_50
+Now computing structural based metrics
+{'wl_mmd': 0.00042498937526561835, 'wl_mmd_time': 22.043296813964844, 'nspdk_mmd': 0.000319354982506348, 'nspdk_mmd_time': 98.34324741363525, 'degree_mmd': 0.0, 'degree_mmd_time': 373.482748, 'cluster_mmd': 0.0, 'cluster_mmd_time': 492.869611, 'spectral_mmd': 0.0, 'spectral_mmd_time': 671.462585, 'dataset': 'herg_karim_50', 'generator_name': 'train2'}
+lipophilicity_astrazeneca_25
+Now computing structural based metrics
+{'wl_mmd': 0.0027210884353741495, 'wl_mmd_time': 2.352278709411621, 'nspdk_mmd': 0.0018160112174133713, 'nspdk_mmd_time': 11.221282720565796, 'degree_mmd': 0.0, 'degree_mmd_time': 31.226384, 'cluster_mmd': 0.0, 'cluster_mmd_time': 22.904351, 'spectral_mmd': 0.0, 'spectral_mmd_time': 27.712585, 'dataset': 'lipophilicity_astrazeneca_25', 'generator_name': 'train2'}
+lipophilicity_astrazeneca_33
+Now computing structural based metrics
+{'wl_mmd': 0.0020408163265306124, 'wl_mmd_time': 3.325392246246338, 'nspdk_mmd': 0.0012695825553934448, 'nspdk_mmd_time': 15.290777683258057, 'degree_mmd': 0.0, 'degree_mmd_time': 25.894117, 'cluster_mmd': 0.0, 'cluster_mmd_time': 30.840977, 'spectral_mmd': 0.0, 'spectral_mmd_time': 38.735735, 'dataset': 'lipophilicity_astrazeneca_33', 'generator_name': 'train2'}
+lipophilicity_astrazeneca_40
+Now computing structural based metrics
+{'wl_mmd': 0.0017006802721088435, 'wl_mmd_time': 3.9705705642700195, 'nspdk_mmd': 0.001263043296570232, 'nspdk_mmd_time': 18.295525550842285, 'degree_mmd': 0.0, 'degree_mmd_time': 31.78374, 'cluster_mmd': 0.0, 'cluster_mmd_time': 39.10131, 'spectral_mmd': 0.0, 'spectral_mmd_time': 49.362214, 'dataset': 'lipophilicity_astrazeneca_40', 'generator_name': 'train2'}
+lipophilicity_astrazeneca_50
+Now computing structural based metrics
+{'wl_mmd': 0.0013605442176870747, 'wl_mmd_time': 4.981963157653809, 'nspdk_mmd': 0.001131516081577244, 'nspdk_mmd_time': 23.114986419677734, 'degree_mmd': 0.0, 'degree_mmd_time': 46.385045, 'cluster_mmd': 0.0, 'cluster_mmd_time': 54.872091, 'spectral_mmd': 0.0, 'spectral_mmd_time': 71.526581, 'dataset': 'lipophilicity_astrazeneca_50', 'generator_name': 'train2'}
+ames_25
+Now computing classifier based metrics
+Now computing structural based metrics
+{'activations_time': 0.10147595405578613, 'fid': 1.4660582353586875, 'fid_time': 0.10389494895935059, 'kid': 0.0047137737, 'kid_time': 0.17413687705993652, 'precision': 0.9725058915946583, 'recall': 0.9772191673212883, 'f1_pr': 0.9748668325675071, 'precision_time': 0.25678300857543945, 'recall_time': 0.25678300857543945, 'f1_pr_time': 0.25678300857543945, 'density': 0.9828750981932443, 'coverage': 0.9544383346425765, 'f1_dc': 0.968458014728379, 'density_time': 0.20164799690246582, 'coverage_time': 0.20164799690246582, 'f1_dc_time': 0.20164799690246582, 'mmd_rbf': 0.001860097050666809, 'mmd_rbf_time': 0.35903191566467285, 'mmd_linear': 0.11226013, 'mmd_linear_time': 0.10156369209289551, 'wl_mmd': 0.0015710919088766694, 'wl_mmd_time': 1.1559269428253174, 'nspdk_mmd': 0.0014639358151066206, 'nspdk_mmd_time': 7.275412082672119, 'degree_mmd': 0.00026359444890333705, 'degree_mmd_time': 15.049171, 'cluster_mmd': 7.422813866786449e-05, 'cluster_mmd_time': 20.76014, 'spectral_mmd': 0.0006019444525313666, 'spectral_mmd_time': 24.306919, 'dataset': 'ames_25', 'generator_name': 'train1'}
+ames_33
+Now computing classifier based metrics
+fid calculation produces singular product; adding 1e-06 to diagonal of cov estimates
+Now computing structural based metrics
+{'activations_time': 0.13391900062561035, 'fid': 3.2879421447780146, 'fid_time': 0.14100408554077148, 'kid': -0.047222972, 'kid_time': 0.22028708457946777, 'precision': 0.9793875147232037, 'recall': 0.9740871613663133, 'f1_pr': 0.9767401474068593, 'precision_time': 0.34737324714660645, 'recall_time': 0.34737324714660645, 'f1_pr_time': 0.34737324714660645, 'density': 1.0021201413427563, 'coverage': 0.9705535924617197, 'f1_dc': 0.986094306915053, 'density_time': 0.48146891593933105, 'coverage_time': 0.48146891593933105, 'f1_dc_time': 0.48146891593933105, 'mmd_rbf': 0.0013355966657400131, 'mmd_rbf_time': 0.7612481117248535, 'mmd_linear': 0.031612076, 'mmd_linear_time': 0.13403010368347168, 'wl_mmd': 0.001177856301531213, 'wl_mmd_time': 1.5985491275787354, 'nspdk_mmd': 0.0009269465836331259, 'nspdk_mmd_time': 9.773413896560669, 'degree_mmd': 6.390227074382082e-06, 'degree_mmd_time': 21.793216, 'cluster_mmd': 8.714448973945466e-05, 'cluster_mmd_time': 27.229797, 'spectral_mmd': 0.00029545958604138, 'spectral_mmd_time': 39.000749, 'dataset': 'ames_33', 'generator_name': 'train1'}
+ames_40
+Now computing classifier based metrics
+Now computing structural based metrics
+{'activations_time': 0.1520521640777588, 'fid': 1.4956609667033547, 'fid_time': 0.15452218055725098, 'kid': 0.003740847, 'kid_time': 0.2234342098236084, 'precision': 0.9778978388998035, 'recall': 0.9670923379174853, 'f1_pr': 0.9724750734367766, 'precision_time': 0.3902134895324707, 'recall_time': 0.3902134895324707, 'f1_pr_time': 0.3902134895324707, 'density': 0.9944990176817289, 'coverage': 0.9710216110019646, 'f1_dc': 0.9826301013601451, 'density_time': 0.2910733222961426, 'coverage_time': 0.2910733222961426, 'f1_dc_time': 0.2910733222961426, 'mmd_rbf': 0.000992607427178882, 'mmd_rbf_time': 0.7551662921905518, 'mmd_linear': 0.0077970056, 'mmd_linear_time': 0.15216517448425293, 'wl_mmd': 0.0009823182711198428, 'wl_mmd_time': 1.9387989044189453, 'nspdk_mmd': 0.000704156920057819, 'nspdk_mmd_time': 11.580952644348145, 'degree_mmd': 1.7022678240774525e-05, 'degree_mmd_time': 27.59399, 'cluster_mmd': 7.487136887962542e-05, 'cluster_mmd_time': 35.640221, 'spectral_mmd': 0.0002829786245157617, 'spectral_mmd_time': 51.47136, 'dataset': 'ames_40', 'generator_name': 'train1'}
+ames_50
+Now computing classifier based metrics
+Now computing structural based metrics
+{'activations_time': 0.18809890747070312, 'fid': 1.9704628978236656, 'fid_time': 0.19083881378173828, 'kid': 0.036017377, 'kid_time': 0.2829749584197998, 'precision': 0.9717314487632509, 'recall': 0.9662347860227719, 'f1_pr': 0.9689853223682737, 'precision_time': 0.6946320533752441, 'recall_time': 0.6946320533752441, 'f1_pr_time': 0.6946320533752441, 'density': 1.0273262661955243, 'coverage': 0.9756576364350216, 'f1_dc': 1.0008355404066815, 'density_time': 0.6258211135864258, 'coverage_time': 0.6258211135864258, 'f1_dc_time': 0.6258211135864258, 'mmd_rbf': 0.0008729100227355957, 'mmd_rbf_time': 1.0601706504821777, 'mmd_linear': 0.04893645, 'mmd_linear_time': 0.18823885917663574, 'wl_mmd': 0.0007852375343541421, 'wl_mmd_time': 2.9807848930358887, 'nspdk_mmd': 0.0006463739719109185, 'nspdk_mmd_time': 14.548282146453857, 'degree_mmd': 3.204833337533408e-05, 'degree_mmd_time': 39.101105, 'cluster_mmd': 6.997753852311384e-05, 'cluster_mmd_time': 51.783311, 'spectral_mmd': 0.00025196089791812426, 'spectral_mmd_time': 81.710119, 'dataset': 'ames_50', 'generator_name': 'train1'}
+bbb_martins_25
+Now computing classifier based metrics
+Now computing structural based metrics
+{'activations_time': 0.03523588180541992, 'fid': 3.2170612765541335, 'fid_time': 0.037461042404174805, 'kid': -0.08205426, 'kid_time': 0.0540771484375, 'precision': 0.971830985915493, 'recall': 0.9549295774647887, 'f1_pr': 0.9633161534751673, 'precision_time': 0.12242603302001953, 'recall_time': 0.12242603302001953, 'f1_pr_time': 0.12242603302001953, 'density': 1.0495774647887324, 'coverage': 0.9549295774647887, 'f1_dc': 1.0000290233160412, 'density_time': 0.0957787036895752, 'coverage_time': 0.0957787036895752, 'f1_dc_time': 0.0957787036895752, 'mmd_rbf': 0.005841314792633057, 'mmd_rbf_time': 0.19783973693847656, 'mmd_linear': 0.21378395, 'mmd_linear_time': 0.03528285026550293, 'wl_mmd': 0.005633802816901409, 'wl_mmd_time': 0.401500940322876, 'nspdk_mmd': 0.004477100612767904, 'nspdk_mmd_time': 3.136058807373047, 'degree_mmd': 0.000204687149339966, 'degree_mmd_time': 7.66084, 'cluster_mmd': 6.754965152855341e-05, 'cluster_mmd_time': 8.564007, 'spectral_mmd': 0.0018329858982684133, 'spectral_mmd_time': 9.573548, 'dataset': 'bbb_martins_25', 'generator_name': 'train1'}
+bbb_martins_33
+Now computing classifier based metrics
+Now computing structural based metrics
+{'activations_time': 0.048920631408691406, 'fid': 0.7039606506553895, 'fid_time': 0.0835886001586914, 'kid': -0.11938143, 'kid_time': 0.06267976760864258, 'precision': 0.9640591966173362, 'recall': 0.9767441860465116, 'f1_pr': 0.9703702375452848, 'precision_time': 0.22945261001586914, 'recall_time': 0.22945261001586914, 'f1_pr_time': 0.22945261001586914, 'density': 0.9644820295983086, 'coverage': 0.9767441860465116, 'f1_dc': 0.9705843799991313, 'density_time': 0.09404850006103516, 'coverage_time': 0.09404850006103516, 'f1_dc_time': 0.09404850006103516, 'mmd_rbf': 0.004252084152540192, 'mmd_rbf_time': 0.11879467964172363, 'mmd_linear': 0.09427505, 'mmd_linear_time': 0.04897141456604004, 'wl_mmd': 0.004228329809725159, 'wl_mmd_time': 0.5727291107177734, 'nspdk_mmd': 0.003081060612986408, 'nspdk_mmd_time': 4.204209804534912, 'degree_mmd': 1.899736432209309e-05, 'degree_mmd_time': 8.252964, 'cluster_mmd': 0.0004247723581682905, 'cluster_mmd_time': 9.849533, 'spectral_mmd': 0.0009349187252136737, 'spectral_mmd_time': 10.761378, 'dataset': 'bbb_martins_33', 'generator_name': 'train1'}
+bbb_martins_40
+Now computing classifier based metrics
+Now computing structural based metrics
+{'activations_time': 0.0560300350189209, 'fid': 1.7592931624964478, 'fid_time': 0.06682300567626953, 'kid': 0.08885968, 'kid_time': 0.08130097389221191, 'precision': 0.971830985915493, 'recall': 0.9665492957746479, 'f1_pr': 0.96919294515618, 'precision_time': 0.1653730869293213, 'recall_time': 0.1653730869293213, 'f1_pr_time': 0.1653730869293213, 'density': 1.054225352112676, 'coverage': 0.9964788732394366, 'f1_dc': 1.0245490692202293, 'density_time': 0.09036397933959961, 'coverage_time': 0.09036397933959961, 'f1_dc_time': 0.09036397933959961, 'mmd_rbf': 0.004102945327758789, 'mmd_rbf_time': 0.16199302673339844, 'mmd_linear': 0.091436006, 'mmd_linear_time': 0.05608797073364258, 'wl_mmd': 0.0035211267605633804, 'wl_mmd_time': 0.689215898513794, 'nspdk_mmd': 0.002685302138271173, 'nspdk_mmd_time': 4.938931941986084, 'degree_mmd': 1.8686684321922442e-05, 'degree_mmd_time': 8.985006, 'cluster_mmd': 0.0001768469773475445, 'cluster_mmd_time': 9.874207, 'spectral_mmd': 0.000636985303964277, 'spectral_mmd_time': 12.307865, 'dataset': 'bbb_martins_40', 'generator_name': 'train1'}
+bbb_martins_50
+Now computing classifier based metrics
+Now computing structural based metrics
+{'activations_time': 0.06388211250305176, 'fid': 4.742232339947677, 'fid_time': 0.09150314331054688, 'kid': 1.2241688, 'kid_time': 0.09594035148620605, 'precision': 0.9492957746478873, 'recall': 0.9577464788732394, 'f1_pr': 0.9535124030923211, 'precision_time': 0.2824430465698242, 'recall_time': 0.2824430465698242, 'f1_pr_time': 0.2824430465698242, 'density': 0.9264788732394367, 'coverage': 0.9450704225352112, 'f1_dc': 0.9356923067418482, 'density_time': 0.22912025451660156, 'coverage_time': 0.22912025451660156, 'f1_dc_time': 0.22912025451660156, 'mmd_rbf': 0.0031208209693431854, 'mmd_rbf_time': 0.29346489906311035, 'mmd_linear': 0.7437307, 'mmd_linear_time': 0.06408309936523438, 'wl_mmd': 0.0028169014084507044, 'wl_mmd_time': 0.8358709812164307, 'nspdk_mmd': 0.002509274849247345, 'nspdk_mmd_time': 6.276861906051636, 'degree_mmd': 3.895604202930336e-05, 'degree_mmd_time': 9.97682, 'cluster_mmd': 7.42649904188486e-05, 'cluster_mmd_time': 12.286575, 'spectral_mmd': 0.0007670605735397018, 'spectral_mmd_time': 14.541531, 'dataset': 'bbb_martins_50', 'generator_name': 'train1'}
+cyp1a2_veith_25
+Now computing classifier based metrics
+Now computing structural based metrics
+{'activations_time': 0.1863551139831543, 'fid': 23.469249415898346, 'fid_time': 0.19123291969299316, 'kid': -0.16338412, 'kid_time': 0.2830507755279541, 'precision': 0.9654545454545455, 'recall': 0.9736363636363636, 'f1_pr': 0.9695381935036939, 'precision_time': 0.4645223617553711, 'recall_time': 0.4645223617553711, 'f1_pr_time': 0.4645223617553711, 'density': 1.0080909090909091, 'coverage': 0.9645454545454546, 'f1_dc': 0.9858475591799655, 'density_time': 0.42197418212890625, 'coverage_time': 0.42197418212890625, 'f1_dc_time': 0.42197418212890625, 'mmd_rbf': 0.0010170042514801025, 'mmd_rbf_time': 0.9203779697418213, 'mmd_linear': 0.07321069, 'mmd_linear_time': 0.18647313117980957, 'wl_mmd': 0.0009090909090909091, 'wl_mmd_time': 3.0019378662109375, 'nspdk_mmd': 0.000735822874019576, 'nspdk_mmd_time': 19.018953323364258, 'degree_mmd': 1.0194034098631732e-05, 'degree_mmd_time': 30.666476, 'cluster_mmd': 8.111667384902432e-06, 'cluster_mmd_time': 40.570079, 'spectral_mmd': 0.00022517230892171725, 'spectral_mmd_time': 63.858458, 'dataset': 'cyp1a2_veith_25', 'generator_name': 'train1'}
+cyp1a2_veith_33
+Now computing classifier based metrics
+Now computing structural based metrics
+{'activations_time': 0.24924373626708984, 'fid': 5.745382414515248, 'fid_time': 0.26438283920288086, 'kid': 1.0529045, 'kid_time': 0.3358449935913086, 'precision': 0.9686434901158828, 'recall': 0.9522835719154737, 'f1_pr': 0.9604038656592468, 'precision_time': 0.8518235683441162, 'recall_time': 0.8518235683441162, 'f1_pr_time': 0.8518235683441162, 'density': 1.0168370824812543, 'coverage': 0.9693251533742331, 'f1_dc': 0.9925228459518093, 'density_time': 0.5246405601501465, 'coverage_time': 0.5246405601501465, 'f1_dc_time': 0.5246405601501465, 'mmd_rbf': 0.0006824868523835903, 'mmd_rbf_time': 1.4328408241271973, 'mmd_linear': 0.038807534, 'mmd_linear_time': 0.24940276145935059, 'wl_mmd': 0.0006816632583503749, 'wl_mmd_time': 4.215543746948242, 'nspdk_mmd': 0.0004631653260618873, 'nspdk_mmd_time': 26.17642307281494, 'degree_mmd': 1.3156794003377215e-05, 'degree_mmd_time': 50.31368, 'cluster_mmd': 1.2388255804962611e-05, 'cluster_mmd_time': 69.146846, 'spectral_mmd': 0.0001861884011422621, 'spectral_mmd_time': 104.974779, 'dataset': 'cyp1a2_veith_33', 'generator_name': 'train1'}
+cyp1a2_veith_40
+Now computing classifier based metrics
+Now computing structural based metrics
+{'activations_time': 0.2775309085845947, 'fid': 2.0202956111304644, 'fid_time': 0.28148412704467773, 'kid': -0.118034005, 'kid_time': 0.43498992919921875, 'precision': 0.9576584256891162, 'recall': 0.9616368286445013, 'f1_pr': 0.9596535039020037, 'precision_time': 0.8936038017272949, 'recall_time': 0.8936038017272949, 'f1_pr_time': 0.8936038017272949, 'density': 0.9806763285024154, 'coverage': 0.9633418584825234, 'f1_dc': 0.9719418100695195, 'density_time': 0.6855759620666504, 'coverage_time': 0.6855759620666504, 'f1_dc_time': 0.6855759620666504, 'mmd_rbf': 0.0005728155374526978, 'mmd_rbf_time': 1.9178767204284668, 'mmd_linear': 0.025915917, 'mmd_linear_time': 0.27770495414733887, 'wl_mmd': 0.0005683432793407218, 'wl_mmd_time': 5.155888795852661, 'nspdk_mmd': 0.00047776865422199943, 'nspdk_mmd_time': 31.473716974258423, 'degree_mmd': 3.5471280941390404e-06, 'degree_mmd_time': 69.823334, 'cluster_mmd': 2.7846345504567438e-05, 'cluster_mmd_time': 103.909273, 'spectral_mmd': 0.00015711181391742102, 'spectral_mmd_time': 159.025681, 'dataset': 'cyp1a2_veith_40', 'generator_name': 'train1'}
+cyp1a2_veith_50
+Now computing classifier based metrics
+Now computing structural based metrics
+{'activations_time': 0.3507237434387207, 'fid': 0.13914102012414276, 'fid_time': 0.3607785701751709, 'kid': -0.13482313, 'kid_time': 0.43793392181396484, 'precision': 0.9643262894796637, 'recall': 0.9645535105657805, 'f1_pr': 0.9644498866395951, 'precision_time': 1.6867387294769287, 'recall_time': 1.6867387294769287, 'f1_pr_time': 1.6867387294769287, 'density': 0.9897750511247445, 'coverage': 0.9663712792547149, 'f1_dc': 0.977943162642595, 'density_time': 0.9338297843933105, 'coverage_time': 0.9338297843933105, 'f1_dc_time': 0.9338297843933105, 'mmd_rbf': 0.0004556444691843353, 'mmd_rbf_time': 2.745919942855835, 'mmd_linear': 0.022788849, 'mmd_linear_time': 0.3509199619293213, 'wl_mmd': 0.0004544421722335833, 'wl_mmd_time': 7.387084007263184, 'nspdk_mmd': 0.00033600180321563533, 'nspdk_mmd_time': 39.84406781196594, 'degree_mmd': 1.5532857893241214e-06, 'degree_mmd_time': 104.058958, 'cluster_mmd': 4.8935224135071564e-06, 'cluster_mmd_time': 171.68471, 'spectral_mmd': 0.00010420268513211539, 'spectral_mmd_time': 246.443944, 'dataset': 'cyp1a2_veith_50', 'generator_name': 'train1'}
+cyp2c19_veith_25
+Now computing classifier based metrics
+fid calculation produces singular product; adding 1e-06 to diagonal of cov estimates
+Now computing structural based metrics
+{'activations_time': 0.18030595779418945, 'fid': 467.1989316648008, 'fid_time': 0.18622303009033203, 'kid': 405625.38, 'kid_time': 0.2514607906341553, 'precision': 0.9589164785553047, 'recall': 0.9584650112866817, 'f1_pr': 0.9587006917702325, 'precision_time': 0.5081379413604736, 'recall_time': 0.5081379413604736, 'f1_pr_time': 0.5081379413604736, 'density': 1.0174266365688487, 'coverage': 0.9688487584650113, 'f1_dc': 0.992553674531484, 'density_time': 0.36582088470458984, 'coverage_time': 0.36582088470458984, 'f1_dc_time': 0.36582088470458984, 'mmd_rbf': 0.0009057252200364019, 'mmd_rbf_time': 0.8944621086120605, 'mmd_linear': 0.50429827, 'mmd_linear_time': 0.18042778968811035, 'wl_mmd': 0.0009029345372460496, 'wl_mmd_time': 3.0450589656829834, 'nspdk_mmd': 0.0007267642045445388, 'nspdk_mmd_time': 19.456851959228516, 'degree_mmd': 3.1885788655872105e-05, 'degree_mmd_time': 31.967703, 'cluster_mmd': 3.315150648486309e-05, 'cluster_mmd_time': 41.198641, 'spectral_mmd': 0.00024739280706098654, 'spectral_mmd_time': 62.723824, 'dataset': 'cyp2c19_veith_25', 'generator_name': 'train1'}
+cyp2c19_veith_33
+Now computing classifier based metrics
+Now computing structural based metrics
+{'activations_time': 0.22910022735595703, 'fid': 2.727411968367278, 'fid_time': 0.24172043800354004, 'kid': 0.6268589, 'kid_time': 0.34519124031066895, 'precision': 0.9675126903553299, 'recall': 0.9675126903553299, 'f1_pr': 0.96752269035533, 'precision_time': 0.7430882453918457, 'recall_time': 0.7430882453918457, 'f1_pr_time': 0.7430882453918457, 'density': 1.0002030456852793, 'coverage': 0.9742808798646362, 'f1_dc': 0.9870818039132462, 'density_time': 0.5017843246459961, 'coverage_time': 0.5017843246459961, 'f1_dc_time': 0.5017843246459961, 'mmd_rbf': 0.0006785018199479964, 'mmd_rbf_time': 1.340963363647461, 'mmd_linear': 0.019231712, 'mmd_linear_time': 0.22924399375915527, 'wl_mmd': 0.0006768189509306261, 'wl_mmd_time': 4.20816707611084, 'nspdk_mmd': 0.0004802919972092812, 'nspdk_mmd_time': 26.20012092590332, 'degree_mmd': 2.4152335779348277e-05, 'degree_mmd_time': 51.65208, 'cluster_mmd': 6.680530455271949e-06, 'cluster_mmd_time': 69.438039, 'spectral_mmd': 0.00021232019522532397, 'spectral_mmd_time': 106.705602, 'dataset': 'cyp2c19_veith_33', 'generator_name': 'train1'}
+cyp2c19_veith_40
+Now computing classifier based metrics
+Now computing structural based metrics
+{'activations_time': 0.29059791564941406, 'fid': 0.5904417354987999, 'fid_time': 0.29637980461120605, 'kid': -0.4421276, 'kid_time': 0.40398573875427246, 'precision': 0.9627434377646062, 'recall': 0.9714930849562518, 'f1_pr': 0.9671084717603735, 'precision_time': 0.9868695735931396, 'recall_time': 0.9868695735931396, 'f1_pr_time': 0.9868695735931396, 'density': 0.9913632514817952, 'coverage': 0.9700818515382444, 'f1_dc': 0.9806171026083645, 'density_time': 0.724686861038208, 'coverage_time': 0.724686861038208, 'f1_dc_time': 0.724686861038208, 'mmd_rbf': 0.0005641609986923868, 'mmd_rbf_time': 1.906317949295044, 'mmd_linear': 0.014636391, 'mmd_linear_time': 0.2907578945159912, 'wl_mmd': 0.0005644933672029354, 'wl_mmd_time': 5.496870279312134, 'nspdk_mmd': 0.0004137338210123964, 'nspdk_mmd_time': 31.813920974731445, 'degree_mmd': 2.2259349818920526e-06, 'degree_mmd_time': 68.293089, 'cluster_mmd': 4.6195536276272264e-06, 'cluster_mmd_time': 101.91527, 'spectral_mmd': 0.00012004588946634698, 'spectral_mmd_time': 156.781264, 'dataset': 'cyp2c19_veith_40', 'generator_name': 'train1'}
+cyp2c19_veith_50
+Now computing classifier based metrics
+Now computing structural based metrics
+{'activations_time': 0.35664892196655273, 'fid': 7.480324577609579, 'fid_time': 0.3604850769042969, 'kid': -1.0715204, 'kid_time': 0.5322730541229248, 'precision': 0.9643501805054152, 'recall': 0.9627791563275434, 'f1_pr': 0.9635740280621174, 'precision_time': 1.4444549083709717, 'recall_time': 1.4444549083709717, 'f1_pr_time': 1.4444549083709717, 'density': 1.0025270758122744, 'coverage': 0.9702233250620348, 'f1_dc': 0.9861207164627218, 'density_time': 0.9293007850646973, 'coverage_time': 0.9293007850646973, 'f1_dc_time': 0.9293007850646973, 'mmd_rbf': 0.0005961060523986816, 'mmd_rbf_time': 3.1846439838409424, 'mmd_linear': 0.053343028, 'mmd_linear_time': 0.35683774948120117, 'wl_mmd': 0.00045121263969522966, 'wl_mmd_time': 7.82377815246582, 'nspdk_mmd': 0.00033968552713475875, 'nspdk_mmd_time': 74.70782399177551, 'degree_mmd': 8.808374594160284e-06, 'degree_mmd_time': 158.514059, 'cluster_mmd': 2.5902659424037466e-06, 'cluster_mmd_time': 273.824758, 'spectral_mmd': 0.00011961757684542107, 'spectral_mmd_time': 427.105291, 'dataset': 'cyp2c19_veith_50', 'generator_name': 'train1'}
+herg_karim_25
+Now computing classifier based metrics
+Now computing structural based metrics
+{'activations_time': 0.18523812294006348, 'fid': 812.3299853672338, 'fid_time': 0.21758818626403809, 'kid': 1779.6674, 'kid_time': 0.27888941764831543, 'precision': 0.9647258818529537, 'recall': 0.9634509137271569, 'f1_pr': 0.9640979762709122, 'precision_time': 0.7440471649169922, 'recall_time': 0.7440471649169922, 'f1_pr_time': 0.7440471649169922, 'density': 1.0172545686357841, 'coverage': 0.976625584360391, 'f1_dc': 0.9965361354186486, 'density_time': 2.7082631587982178, 'coverage_time': 2.7082631587982178, 'f1_dc_time': 2.7082631587982178, 'mmd_rbf': 0.0008563873852835968, 'mmd_rbf_time': 1.8281900882720947, 'mmd_linear': 0.39699617, 'mmd_linear_time': 0.18535923957824707, 'wl_mmd': 0.0008499787505312367, 'wl_mmd_time': 12.12971806526184, 'nspdk_mmd': 0.0006028644450540854, 'nspdk_mmd_time': 44.39364314079285, 'degree_mmd': 7.955013520799525e-06, 'degree_mmd_time': 38.611841, 'cluster_mmd': 0.00018170198719325015, 'cluster_mmd_time': 68.513462, 'spectral_mmd': 0.00017050527476225597, 'spectral_mmd_time': 115.241141, 'dataset': 'herg_karim_25', 'generator_name': 'train1'}
+herg_karim_33
+Now computing classifier based metrics
+Now computing structural based metrics
+{'activations_time': 0.2495250701904297, 'fid': 6.613596017919832, 'fid_time': 0.27524590492248535, 'kid': -0.26937926, 'kid_time': 0.3711838722229004, 'precision': 0.960790564233344, 'recall': 0.9678036340452661, 'f1_pr': 0.9642943482355133, 'precision_time': 0.995225191116333, 'recall_time': 0.995225191116333, 'f1_pr_time': 0.995225191116333, 'density': 0.9870576984379981, 'coverage': 0.9652534268409309, 'f1_dc': 0.9760438040264598, 'density_time': 0.8169820308685303, 'coverage_time': 0.8169820308685303, 'f1_dc_time': 0.8169820308685303, 'mmd_rbf': 0.0006403180304914713, 'mmd_rbf_time': 2.2371110916137695, 'mmd_linear': 0.02199163, 'mmd_linear_time': 0.24968504905700684, 'wl_mmd': 0.000637551801083838, 'wl_mmd_time': 5.70258092880249, 'nspdk_mmd': 0.00046764518224085005, 'nspdk_mmd_time': 49.25468587875366, 'degree_mmd': 6.801840931158765e-06, 'degree_mmd_time': 93.664488, 'cluster_mmd': 1.721101900442612e-05, 'cluster_mmd_time': 113.121697, 'spectral_mmd': 0.0001548477605566312, 'spectral_mmd_time': 182.605191, 'dataset': 'herg_karim_33', 'generator_name': 'train1'}
+herg_karim_40
+Now computing classifier based metrics
+Now computing structural based metrics
+{'activations_time': 0.3497891426086426, 'fid': 0.4130858497359924, 'fid_time': 0.3885011672973633, 'kid': 0.01703766, 'kid_time': 0.4760863780975342, 'precision': 0.9593517534537725, 'recall': 0.963336875664187, 'f1_pr': 0.961350184656302, 'precision_time': 1.67559814453125, 'recall_time': 1.67559814453125, 'f1_pr_time': 1.67559814453125, 'density': 0.9837938363443146, 'coverage': 0.9766206163655685, 'f1_dc': 0.9802041029667069, 'density_time': 1.041978120803833, 'coverage_time': 1.041978120803833, 'f1_dc_time': 1.041978120803833, 'mmd_rbf': 0.0006180107593536377, 'mmd_rbf_time': 2.6598100662231445, 'mmd_linear': 0.0316723, 'mmd_linear_time': 0.34996700286865234, 'wl_mmd': 0.0005313496280552603, 'wl_mmd_time': 21.26524806022644, 'nspdk_mmd': 0.00041667451990567983, 'nspdk_mmd_time': 60.72015595436096, 'degree_mmd': 1.0098370864852768e-05, 'degree_mmd_time': 105.189286, 'cluster_mmd': 2.8689563284389763e-05, 'cluster_mmd_time': 177.128165, 'spectral_mmd': 0.0001048417817468561, 'spectral_mmd_time': 313.85641, 'dataset': 'herg_karim_40', 'generator_name': 'train1'}
+herg_karim_50
+Now computing classifier based metrics
+fid calculation produces singular product; adding 1e-06 to diagonal of cov estimates
+Now computing structural based metrics
+{'activations_time': 0.4147939682006836, 'fid': 1.8612806339340437, 'fid_time': 0.45123887062072754, 'kid': -0.019470835, 'kid_time': 0.5806589126586914, 'precision': 0.963238419039524, 'recall': 0.9611134721631959, 'f1_pr': 0.9621847723875835, 'precision_time': 2.5597357749938965, 'recall_time': 2.5597357749938965, 'f1_pr_time': 2.5597357749938965, 'density': 0.9820229494262643, 'coverage': 0.9634509137271569, 'f1_dc': 0.9726582855736207, 'density_time': 1.4818718433380127, 'coverage_time': 1.4818718433380127, 'f1_dc_time': 1.4818718433380127, 'mmd_rbf': 0.00042611558455973864, 'mmd_rbf_time': 3.680327892303467, 'mmd_linear': 0.009174639, 'mmd_linear_time': 0.41501474380493164, 'wl_mmd': 0.00042498937526561835, 'wl_mmd_time': 12.680110692977905, 'nspdk_mmd': 0.0003189963465617396, 'nspdk_mmd_time': 82.76173186302185, 'degree_mmd': 3.6238206644334525e-06, 'degree_mmd_time': 176.540896, 'cluster_mmd': 5.394339641640045e-06, 'cluster_mmd_time': 296.425419, 'spectral_mmd': 0.0001015151573939832, 'spectral_mmd_time': 457.077386, 'dataset': 'herg_karim_50', 'generator_name': 'train1'}
+lipophilicity_astrazeneca_25
+Now computing classifier based metrics
+Now computing structural based metrics
+{'activations_time': 0.5101969242095947, 'fid': 1.024278726931044, 'fid_time': 0.7319309711456299, 'kid': 0.36640596, 'kid_time': 0.5273289680480957, 'precision': 0.9673469387755103, 'recall': 0.9836734693877551, 'f1_pr': 0.9754518929383275, 'precision_time': 1.776200771331787, 'recall_time': 1.776200771331787, 'f1_pr_time': 1.776200771331787, 'density': 0.9994557823129253, 'coverage': 0.963265306122449, 'f1_dc': 0.9810368907942655, 'density_time': 2.9226999282836914, 'coverage_time': 2.9226999282836914, 'f1_dc_time': 2.9226999282836914, 'mmd_rbf': 0.002727714141656179, 'mmd_rbf_time': 1.4613289833068848, 'mmd_linear': 0.107017696, 'mmd_linear_time': 0.5102677345275879, 'wl_mmd': 0.0027210884353741495, 'wl_mmd_time': 2.9850008487701416, 'nspdk_mmd': 0.0018266823112527142, 'nspdk_mmd_time': 7.0710999965667725, 'degree_mmd': 1.3335020995652869e-05, 'degree_mmd_time': 10.205111, 'cluster_mmd': 6.671874283403767e-05, 'cluster_mmd_time': 17.491289, 'spectral_mmd': 0.0005911158131743921, 'spectral_mmd_time': 14.768788, 'dataset': 'lipophilicity_astrazeneca_25', 'generator_name': 'train1'}
+lipophilicity_astrazeneca_33
+Now computing classifier based metrics
+fid calculation produces singular product; adding 1e-06 to diagonal of cov estimates
+Now computing structural based metrics
+{'activations_time': 0.577052116394043, 'fid': 3.2131308719056904, 'fid_time': 1.8963663578033447, 'kid': -0.0509938, 'kid_time': 0.6689190864562988, 'precision': 0.9663265306122449, 'recall': 0.9755102040816327, 'f1_pr': 0.9709066510542571, 'precision_time': 1.8605811595916748, 'recall_time': 1.8605811595916748, 'f1_pr_time': 1.8605811595916748, 'density': 1.0189795918367348, 'coverage': 0.9785714285714285, 'f1_dc': 0.998376808925931, 'density_time': 1.110935926437378, 'coverage_time': 1.110935926437378, 'f1_dc_time': 1.110935926437378, 'mmd_rbf': 0.0020195275501464494, 'mmd_rbf_time': 1.9342360496520996, 'mmd_linear': 0.055618264, 'mmd_linear_time': 0.577146053314209, 'wl_mmd': 0.0020408163265306124, 'wl_mmd_time': 1.3522839546203613, 'nspdk_mmd': 0.0012812632747737362, 'nspdk_mmd_time': 9.374804973602295, 'degree_mmd': 4.904057735011236e-06, 'degree_mmd_time': 15.54252, 'cluster_mmd': 1.3017865603925927e-05, 'cluster_mmd_time': 18.707259, 'spectral_mmd': 0.0003933622566896222, 'spectral_mmd_time': 35.684292, 'dataset': 'lipophilicity_astrazeneca_33', 'generator_name': 'train1'}
+lipophilicity_astrazeneca_40
+Now computing classifier based metrics
+Now computing structural based metrics
+{'activations_time': 0.09778785705566406, 'fid': 1.7349116551874175, 'fid_time': 0.11330580711364746, 'kid': 0.007109344, 'kid_time': 0.18844294548034668, 'precision': 0.9761904761904762, 'recall': 0.9710884353741497, 'f1_pr': 0.973642771954695, 'precision_time': 0.40594959259033203, 'recall_time': 0.40594959259033203, 'f1_pr_time': 0.40594959259033203, 'density': 1.021938775510204, 'coverage': 0.9795918367346939, 'f1_dc': 1.00032733762925, 'density_time': 0.35880398750305176, 'coverage_time': 0.35880398750305176, 'f1_dc_time': 0.35880398750305176, 'mmd_rbf': 0.0017015558150887955, 'mmd_rbf_time': 0.5404567718505859, 'mmd_linear': 0.041889135, 'mmd_linear_time': 0.09787583351135254, 'wl_mmd': 0.0017006802721088435, 'wl_mmd_time': 1.7017121315002441, 'nspdk_mmd': 0.0012540911277406641, 'nspdk_mmd_time': 13.828524827957153, 'degree_mmd': 6.647071688181683e-06, 'degree_mmd_time': 14.843294, 'cluster_mmd': 0.0003804454055604811, 'cluster_mmd_time': 36.311137, 'spectral_mmd': 0.0005571359838960621, 'spectral_mmd_time': 23.701671, 'dataset': 'lipophilicity_astrazeneca_40', 'generator_name': 'train1'}
+lipophilicity_astrazeneca_50
+Now computing classifier based metrics
+Now computing structural based metrics
+{'activations_time': 0.1229698657989502, 'fid': 2.1751155602192966, 'fid_time': 0.1441049575805664, 'kid': 0.14377654, 'kid_time': 0.20752882957458496, 'precision': 0.9659863945578231, 'recall': 0.9625850340136054, 'f1_pr': 0.9642927148807132, 'precision_time': 0.45047473907470703, 'recall_time': 0.45047473907470703, 'f1_pr_time': 0.45047473907470703, 'density': 0.9906122448979592, 'coverage': 0.9727891156462585, 'f1_dc': 0.9816297847642198, 'density_time': 0.3943448066711426, 'coverage_time': 0.3943448066711426, 'f1_dc_time': 0.3943448066711426, 'mmd_rbf': 0.0014622807502746582, 'mmd_rbf_time': 0.6675570011138916, 'mmd_linear': 0.039955556, 'mmd_linear_time': 0.12307000160217285, 'wl_mmd': 0.0013605442176870747, 'wl_mmd_time': 2.066469192504883, 'nspdk_mmd': 0.0011254361754112763, 'nspdk_mmd_time': 25.010227918624878, 'degree_mmd': 5.868990926849449e-05, 'degree_mmd_time': 18.772844, 'cluster_mmd': 4.2896402825176594e-05, 'cluster_mmd_time': 27.251781, 'spectral_mmd': 0.00038791734227716645, 'spectral_mmd_time': 55.294303, 'dataset': 'lipophilicity_astrazeneca_50', 'generator_name': 'train1'}
+ames_25
+Now computing classifier based metrics
+Now computing structural based metrics
+{'activations_time': 0.09974908828735352, 'fid': 0.24249419973378394, 'fid_time': 0.10203099250793457, 'kid': -0.081168294, 'kid_time': 0.1722853183746338, 'precision': 0.9779874213836478, 'recall': 0.98586017282011, 'f1_pr': 0.9819180169608542, 'precision_time': 0.2650468349456787, 'recall_time': 0.2650468349456787, 'f1_pr_time': 0.2650468349456787, 'density': 1.1012578616352202, 'coverage': 0.9960722702278083, 'f1_dc': 1.0460374499055485, 'density_time': 0.17034506797790527, 'coverage_time': 0.17034506797790527, 'f1_dc_time': 0.17034506797790527, 'mmd_rbf': 0.0007862589554861188, 'mmd_rbf_time': 0.4163191318511963, 'mmd_linear': 0.04453964, 'mmd_linear_time': 0.09984517097473145, 'wl_mmd': 0.0015717094764509134, 'wl_mmd_time': 1.1825032234191895, 'nspdk_mmd': 0.000690534762784023, 'nspdk_mmd_time': 7.225302219390869, 'degree_mmd': 5.5570335422139294e-05, 'degree_mmd_time': 14.841549, 'cluster_mmd': 9.960916773055217e-05, 'cluster_mmd_time': 22.969958, 'spectral_mmd': 0.00024158249953520894, 'spectral_mmd_time': 24.924782, 'dataset': 'ames_25', 'generator_name': 'train1/2+train2/2'}
+ames_33
+Now computing classifier based metrics
+Now computing structural based metrics
+{'activations_time': 0.13034892082214355, 'fid': 0.3015629805930615, 'fid_time': 0.13278508186340332, 'kid': -0.09747875, 'kid_time': 0.19175100326538086, 'precision': 0.9864546525323911, 'recall': 0.9923439340400471, 'f1_pr': 0.9894005295630279, 'precision_time': 0.37093591690063477, 'recall_time': 0.37093591690063477, 'f1_pr_time': 0.37093591690063477, 'density': 1.0870435806831569, 'coverage': 0.9958775029446407, 'f1_dc': 1.0394754652859182, 'density_time': 0.2978091239929199, 'coverage_time': 0.2978091239929199, 'f1_dc_time': 0.2978091239929199, 'mmd_rbf': 0.0008585751056671143, 'mmd_rbf_time': 0.6363017559051514, 'mmd_linear': 0.077931136, 'mmd_linear_time': 0.13047480583190918, 'wl_mmd': 0.001177856301531213, 'wl_mmd_time': 1.6144158840179443, 'nspdk_mmd': 0.0004309639616052463, 'nspdk_mmd_time': 9.859950065612793, 'degree_mmd': -1.525625823450838e-07, 'degree_mmd_time': 21.609156, 'cluster_mmd': 0.00015477880153769163, 'cluster_mmd_time': 27.703253, 'spectral_mmd': 0.00016186779614923985, 'spectral_mmd_time': 40.485901, 'dataset': 'ames_33', 'generator_name': 'train1/2+train2/2'}
+ames_40
+Now computing classifier based metrics
+Now computing structural based metrics
+{'activations_time': 0.16088199615478516, 'fid': 0.06756485170552651, 'fid_time': 0.16602396965026855, 'kid': -0.038823307, 'kid_time': 0.2540278434753418, 'precision': 0.9828094302554028, 'recall': 0.9842829076620825, 'f1_pr': 0.9835556171001563, 'precision_time': 0.4190642833709717, 'recall_time': 0.4190642833709717, 'f1_pr_time': 0.4190642833709717, 'density': 1.0861493123772101, 'coverage': 1.0, 'f1_dc': 1.0413058686331003, 'density_time': 0.3001413345336914, 'coverage_time': 0.3001413345336914, 'f1_dc_time': 0.3001413345336914, 'mmd_rbf': 0.0004975280608050525, 'mmd_rbf_time': 0.7460281848907471, 'mmd_linear': 0.0045878105, 'mmd_linear_time': 0.16100716590881348, 'wl_mmd': 0.0009823182711198428, 'wl_mmd_time': 2.034940004348755, 'nspdk_mmd': 0.00036799707240714463, 'nspdk_mmd_time': 11.823105096817017, 'degree_mmd': 1.854546914237254e-05, 'degree_mmd_time': 27.37479, 'cluster_mmd': 4.162638063265334e-05, 'cluster_mmd_time': 37.086278, 'spectral_mmd': 0.00012714346229758533, 'spectral_mmd_time': 53.821974, 'dataset': 'ames_40', 'generator_name': 'train1/2+train2/2'}
+ames_50
+Now computing classifier based metrics
+Now computing structural based metrics
+{'activations_time': 0.1963489055633545, 'fid': 0.9439877786688555, 'fid_time': 0.2023468017578125, 'kid': -0.046594262, 'kid_time': 0.27229762077331543, 'precision': 0.9850746268656716, 'recall': 0.9882214369846879, 'f1_pr': 0.9866555228456392, 'precision_time': 0.5869419574737549, 'recall_time': 0.5869419574737549, 'f1_pr_time': 0.5869419574737549, 'density': 1.0996072270227808, 'coverage': 0.9996073812328229, 'f1_dc': 1.047235490985362, 'density_time': 0.4481348991394043, 'coverage_time': 0.4481348991394043, 'f1_dc_time': 0.4481348991394043, 'mmd_rbf': 0.00039198994636535645, 'mmd_rbf_time': 1.127742052078247, 'mmd_linear': 0.08635859, 'mmd_linear_time': 0.1964869499206543, 'wl_mmd': 0.0007853917443962384, 'wl_mmd_time': 2.5982091426849365, 'nspdk_mmd': 0.00036045313665444834, 'nspdk_mmd_time': 14.77284288406372, 'degree_mmd': 2.444855801764234e-05, 'degree_mmd_time': 39.925287, 'cluster_mmd': 9.227680415690998e-05, 'cluster_mmd_time': 53.604013, 'spectral_mmd': 0.0001212586767667112, 'spectral_mmd_time': 80.910598, 'dataset': 'ames_50', 'generator_name': 'train1/2+train2/2'}
+bbb_martins_25
+Now computing classifier based metrics
+Now computing structural based metrics
+{'activations_time': 0.03775191307067871, 'fid': 298.30282180446807, 'fid_time': 0.040181875228881836, 'kid': 8493.968, 'kid_time': 0.05829191207885742, 'precision': 0.9887005649717514, 'recall': 0.9774647887323944, 'f1_pr': 0.9830605734017386, 'precision_time': 0.09301972389221191, 'recall_time': 0.09301972389221191, 'f1_pr_time': 0.09301972389221191, 'density': 1.1355932203389831, 'coverage': 1.0, 'f1_dc': 1.0635021038041073, 'density_time': 0.08768510818481445, 'coverage_time': 0.08768510818481445, 'f1_dc_time': 0.08768510818481445, 'mmd_rbf': 0.002830857876688242, 'mmd_rbf_time': 0.11457085609436035, 'mmd_linear': 2.20337, 'mmd_linear_time': 0.03780865669250488, 'wl_mmd': 0.005641760165512851, 'wl_mmd_time': 0.4081547260284424, 'nspdk_mmd': 0.002374660275812679, 'nspdk_mmd_time': 3.1021077632904053, 'degree_mmd': 7.410163281829085e-05, 'degree_mmd_time': 7.722731, 'cluster_mmd': 6.011185599552604e-05, 'cluster_mmd_time': 8.922256, 'spectral_mmd': 0.0008906708592502088, 'spectral_mmd_time': 9.605777, 'dataset': 'bbb_martins_25', 'generator_name': 'train1/2+train2/2'}
+bbb_martins_33
+Now computing classifier based metrics
+Now computing structural based metrics
+{'activations_time': 0.047547340393066406, 'fid': 1.7824196477053107, 'fid_time': 0.05158042907714844, 'kid': -0.11418283, 'kid_time': 0.07139134407043457, 'precision': 0.9830508474576272, 'recall': 0.985200845665962, 'f1_pr': 0.9841346723102133, 'precision_time': 0.1551053524017334, 'recall_time': 0.1551053524017334, 'f1_pr_time': 0.1551053524017334, 'density': 1.1114406779661017, 'coverage': 0.9978858350951374, 'f1_dc': 1.0516166932159616, 'density_time': 0.09237933158874512, 'coverage_time': 0.09237933158874512, 'f1_dc_time': 0.09237933158874512, 'mmd_rbf': 0.0021335636265575886, 'mmd_rbf_time': 0.16339445114135742, 'mmd_linear': 0.045034073, 'mmd_linear_time': 0.04760241508483887, 'wl_mmd': 0.0042328089726591895, 'wl_mmd_time': 0.548846960067749, 'nspdk_mmd': 0.0014958258317183115, 'nspdk_mmd_time': 4.167118072509766, 'degree_mmd': 4.9978146288154335e-05, 'degree_mmd_time': 8.294089, 'cluster_mmd': 0.0002370731297067774, 'cluster_mmd_time': 8.676417, 'spectral_mmd': 0.0004125118296636199, 'spectral_mmd_time': 10.765025, 'dataset': 'bbb_martins_33', 'generator_name': 'train1/2+train2/2'}
+bbb_martins_40
+Now computing classifier based metrics
+Now computing structural based metrics
+{'activations_time': 0.0564417839050293, 'fid': 1.1097724382299674, 'fid_time': 0.06875395774841309, 'kid': -0.28154898, 'kid_time': 0.09793567657470703, 'precision': 0.9823943661971831, 'recall': 0.971830985915493, 'f1_pr': 0.9770941266720821, 'precision_time': 0.1494896411895752, 'recall_time': 0.1494896411895752, 'f1_pr_time': 0.1494896411895752, 'density': 1.087323943661972, 'coverage': 1.0, 'f1_dc': 1.0418453751266352, 'density_time': 0.10783863067626953, 'coverage_time': 0.10783863067626953, 'f1_dc_time': 0.10783863067626953, 'mmd_rbf': 0.0017488960875198245, 'mmd_rbf_time': 0.15804457664489746, 'mmd_linear': 0.101779856, 'mmd_linear_time': 0.05649852752685547, 'wl_mmd': 0.0035211267605633804, 'wl_mmd_time': 0.6981010437011719, 'nspdk_mmd': 0.0012615391872521364, 'nspdk_mmd_time': 5.277790069580078, 'degree_mmd': -1.603167502084446e-06, 'degree_mmd_time': 8.813011, 'cluster_mmd': 9.023163449506377e-05, 'cluster_mmd_time': 10.119404, 'spectral_mmd': 0.0003176941400573341, 'spectral_mmd_time': 12.682277, 'dataset': 'bbb_martins_40', 'generator_name': 'train1/2+train2/2'}
+bbb_martins_50
+Now computing classifier based metrics
+Now computing structural based metrics
+{'activations_time': 0.0698089599609375, 'fid': 1.4402277562929697, 'fid_time': 0.07220578193664551, 'kid': 0.69821453, 'kid_time': 0.09696412086486816, 'precision': 0.9774647887323944, 'recall': 0.9788732394366197, 'f1_pr': 0.9781785070879968, 'precision_time': 0.17164278030395508, 'recall_time': 0.17164278030395508, 'f1_pr_time': 0.17164278030395508, 'density': 1.1152112676056338, 'coverage': 1.0, 'f1_dc': 1.0544780014345316, 'density_time': 0.1396629810333252, 'coverage_time': 0.1396629810333252, 'f1_dc_time': 0.1396629810333252, 'mmd_rbf': 0.0013910159468650818, 'mmd_rbf_time': 0.18242788314819336, 'mmd_linear': 0.080276914, 'mmd_linear_time': 0.06987905502319336, 'wl_mmd': 0.0028169014084507044, 'wl_mmd_time': 0.8513789176940918, 'nspdk_mmd': 0.0011850235706564183, 'nspdk_mmd_time': 6.186089277267456, 'degree_mmd': 4.047138903673364e-05, 'degree_mmd_time': 9.649909, 'cluster_mmd': 0.00010003660158797167, 'cluster_mmd_time': 18.953355, 'spectral_mmd': 0.0003480558021919933, 'spectral_mmd_time': 14.27531, 'dataset': 'bbb_martins_50', 'generator_name': 'train1/2+train2/2'}
+cyp1a2_veith_25
+Now computing classifier based metrics
+Now computing structural based metrics
+{'activations_time': 0.18358469009399414, 'fid': 0.6796613134251857, 'fid_time': 0.18752598762512207, 'kid': -0.029141903, 'kid_time': 0.25963854789733887, 'precision': 0.9827272727272728, 'recall': 0.9822727272727273, 'f1_pr': 0.9825099474276165, 'precision_time': 0.5328836441040039, 'recall_time': 0.5328836441040039, 'f1_pr_time': 0.5328836441040039, 'density': 1.1100909090909092, 'coverage': 0.9995454545454545, 'f1_dc': 1.0519319050284401, 'density_time': 0.3858530521392822, 'coverage_time': 0.3858530521392822, 'f1_dc_time': 0.3858530521392822, 'mmd_rbf': 0.00047329720109701157, 'mmd_rbf_time': 0.9021217823028564, 'mmd_linear': 0.007755853, 'mmd_linear_time': 0.18370461463928223, 'wl_mmd': 0.0009090909090909091, 'wl_mmd_time': 3.080014944076538, 'nspdk_mmd': 0.00037560987273538293, 'nspdk_mmd_time': 19.26922297477722, 'degree_mmd': 5.0253119261434165e-06, 'degree_mmd_time': 31.263801, 'cluster_mmd': 5.900889353815941e-06, 'cluster_mmd_time': 41.841129, 'spectral_mmd': 0.0001078611952896047, 'spectral_mmd_time': 62.552603, 'dataset': 'cyp1a2_veith_25', 'generator_name': 'train1/2+train2/2'}
+cyp1a2_veith_33
+Now computing classifier based metrics
+Now computing structural based metrics
+{'activations_time': 0.22539496421813965, 'fid': 6.913207805332036, 'fid_time': 0.22925877571105957, 'kid': 7.597257, 'kid_time': 0.2917971611022949, 'precision': 0.9819359236537151, 'recall': 0.9850034083162917, 'f1_pr': 0.9834772741048048, 'precision_time': 0.8015990257263184, 'recall_time': 0.8015990257263184, 'f1_pr_time': 0.8015990257263184, 'density': 1.0913428766189504, 'coverage': 0.998295841854124, 'f1_dc': 1.0427577887446693, 'density_time': 0.5239791870117188, 'coverage_time': 0.5239791870117188, 'f1_dc_time': 0.5239791870117188, 'mmd_rbf': 0.0003400789573788643, 'mmd_rbf_time': 1.4120080471038818, 'mmd_linear': 0.039433494, 'mmd_linear_time': 0.2255387306213379, 'wl_mmd': 0.0006816632583503749, 'wl_mmd_time': 4.2093541622161865, 'nspdk_mmd': 0.00023581951083140318, 'nspdk_mmd_time': 26.171349048614502, 'degree_mmd': 6.282379275912575e-06, 'degree_mmd_time': 51.696135, 'cluster_mmd': 1.3778594090796403e-05, 'cluster_mmd_time': 69.755429, 'spectral_mmd': 7.800449252104436e-05, 'spectral_mmd_time': 106.921934, 'dataset': 'cyp1a2_veith_33', 'generator_name': 'train1/2+train2/2'}
+cyp1a2_veith_40
+Now computing classifier based metrics
+Now computing structural based metrics
+{'activations_time': 0.2771599292755127, 'fid': 0.5176016652431485, 'fid_time': 0.28715991973876953, 'kid': -0.5812115, 'kid_time': 0.41280388832092285, 'precision': 0.9775440591245026, 'recall': 0.9778346121057119, 'f1_pr': 0.9776993140284516, 'precision_time': 0.9514341354370117, 'recall_time': 0.9514341354370117, 'f1_pr_time': 0.9514341354370117, 'density': 1.095224559408755, 'coverage': 0.9982949701619779, 'f1_dc': 1.0445258746799153, 'density_time': 0.7103748321533203, 'coverage_time': 0.7103748321533203, 'f1_dc_time': 0.7103748321533203, 'mmd_rbf': 0.00028405830380506814, 'mmd_rbf_time': 1.9042015075683594, 'mmd_linear': 0.011250768, 'mmd_linear_time': 0.2773301601409912, 'wl_mmd': 0.0005684240558158981, 'wl_mmd_time': 5.2928571701049805, 'nspdk_mmd': 0.00021548045230074253, 'nspdk_mmd_time': 31.460022926330566, 'degree_mmd': 7.898926743798995e-07, 'degree_mmd_time': 68.645167, 'cluster_mmd': 1.4371166598525775e-05, 'cluster_mmd_time': 100.245134, 'spectral_mmd': 7.329183483539836e-05, 'spectral_mmd_time': 156.616611, 'dataset': 'cyp1a2_veith_40', 'generator_name': 'train1/2+train2/2'}
+cyp1a2_veith_50
+Now computing classifier based metrics
+Now computing structural based metrics
+{'activations_time': 1.4665501117706299, 'fid': 0.3388286273204528, 'fid_time': 1.4836132526397705, 'kid': -0.19100149, 'kid_time': 1.5671422481536865, 'precision': 0.9818181818181818, 'recall': 0.9809134287661895, 'f1_pr': 0.9813755967639948, 'precision_time': 2.6043121814727783, 'recall_time': 2.6043121814727783, 'f1_pr_time': 2.6043121814727783, 'density': 1.0946818181818183, 'coverage': 0.9959100204498977, 'f1_dc': 1.0429726626474225, 'density_time': 2.080080032348633, 'coverage_time': 2.080080032348633, 'f1_dc_time': 2.080080032348633, 'mmd_rbf': 0.00023186393082141876, 'mmd_rbf_time': 3.8864681720733643, 'mmd_linear': 0.013251803, 'mmd_linear_time': 1.4667351245880127, 'wl_mmd': 0.0004544938133895189, 'wl_mmd_time': 7.249763011932373, 'nspdk_mmd': 0.00016794667575686928, 'nspdk_mmd_time': 39.7265899181366, 'degree_mmd': -6.506977601183905e-08, 'degree_mmd_time': 102.810493, 'cluster_mmd': 1.2253843806986353e-05, 'cluster_mmd_time': 171.863819, 'spectral_mmd': 5.493293856195791e-05, 'spectral_mmd_time': 251.132315, 'dataset': 'cyp1a2_veith_50', 'generator_name': 'train1/2+train2/2'}
+cyp2c19_veith_25
+Now computing classifier based metrics
+Now computing structural based metrics
+{'activations_time': 0.18708300590515137, 'fid': 1.5434095671270143, 'fid_time': 0.1936478614807129, 'kid': 0.0038357973, 'kid_time': 0.2864990234375, 'precision': 0.9832881662149955, 'recall': 0.9796839729119639, 'f1_pr': 0.9814927607857452, 'precision_time': 0.5066874027252197, 'recall_time': 0.5066874027252197, 'f1_pr_time': 0.5066874027252197, 'density': 1.1057813911472447, 'coverage': 0.9986455981941309, 'f1_dc': 1.0494963938718016, 'density_time': 0.3827700614929199, 'coverage_time': 0.3827700614929199, 'f1_dc_time': 0.3827700614929199, 'mmd_rbf': 0.000452345673693344, 'mmd_rbf_time': 0.9062201976776123, 'mmd_linear': 0.03653982, 'mmd_linear_time': 0.187208890914917, 'wl_mmd': 0.0009031384520015252, 'wl_mmd_time': 3.1041626930236816, 'nspdk_mmd': 0.000344610804746015, 'nspdk_mmd_time': 19.711312770843506, 'degree_mmd': 1.1672279864871626e-05, 'degree_mmd_time': 31.705309, 'cluster_mmd': 8.092800332426542e-05, 'cluster_mmd_time': 42.199018, 'spectral_mmd': 0.00010331625435999747, 'spectral_mmd_time': 63.257701, 'dataset': 'cyp2c19_veith_25', 'generator_name': 'train1/2+train2/2'}
+cyp2c19_veith_33
+Now computing classifier based metrics
+Now computing structural based metrics
+{'activations_time': 0.2296769618988037, 'fid': 0.28059176161447397, 'fid_time': 0.23220014572143555, 'kid': -0.15564315, 'kid_time': 0.34566497802734375, 'precision': 0.9773188896411645, 'recall': 0.9786802030456853, 'f1_pr': 0.978009072632766, 'precision_time': 0.7209429740905762, 'recall_time': 0.7209429740905762, 'f1_pr_time': 0.7209429740905762, 'density': 1.0966824644549764, 'coverage': 0.9979695431472081, 'f1_dc': 1.0450100451789908, 'density_time': 0.5544290542602539, 'coverage_time': 0.5544290542602539, 'f1_dc_time': 0.5544290542602539, 'mmd_rbf': 0.0003436612896621227, 'mmd_rbf_time': 1.7498159408569336, 'mmd_linear': 0.011922765, 'mmd_linear_time': 0.22981810569763184, 'wl_mmd': 0.0006769335106718127, 'wl_mmd_time': 4.244674921035767, 'nspdk_mmd': 0.00025239880807459425, 'nspdk_mmd_time': 26.452553033828735, 'degree_mmd': 5.547345785394953e-06, 'degree_mmd_time': 50.524852, 'cluster_mmd': 5.671446686505988e-06, 'cluster_mmd_time': 71.075729, 'spectral_mmd': 0.00010258192127876598, 'spectral_mmd_time': 111.768694, 'dataset': 'cyp2c19_veith_33', 'generator_name': 'train1/2+train2/2'}
+cyp2c19_veith_40
+Now computing classifier based metrics
+Now computing structural based metrics
+{'activations_time': 0.29394006729125977, 'fid': 0.2838751322140922, 'fid_time': 0.3052680492401123, 'kid': -0.21959117, 'kid_time': 0.4771847724914551, 'precision': 0.9813664596273292, 'recall': 0.9850409257691222, 'f1_pr': 0.9832102596445751, 'precision_time': 1.1929872035980225, 'recall_time': 1.1929872035980225, 'f1_pr_time': 1.1929872035980225, 'density': 1.0932241671372107, 'coverage': 0.9980242732147897, 'f1_dc': 1.0434673487146506, 'density_time': 0.7115521430969238, 'coverage_time': 0.7115521430969238, 'f1_dc_time': 0.7115521430969238, 'mmd_rbf': 0.00028286167071200907, 'mmd_rbf_time': 1.9212591648101807, 'mmd_linear': 0.003440239, 'mmd_linear_time': 0.29410314559936523, 'wl_mmd': 0.0005645730528843586, 'wl_mmd_time': 5.44495415687561, 'nspdk_mmd': 0.00021442621933059902, 'nspdk_mmd_time': 32.315288066864014, 'degree_mmd': 7.296807091217161e-06, 'degree_mmd_time': 69.263512, 'cluster_mmd': 3.211120705781667e-06, 'cluster_mmd_time': 103.102493, 'spectral_mmd': 4.457903018040277e-05, 'spectral_mmd_time': 155.249773, 'dataset': 'cyp2c19_veith_40', 'generator_name': 'train1/2+train2/2'}
+cyp2c19_veith_50
+Now computing classifier based metrics
+Now computing structural based metrics
+{'activations_time': 0.35504698753356934, 'fid': 1.0108418930814622, 'fid_time': 0.3693528175354004, 'kid': -0.2536649, 'kid_time': 0.5196139812469482, 'precision': 0.9828519855595668, 'recall': 0.9815023685991427, 'f1_pr': 0.9821867134544007, 'precision_time': 1.4716951847076416, 'recall_time': 1.4716951847076416, 'f1_pr_time': 1.4716951847076416, 'density': 1.1034296028880868, 'coverage': 0.9979697721633205, 'f1_dc': 1.0480634342293513, 'density_time': 1.1542308330535889, 'coverage_time': 1.1542308330535889, 'f1_dc_time': 1.1542308330535889, 'mmd_rbf': 0.0003212094306945801, 'mmd_rbf_time': 2.829975128173828, 'mmd_linear': 0.052789267, 'mmd_linear_time': 0.3552711009979248, 'wl_mmd': 0.00045121263969522966, 'wl_mmd_time': 7.6056249141693115, 'nspdk_mmd': 0.00017079113985174477, 'nspdk_mmd_time': 40.87597393989563, 'degree_mmd': 1.3561027387698488e-06, 'degree_mmd_time': 103.616374, 'cluster_mmd': 3.5364474002541613e-06, 'cluster_mmd_time': 174.181139, 'spectral_mmd': 6.0346634337848926e-05, 'spectral_mmd_time': 258.004599, 'dataset': 'cyp2c19_veith_50', 'generator_name': 'train1/2+train2/2'}
+herg_karim_25
+Now computing classifier based metrics
+Now computing structural based metrics
+{'activations_time': 0.20238184928894043, 'fid': 0.4415666732307244, 'fid_time': 0.21518278121948242, 'kid': -0.04656891, 'kid_time': 0.31369996070861816, 'precision': 0.9774659863945578, 'recall': 0.9796005099872503, 'f1_pr': 0.9785420841669898, 'precision_time': 0.5387580394744873, 'recall_time': 0.5387580394744873, 'f1_pr_time': 0.5387580394744873, 'density': 1.1114795918367348, 'coverage': 0.9983000424989376, 'f1_dc': 1.05186407619513, 'density_time': 0.4321408271789551, 'coverage_time': 0.4321408271789551, 'f1_dc_time': 0.4321408271789551, 'mmd_rbf': 0.00043051689863204956, 'mmd_rbf_time': 0.9693138599395752, 'mmd_linear': 0.019542145, 'mmd_linear_time': 0.20251178741455078, 'wl_mmd': 0.0008501594432928292, 'wl_mmd_time': 3.9632210731506348, 'nspdk_mmd': 0.0002855681672004895, 'nspdk_mmd_time': 26.657012939453125, 'degree_mmd': 5.106953581357487e-06, 'degree_mmd_time': 34.517893, 'cluster_mmd': 1.2492898860294588e-05, 'cluster_mmd_time': 47.146516, 'spectral_mmd': 0.00011004035504980081, 'spectral_mmd_time': 73.811944, 'dataset': 'herg_karim_25', 'generator_name': 'train1/2+train2/2'}
+herg_karim_33
+Now computing classifier based metrics
+fid calculation produces singular product; adding 1e-06 to diagonal of cov estimates
+Now computing structural based metrics
+{'activations_time': 0.2470240592956543, 'fid': 11.571282839370554, 'fid_time': 0.26999711990356445, 'kid': -0.98108494, 'kid_time': 0.3461301326751709, 'precision': 0.9818239795918368, 'recall': 0.980235894166401, 'f1_pr': 0.9810392941898604, 'precision_time': 0.8562700748443604, 'recall_time': 0.8562700748443604, 'f1_pr_time': 0.8562700748443604, 'density': 1.1086096938775512, 'coverage': 0.9987248963978324, 'f1_dc': 1.0508124073838987, 'density_time': 0.585669994354248, 'coverage_time': 0.585669994354248, 'f1_dc_time': 0.585669994354248, 'mmd_rbf': 0.00031903869239613414, 'mmd_rbf_time': 1.4900720119476318, 'mmd_linear': 0.0098714465, 'mmd_linear_time': 0.24717020988464355, 'wl_mmd': 0.0006376534515623272, 'wl_mmd_time': 5.5167059898376465, 'nspdk_mmd': 0.00021487177384693634, 'nspdk_mmd_time': 35.18522596359253, 'degree_mmd': 2.6159749439980118e-06, 'degree_mmd_time': 54.753909, 'cluster_mmd': 3.293336690912696e-06, 'cluster_mmd_time': 77.998805, 'spectral_mmd': 4.2659350767637605e-05, 'spectral_mmd_time': 123.887483, 'dataset': 'herg_karim_33', 'generator_name': 'train1/2+train2/2'}
+herg_karim_40
+Now computing classifier based metrics
+Now computing structural based metrics
+{'activations_time': 0.909635066986084, 'fid': 0.10943091883135025, 'fid_time': 0.923321008682251, 'kid': -0.42998832, 'kid_time': 0.9809887409210205, 'precision': 0.9848565356004251, 'recall': 0.9837938363443146, 'f1_pr': 0.9843348991468744, 'precision_time': 1.6807241439819336, 'recall_time': 1.6807241439819336, 'f1_pr_time': 1.6807241439819336, 'density': 1.0982465462274176, 'coverage': 0.9981402763018066, 'f1_dc': 1.0458133061641313, 'density_time': 1.3724353313446045, 'coverage_time': 1.3724353313446045, 'f1_dc_time': 1.3724353313446045, 'mmd_rbf': 0.0002691224217414856, 'mmd_rbf_time': 2.5936689376831055, 'mmd_linear': 0.014161867, 'mmd_linear_time': 0.9098091125488281, 'wl_mmd': 0.0005313496280552603, 'wl_mmd_time': 6.887466907501221, 'nspdk_mmd': 0.00019235672371786805, 'nspdk_mmd_time': 42.798868894577026, 'degree_mmd': 4.1796558909457104e-06, 'degree_mmd_time': 75.908519, 'cluster_mmd': 5.101145384101002e-06, 'cluster_mmd_time': 114.301855, 'spectral_mmd': 4.794723844447901e-05, 'spectral_mmd_time': 177.078117, 'dataset': 'herg_karim_40', 'generator_name': 'train1/2+train2/2'}
+herg_karim_50
+Now computing classifier based metrics
+Now computing structural based metrics
+{'activations_time': 0.39358091354370117, 'fid': 2.187665064217498, 'fid_time': 0.3978590965270996, 'kid': -0.49381694, 'kid_time': 0.5021266937255859, 'precision': 0.9821504462388441, 'recall': 0.985550361240969, 'f1_pr': 0.9838574664781825, 'precision_time': 1.8054108619689941, 'recall_time': 1.8054108619689941, 'f1_pr_time': 1.8054108619689941, 'density': 1.098172545686358, 'coverage': 0.998937526561836, 'f1_dc': 1.0462171633929394, 'density_time': 1.02764892578125, 'coverage_time': 1.02764892578125, 'f1_dc_time': 1.02764892578125, 'mmd_rbf': 0.00021195430599618703, 'mmd_rbf_time': 3.1119816303253174, 'mmd_linear': 0.004889814, 'mmd_linear_time': 0.39377593994140625, 'wl_mmd': 0.00042498937526561835, 'wl_mmd_time': 9.56544280052185, 'nspdk_mmd': 0.0001700371402999501, 'nspdk_mmd_time': 55.51222801208496, 'degree_mmd': 3.828311645914795e-06, 'degree_mmd_time': 116.549591, 'cluster_mmd': 1.9065456402511671e-06, 'cluster_mmd_time': 195.640914, 'spectral_mmd': 4.251371320562747e-05, 'spectral_mmd_time': 298.060636, 'dataset': 'herg_karim_50', 'generator_name': 'train1/2+train2/2'}
+lipophilicity_astrazeneca_25
+Now computing classifier based metrics
+Now computing structural based metrics
+{'activations_time': 0.06685209274291992, 'fid': 0.4951305433919515, 'fid_time': 0.06894516944885254, 'kid': -0.026742935, 'kid_time': 0.10288619995117188, 'precision': 0.989100817438692, 'recall': 0.9904761904761905, 'f1_pr': 0.9897980261705521, 'precision_time': 0.13848114013671875, 'recall_time': 0.13848114013671875, 'f1_pr_time': 0.13848114013671875, 'density': 1.1070844686648502, 'coverage': 0.9931972789115646, 'f1_dc': 1.0470631527012573, 'density_time': 0.10384607315063477, 'coverage_time': 0.10384607315063477, 'f1_dc_time': 0.10384607315063477, 'mmd_rbf': 0.0014203796163201332, 'mmd_rbf_time': 0.17410826683044434, 'mmd_linear': 0.061562598, 'mmd_linear_time': 0.06692194938659668, 'wl_mmd': 0.0027229420378505624, 'wl_mmd_time': 0.9846405982971191, 'nspdk_mmd': 0.0009251944153890745, 'nspdk_mmd_time': 6.9676737785339355, 'degree_mmd': 5.994996890246185e-06, 'degree_mmd_time': 10.443626, 'cluster_mmd': 3.260139722827127e-05, 'cluster_mmd_time': 11.203456, 'spectral_mmd': 0.00038169716562852507, 'spectral_mmd_time': 14.475025, 'dataset': 'lipophilicity_astrazeneca_25', 'generator_name': 'train1/2+train2/2'}
+lipophilicity_astrazeneca_33
+Now computing classifier based metrics
+Now computing structural based metrics
+{'activations_time': 0.0894930362701416, 'fid': 1.1789262998145773, 'fid_time': 0.0913238525390625, 'kid': -0.069827914, 'kid_time': 0.14011502265930176, 'precision': 0.9683673469387755, 'recall': 0.9785714285714285, 'f1_pr': 0.9734526477739388, 'precision_time': 0.19127202033996582, 'recall_time': 0.19127202033996582, 'f1_pr_time': 0.19127202033996582, 'density': 1.1238775510204082, 'coverage': 1.0, 'f1_dc': 1.0583361606645774, 'density_time': 0.14614605903625488, 'coverage_time': 0.14614605903625488, 'f1_dc_time': 0.14614605903625488, 'mmd_rbf': 0.001017112866975367, 'mmd_rbf_time': 0.25348711013793945, 'mmd_linear': 0.020115808, 'mmd_linear_time': 0.08957910537719727, 'wl_mmd': 0.0020408163265306124, 'wl_mmd_time': 1.3259332180023193, 'nspdk_mmd': 0.0006675326996355979, 'nspdk_mmd_time': 9.255934000015259, 'degree_mmd': 1.1681472914748525e-05, 'degree_mmd_time': 11.987685, 'cluster_mmd': 1.9738072194463996e-06, 'cluster_mmd_time': 17.472512, 'spectral_mmd': 0.00017344205923630618, 'spectral_mmd_time': 18.814364, 'dataset': 'lipophilicity_astrazeneca_33', 'generator_name': 'train1/2+train2/2'}
+lipophilicity_astrazeneca_40
+Now computing classifier based metrics
+Now computing structural based metrics
+{'activations_time': 0.10932207107543945, 'fid': 0.07781850323064532, 'fid_time': 0.11666512489318848, 'kid': -0.38966691, 'kid_time': 0.1718759536743164, 'precision': 0.9821428571428571, 'recall': 0.9829931972789115, 'f1_pr': 0.9825778432360939, 'precision_time': 0.2412581443786621, 'recall_time': 0.2412581443786621, 'f1_pr_time': 0.2412581443786621, 'density': 1.1083333333333334, 'coverage': 0.9991496598639455, 'f1_dc': 1.0509232504251467, 'density_time': 0.22332000732421875, 'coverage_time': 0.22332000732421875, 'f1_dc_time': 0.22332000732421875, 'mmd_rbf': 0.0008477121009491384, 'mmd_rbf_time': 0.32206296920776367, 'mmd_linear': 0.024753984, 'mmd_linear_time': 0.10941600799560547, 'wl_mmd': 0.0017006802721088435, 'wl_mmd_time': 1.655838966369629, 'nspdk_mmd': 0.0006055117282213196, 'nspdk_mmd_time': 11.054519176483154, 'degree_mmd': 1.2498622319556674e-05, 'degree_mmd_time': 14.532051, 'cluster_mmd': 8.346906465894754e-05, 'cluster_mmd_time': 21.921023, 'spectral_mmd': 0.0002691060092878672, 'spectral_mmd_time': 22.520375, 'dataset': 'lipophilicity_astrazeneca_40', 'generator_name': 'train1/2+train2/2'}
+lipophilicity_astrazeneca_50
+Now computing classifier based metrics
+Now computing structural based metrics
+{'activations_time': 0.13109803199768066, 'fid': 26.541931921500435, 'fid_time': 0.13698792457580566, 'kid': 164.45546, 'kid_time': 0.19514203071594238, 'precision': 0.9755102040816327, 'recall': 0.9775510204081632, 'f1_pr': 0.9765395459985928, 'precision_time': 0.319260835647583, 'recall_time': 0.319260835647583, 'f1_pr_time': 0.319260835647583, 'density': 1.093469387755102, 'coverage': 0.998639455782313, 'f1_dc': 1.0439152434268137, 'density_time': 0.2232799530029297, 'coverage_time': 0.2232799530029297, 'f1_dc_time': 0.2232799530029297, 'mmd_rbf': 0.0007635504007339478, 'mmd_rbf_time': 0.46387791633605957, 'mmd_linear': 0.06875257, 'mmd_linear_time': 0.13119292259216309, 'wl_mmd': 0.0013605442176870747, 'wl_mmd_time': 2.048717975616455, 'nspdk_mmd': 0.0005465153279803348, 'nspdk_mmd_time': 14.002125978469849, 'degree_mmd': 1.7361920281233623e-05, 'degree_mmd_time': 19.319742, 'cluster_mmd': 3.110234333436601e-05, 'cluster_mmd_time': 23.262757, 'spectral_mmd': 0.00016618360301912105, 'spectral_mmd_time': 32.192712, 'dataset': 'lipophilicity_astrazeneca_50', 'generator_name': 'train1/2+train2/2'}

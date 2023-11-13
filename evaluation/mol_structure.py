@@ -6,7 +6,9 @@ from rdkit.Chem.rdmolops import AddHs
 import networkx as nx
 import matplotlib
 from networkx.drawing.nx_agraph import graphviz_layout,pygraphviz_layout
-from pylab import rcParams
+try:
+    from pylab import rcParams
+except: from matplotlib.pylab import rcParams
 import matplotlib as mpl
 from matplotlib import pyplot as plt
 import random

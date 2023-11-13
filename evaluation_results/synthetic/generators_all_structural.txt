@@ -1,0 +1,200 @@
+synthetic_1_25
+Now computing structural based metrics
+Now computing the auc_roc based  metric
+0.7061000000000001 0.7620000000000001 0.63285 0.75705
+{'wl_mmd': 0.00995049504950495, 'wl_mmd_time': 0.4732666015625, 'nspdk_mmd': 0.011000416139730684, 'nspdk_mmd_time': 7.384618282318115, 'degree_mmd': 0.00023021246933629946, 'degree_mmd_time': 14.022374, 'cluster_mmd': 0.008986735625242104, 'cluster_mmd_time': 14.893043, 'spectral_mmd': 0.004608419412185594, 'spectral_mmd_time': 16.120993, 'AUC_ROC_based_metric_with_nspdk': 0.8179324031636994, 'AUC_ROC_based_metric_with_nspdk_time': 42.33850622177124, 'dataset': 'synthetic_1_25', 'generator_name': 'swingnn'}
+synthetic_1_33
+Now computing structural based metrics
+Now computing the auc_roc based  metric
+0.6983499999999999 0.76035 0.69675 0.7282
+{'wl_mmd': 0.007547277284119389, 'wl_mmd_time': 0.6277115345001221, 'nspdk_mmd': 0.007402877582241951, 'nspdk_mmd_time': 9.767012596130371, 'degree_mmd': 0.0010543672931344616, 'degree_mmd_time': 14.111008, 'cluster_mmd': 0.007631603838449352, 'cluster_mmd_time': 15.376968, 'spectral_mmd': 0.0036002235495466994, 'spectral_mmd_time': 16.338684, 'AUC_ROC_based_metric_with_nspdk': 0.7098795154369621, 'AUC_ROC_based_metric_with_nspdk_time': 57.761815309524536, 'dataset': 'synthetic_1_33', 'generator_name': 'swingnn'}
+synthetic_1_40
+Now computing structural based metrics
+Now computing the auc_roc based  metric
+0.75585 0.76935 0.7641499999999999 0.7847
+{'wl_mmd': 0.006230590062111801, 'wl_mmd_time': 0.749549388885498, 'nspdk_mmd': 0.007102684823757477, 'nspdk_mmd_time': 11.62289810180664, 'degree_mmd': 0.0012739747864869422, 'degree_mmd_time': 14.138087, 'cluster_mmd': 0.008118417792579657, 'cluster_mmd_time': 16.58743, 'spectral_mmd': 0.003078600803930742, 'spectral_mmd_time': 17.211138, 'AUC_ROC_based_metric_with_nspdk': 1.0, 'AUC_ROC_based_metric_with_nspdk_time': 72.19079399108887, 'dataset': 'synthetic_1_40', 'generator_name': 'swingnn'}
+synthetic_1_50
+Now computing structural based metrics
+Now computing the auc_roc based  metric
+0.73925 0.8126 0.7716 0.79825
+{'wl_mmd': 0.004987562189054726, 'wl_mmd_time': 0.9600512981414795, 'nspdk_mmd': 0.006901565180928937, 'nspdk_mmd_time': 16.243330717086792, 'degree_mmd': 0.0014116441966542936, 'degree_mmd_time': 18.717801, 'cluster_mmd': 0.020868398234797192, 'cluster_mmd_time': 20.288478, 'spectral_mmd': 0.002562159682909293, 'spectral_mmd_time': 38.116815, 'AUC_ROC_based_metric_with_nspdk': 0.9114844292770903, 'AUC_ROC_based_metric_with_nspdk_time': 92.24582982063293, 'dataset': 'synthetic_1_50', 'generator_name': 'swingnn'}
+synthetic_2_25
+Now computing structural based metrics
+Now computing the auc_roc based  metric
+0.7066500000000001 0.8065000000000001 0.70065 0.767
+{'wl_mmd': 0.00995049504950495, 'wl_mmd_time': 0.4812300205230713, 'nspdk_mmd': 0.010954418837878621, 'nspdk_mmd_time': 7.149190187454224, 'degree_mmd': 0.0011032698144579633, 'degree_mmd_time': 25.148777, 'cluster_mmd': 0.01138906556845981, 'cluster_mmd_time': 14.471373, 'spectral_mmd': 0.0034595857208041814, 'spectral_mmd_time': 15.293076, 'AUC_ROC_based_metric_with_nspdk': 0.7828078246703697, 'AUC_ROC_based_metric_with_nspdk_time': 42.68106722831726, 'dataset': 'synthetic_2_25', 'generator_name': 'swingnn'}
+synthetic_2_33
+Now computing structural based metrics
+Now computing the auc_roc based  metric
+0.75395 0.7901 0.5912000000000001 0.7377
+{'wl_mmd': 0.007547277284119389, 'wl_mmd_time': 0.6378424167633057, 'nspdk_mmd': 0.009299616830017454, 'nspdk_mmd_time': 12.4835844039917, 'degree_mmd': 0.0019936213712727913, 'degree_mmd_time': 19.475468, 'cluster_mmd': 0.016299850748607736, 'cluster_mmd_time': 19.857337, 'spectral_mmd': 0.002709942821129907, 'spectral_mmd_time': 21.505477, 'AUC_ROC_based_metric_with_nspdk': 0, 'AUC_ROC_based_metric_with_nspdk_time': 76.04001545906067, 'dataset': 'synthetic_2_33', 'generator_name': 'swingnn'}
+synthetic_2_40
+Now computing structural based metrics
+Now computing the auc_roc based  metric
+0.8040500000000002 0.8122499999999999 0.7485999999999999 0.78235
+{'wl_mmd': 0.006230590062111801, 'wl_mmd_time': 0.807074785232544, 'nspdk_mmd': 0.007088712935896246, 'nspdk_mmd_time': 11.903481245040894, 'degree_mmd': 0.0009006101603936667, 'degree_mmd_time': 15.634914, 'cluster_mmd': 0.01728344240480917, 'cluster_mmd_time': 16.93959, 'spectral_mmd': 0.0029327552317697236, 'spectral_mmd_time': 18.180654, 'AUC_ROC_based_metric_with_nspdk': 0, 'AUC_ROC_based_metric_with_nspdk_time': 77.04372000694275, 'dataset': 'synthetic_2_40', 'generator_name': 'swingnn'}
+synthetic_2_50
+Now computing structural based metrics
+Now computing the auc_roc based  metric
+0.82495 0.82805 0.78185 0.8274
+{'wl_mmd': 0.004987562189054726, 'wl_mmd_time': 0.9973244667053223, 'nspdk_mmd': 0.005135082999350449, 'nspdk_mmd_time': 14.78536319732666, 'degree_mmd': 0.00036426469762096403, 'degree_mmd_time': 15.425108, 'cluster_mmd': 0.01541989173807956, 'cluster_mmd_time': 17.789415, 'spectral_mmd': 0.0014623106886875181, 'spectral_mmd_time': 19.16641, 'AUC_ROC_based_metric_with_nspdk': 0.8771392050015897, 'AUC_ROC_based_metric_with_nspdk_time': 95.02508902549744, 'dataset': 'synthetic_2_50', 'generator_name': 'swingnn'}
+synthetic_1_25
+Now computing structural based metrics
+Now computing the auc_roc based  metric
+0.7061000000000001 0.7620000000000001 0.5046499999999999 0.69405
+{'wl_mmd': 0.01, 'wl_mmd_time': 0.4640474319458008, 'nspdk_mmd': 0.011223537692361396, 'nspdk_mmd_time': 6.9771668910980225, 'degree_mmd': 0.0016407777271871815, 'degree_mmd_time': 12.754876, 'cluster_mmd': 0.020620321383216678, 'cluster_mmd_time': 15.037431, 'spectral_mmd': 0.006042281458805698, 'spectral_mmd_time': 17.484363, 'AUC_ROC_based_metric_with_nspdk': 0, 'AUC_ROC_based_metric_with_nspdk_time': 60.27288770675659, 'dataset': 'synthetic_1_25', 'generator_name': 'gdss'}
+synthetic_1_33
+Now computing structural based metrics
+Now computing the auc_roc based  metric
+0.6983499999999999 0.76035 0.5326500000000001 0.71705
+{'wl_mmd': 0.007575757575757576, 'wl_mmd_time': 0.6152899265289307, 'nspdk_mmd': 0.008452800380209458, 'nspdk_mmd_time': 9.539878368377686, 'degree_mmd': 0.0016516137913127338, 'degree_mmd_time': 15.103286, 'cluster_mmd': 0.022098078084964556, 'cluster_mmd_time': 16.357164, 'spectral_mmd': 0.00497830815168232, 'spectral_mmd_time': 16.975193, 'AUC_ROC_based_metric_with_nspdk': 0.28328506206312154, 'AUC_ROC_based_metric_with_nspdk_time': 88.42304825782776, 'dataset': 'synthetic_1_33', 'generator_name': 'gdss'}
+synthetic_1_40
+Now computing structural based metrics
+Now computing the auc_roc based  metric
+0.75585 0.76935 0.5760000000000002 0.7142000000000001
+{'wl_mmd': 0.00625, 'wl_mmd_time': 0.757779598236084, 'nspdk_mmd': 0.00647722271673179, 'nspdk_mmd_time': 11.741658687591553, 'degree_mmd': 0.000856360869973205, 'degree_mmd_time': 26.818172, 'cluster_mmd': 0.014337947141839502, 'cluster_mmd_time': 16.838486, 'spectral_mmd': 0.0022223612725569275, 'spectral_mmd_time': 19.023688, 'AUC_ROC_based_metric_with_nspdk': 0, 'AUC_ROC_based_metric_with_nspdk_time': 107.94179391860962, 'dataset': 'synthetic_1_40', 'generator_name': 'gdss'}
+synthetic_1_50
+Now computing structural based metrics
+Now computing the auc_roc based  metric
+0.73925 0.8126 0.55355 0.72995
+{'wl_mmd': 0.005, 'wl_mmd_time': 0.9610595703125, 'nspdk_mmd': 0.005772727219011398, 'nspdk_mmd_time': 14.738227844238281, 'degree_mmd': 0.0008588929524915301, 'degree_mmd_time': 16.59393, 'cluster_mmd': 0.014479866095956029, 'cluster_mmd_time': 17.233496, 'spectral_mmd': 0.0029206629713718346, 'spectral_mmd_time': 20.243608, 'AUC_ROC_based_metric_with_nspdk': 0, 'AUC_ROC_based_metric_with_nspdk_time': 174.41076493263245, 'dataset': 'synthetic_1_50', 'generator_name': 'gdss'}
+synthetic_2_25
+Now computing structural based metrics
+Now computing the auc_roc based  metric
+0.7066500000000001 0.8065000000000001 0.68415 0.7078
+{'wl_mmd': 0.01, 'wl_mmd_time': 0.47657155990600586, 'nspdk_mmd': 0.017093464676443182, 'nspdk_mmd_time': 6.965627670288086, 'degree_mmd': 0.00553294577245822, 'degree_mmd_time': 14.323211, 'cluster_mmd': 0.018062858632227785, 'cluster_mmd_time': 15.137398, 'spectral_mmd': 0.005378702876199348, 'spectral_mmd_time': 15.797134, 'AUC_ROC_based_metric_with_nspdk': 0.0335483237034876, 'AUC_ROC_based_metric_with_nspdk_time': 45.118123054504395, 'dataset': 'synthetic_2_25', 'generator_name': 'gdss'}
+synthetic_2_33
+Now computing structural based metrics
+Now computing the auc_roc based  metric
+0.75395 0.7901 0.6275 0.7367
+{'wl_mmd': 0.007575757575757576, 'wl_mmd_time': 0.6023309230804443, 'nspdk_mmd': 0.016737177476710163, 'nspdk_mmd_time': 9.42507553100586, 'degree_mmd': 0.004955599781454101, 'degree_mmd_time': 14.196473, 'cluster_mmd': 0.012900653407217355, 'cluster_mmd_time': 15.64256, 'spectral_mmd': 0.003552425379493851, 'spectral_mmd_time': 16.577301, 'AUC_ROC_based_metric_with_nspdk': 0, 'AUC_ROC_based_metric_with_nspdk_time': 67.03591179847717, 'dataset': 'synthetic_2_33', 'generator_name': 'gdss'}
+synthetic_2_40
+Now computing structural based metrics
+Now computing the auc_roc based  metric
+0.8040500000000002 0.8122499999999999 0.6434000000000001 0.74175
+{'wl_mmd': 0.00625, 'wl_mmd_time': 0.7680191993713379, 'nspdk_mmd': 0.010215455470876378, 'nspdk_mmd_time': 11.463932752609253, 'degree_mmd': 0.0020592855108618746, 'degree_mmd_time': 14.929998, 'cluster_mmd': 0.017364310850736253, 'cluster_mmd_time': 16.996552, 'spectral_mmd': 0.0028226561467250555, 'spectral_mmd_time': 17.419088, 'AUC_ROC_based_metric_with_nspdk': 0, 'AUC_ROC_based_metric_with_nspdk_time': 76.54493260383606, 'dataset': 'synthetic_2_40', 'generator_name': 'gdss'}
+synthetic_2_50
+Now computing structural based metrics
+Now computing the auc_roc based  metric
+0.82495 0.82805 0.70385 0.82555
+{'wl_mmd': 0.005, 'wl_mmd_time': 0.9615752696990967, 'nspdk_mmd': 0.0097589586796481, 'nspdk_mmd_time': 14.675519227981567, 'degree_mmd': 0.002029333559024682, 'degree_mmd_time': 27.071264, 'cluster_mmd': 0.010640557667638662, 'cluster_mmd_time': 17.461021, 'spectral_mmd': 0.0013474102261588072, 'spectral_mmd_time': 20.868068, 'AUC_ROC_based_metric_with_nspdk': 0.3861793992236332, 'AUC_ROC_based_metric_with_nspdk_time': 113.07419490814209, 'dataset': 'synthetic_2_50', 'generator_name': 'gdss'}
+synthetic_1_25
+Now computing structural based metrics
+Now computing the auc_roc based  metric
+0.7061000000000001 0.7620000000000001 0.7061000000000001 0.7061000000000001
+{'wl_mmd': 0.01, 'wl_mmd_time': 0.5067944526672363, 'nspdk_mmd': 0.0, 'nspdk_mmd_time': 7.455882787704468, 'degree_mmd': 0.0, 'degree_mmd_time': 13.830354, 'cluster_mmd': 0.0, 'cluster_mmd_time': 14.589858, 'spectral_mmd': 0.0, 'spectral_mmd_time': 15.234388, 'AUC_ROC_based_metric_with_nspdk': 0, 'AUC_ROC_based_metric_with_nspdk_time': 39.45076584815979, 'dataset': 'synthetic_1_25', 'generator_name': 'train2'}
+synthetic_1_33
+Now computing structural based metrics
+Now computing the auc_roc based  metric
+0.6983499999999999 0.76035 0.6983499999999999 0.6983499999999999
+{'wl_mmd': 0.007575757575757576, 'wl_mmd_time': 0.7129538059234619, 'nspdk_mmd': 0.0, 'nspdk_mmd_time': 20.128113508224487, 'degree_mmd': 0.0, 'degree_mmd_time': 17.347671, 'cluster_mmd': 0.0, 'cluster_mmd_time': 17.706226, 'spectral_mmd': 0.0, 'spectral_mmd_time': 21.420283, 'AUC_ROC_based_metric_with_nspdk': 0, 'AUC_ROC_based_metric_with_nspdk_time': 63.311474084854126, 'dataset': 'synthetic_1_33', 'generator_name': 'train2'}
+synthetic_1_40
+Now computing structural based metrics
+Now computing the auc_roc based  metric
+0.75585 0.76935 0.75585 0.75585
+{'wl_mmd': 0.00625, 'wl_mmd_time': 0.7948513031005859, 'nspdk_mmd': 0.0, 'nspdk_mmd_time': 12.426007509231567, 'degree_mmd': 0.0, 'degree_mmd_time': 14.948078, 'cluster_mmd': 0.0, 'cluster_mmd_time': 17.365399, 'spectral_mmd': 0.0, 'spectral_mmd_time': 18.665879, 'AUC_ROC_based_metric_with_nspdk': 0, 'AUC_ROC_based_metric_with_nspdk_time': 61.70090651512146, 'dataset': 'synthetic_1_40', 'generator_name': 'train2'}
+synthetic_1_50
+Now computing structural based metrics
+Now computing the auc_roc based  metric
+0.73925 0.8126 0.73925 0.73925
+{'wl_mmd': 0.005, 'wl_mmd_time': 1.009793758392334, 'nspdk_mmd': 0.0, 'nspdk_mmd_time': 15.419378280639648, 'degree_mmd': 0.0, 'degree_mmd_time': 16.585495, 'cluster_mmd': 0.0, 'cluster_mmd_time': 18.295227, 'spectral_mmd': 0.0, 'spectral_mmd_time': 20.448094, 'AUC_ROC_based_metric_with_nspdk': 0, 'AUC_ROC_based_metric_with_nspdk_time': 82.52684998512268, 'dataset': 'synthetic_1_50', 'generator_name': 'train2'}
+synthetic_2_25
+Now computing structural based metrics
+Now computing the auc_roc based  metric
+0.7066500000000001 0.8065000000000001 0.7066500000000001 0.7066500000000001
+{'wl_mmd': 0.01, 'wl_mmd_time': 0.4909186363220215, 'nspdk_mmd': 0.0, 'nspdk_mmd_time': 7.33137845993042, 'degree_mmd': 0.0, 'degree_mmd_time': 13.271948, 'cluster_mmd': 0.0, 'cluster_mmd_time': 26.605394, 'spectral_mmd': 0.0, 'spectral_mmd_time': 16.285292, 'AUC_ROC_based_metric_with_nspdk': 0, 'AUC_ROC_based_metric_with_nspdk_time': 35.31133842468262, 'dataset': 'synthetic_2_25', 'generator_name': 'train2'}
+synthetic_2_33
+Now computing structural based metrics
+Now computing the auc_roc based  metric
+0.75395 0.7901 0.75395 0.75395
+{'wl_mmd': 0.007575757575757576, 'wl_mmd_time': 0.6673483848571777, 'nspdk_mmd': 0.0, 'nspdk_mmd_time': 9.834388256072998, 'degree_mmd': 0.0, 'degree_mmd_time': 15.907437, 'cluster_mmd': 0.0, 'cluster_mmd_time': 19.116653, 'spectral_mmd': 0.0, 'spectral_mmd_time': 17.664262, 'AUC_ROC_based_metric_with_nspdk': 0, 'AUC_ROC_based_metric_with_nspdk_time': 48.401649475097656, 'dataset': 'synthetic_2_33', 'generator_name': 'train2'}
+synthetic_2_40
+Now computing structural based metrics
+Now computing the auc_roc based  metric
+0.8040500000000002 0.8122499999999999 0.8040500000000002 0.8040500000000002
+{'wl_mmd': 0.00625, 'wl_mmd_time': 0.7866919040679932, 'nspdk_mmd': 0.0, 'nspdk_mmd_time': 11.947553157806396, 'degree_mmd': 0.0, 'degree_mmd_time': 15.166285, 'cluster_mmd': 0.0, 'cluster_mmd_time': 17.02161, 'spectral_mmd': 0.0, 'spectral_mmd_time': 17.978765, 'AUC_ROC_based_metric_with_nspdk': 0, 'AUC_ROC_based_metric_with_nspdk_time': 61.29332184791565, 'dataset': 'synthetic_2_40', 'generator_name': 'train2'}
+synthetic_2_50
+Now computing structural based metrics
+Now computing the auc_roc based  metric
+0.82495 0.82805 0.82495 0.82495
+{'wl_mmd': 0.005, 'wl_mmd_time': 0.9811301231384277, 'nspdk_mmd': 0.0, 'nspdk_mmd_time': 15.388484001159668, 'degree_mmd': 0.0, 'degree_mmd_time': 16.078946, 'cluster_mmd': 0.0, 'cluster_mmd_time': 17.830272, 'spectral_mmd': 0.0, 'spectral_mmd_time': 20.124892, 'AUC_ROC_based_metric_with_nspdk': 0, 'AUC_ROC_based_metric_with_nspdk_time': 77.76049256324768, 'dataset': 'synthetic_2_50', 'generator_name': 'train2'}
+synthetic_1_25
+Now computing structural based metrics
+Now computing the auc_roc based  metric
+0.7061000000000001 0.7620000000000001 0.7019 0.7620000000000001
+{'wl_mmd': 0.01, 'wl_mmd_time': 0.4865448474884033, 'nspdk_mmd': 0.008490777959229534, 'nspdk_mmd_time': 7.329519987106323, 'degree_mmd': 0.000263361147118113, 'degree_mmd_time': 12.558277, 'cluster_mmd': 0.009086384920187707, 'cluster_mmd_time': 14.556314, 'spectral_mmd': 0.003590700655712542, 'spectral_mmd_time': 15.657185, 'AUC_ROC_based_metric_with_nspdk': 0.9931136251844562, 'AUC_ROC_based_metric_with_nspdk_time': 35.330376863479614, 'dataset': 'synthetic_1_25', 'generator_name': 'train1'}
+synthetic_1_33
+Now computing structural based metrics
+Now computing the auc_roc based  metric
+0.6983499999999999 0.76035 0.76145 0.76035
+{'wl_mmd': 0.007575757575757576, 'wl_mmd_time': 0.643216609954834, 'nspdk_mmd': 0.005913398935501468, 'nspdk_mmd_time': 9.726750373840332, 'degree_mmd': 2.1593756887261506e-05, 'degree_mmd_time': 13.308406, 'cluster_mmd': 0.007876611337510553, 'cluster_mmd_time': 15.264352, 'spectral_mmd': 0.0024274542361331086, 'spectral_mmd_time': 16.787117, 'AUC_ROC_based_metric_with_nspdk': 1.0, 'AUC_ROC_based_metric_with_nspdk_time': 48.27315378189087, 'dataset': 'synthetic_1_33', 'generator_name': 'train1'}
+synthetic_1_40
+Now computing structural based metrics
+Now computing the auc_roc based  metric
+0.75585 0.76935 0.7453 0.76935
+{'wl_mmd': 0.00625, 'wl_mmd_time': 0.7568776607513428, 'nspdk_mmd': 0.004987796493345298, 'nspdk_mmd_time': 11.91588282585144, 'degree_mmd': 8.081330832698796e-05, 'degree_mmd_time': 13.816314, 'cluster_mmd': 0.0029164824459486094, 'cluster_mmd_time': 16.145346, 'spectral_mmd': 0.0020752385755720137, 'spectral_mmd_time': 17.088065, 'AUC_ROC_based_metric_with_nspdk': 0.9858664344564271, 'AUC_ROC_based_metric_with_nspdk_time': 63.20090365409851, 'dataset': 'synthetic_1_40', 'generator_name': 'train1'}
+synthetic_1_50
+Now computing structural based metrics
+Now computing the auc_roc based  metric
+0.73925 0.8126 0.7620000000000001 0.8126
+{'wl_mmd': 0.005, 'wl_mmd_time': 1.0724575519561768, 'nspdk_mmd': 0.004225820316692053, 'nspdk_mmd_time': 15.305317878723145, 'degree_mmd': 0.00014829539084226795, 'degree_mmd_time': 27.659046, 'cluster_mmd': 0.002091053793157327, 'cluster_mmd_time': 17.914359, 'spectral_mmd': 0.0015488111321753095, 'spectral_mmd_time': 20.297167, 'AUC_ROC_based_metric_with_nspdk': 1.0, 'AUC_ROC_based_metric_with_nspdk_time': 82.0100486278534, 'dataset': 'synthetic_1_50', 'generator_name': 'train1'}
+synthetic_2_25
+Now computing structural based metrics
+Now computing the auc_roc based  metric
+0.7066500000000001 0.8065000000000001 0.76015 0.8065000000000001
+{'wl_mmd': 0.01, 'wl_mmd_time': 0.4933638572692871, 'nspdk_mmd': 0.00870932531736579, 'nspdk_mmd_time': 7.4164650440216064, 'degree_mmd': 0.0008468326867356879, 'degree_mmd_time': 12.936271, 'cluster_mmd': 0.009565415285671452, 'cluster_mmd_time': 15.590109, 'spectral_mmd': 0.003203489394420833, 'spectral_mmd_time': 16.859926, 'AUC_ROC_based_metric_with_nspdk': 1.0, 'AUC_ROC_based_metric_with_nspdk_time': 36.73592686653137, 'dataset': 'synthetic_2_25', 'generator_name': 'train1'}
+synthetic_2_33
+Now computing structural based metrics
+Now computing the auc_roc based  metric
+0.75395 0.7901 0.78565 0.7901
+{'wl_mmd': 0.007575757575757576, 'wl_mmd_time': 0.6548137664794922, 'nspdk_mmd': 0.006235325018739302, 'nspdk_mmd_time': 9.786971807479858, 'degree_mmd': 0.00041510996745031115, 'degree_mmd_time': 14.455389, 'cluster_mmd': 0.005922692339837332, 'cluster_mmd_time': 16.083004, 'spectral_mmd': 0.00256201398175393, 'spectral_mmd_time': 16.917544, 'AUC_ROC_based_metric_with_nspdk': 1.0, 'AUC_ROC_based_metric_with_nspdk_time': 52.27441191673279, 'dataset': 'synthetic_2_33', 'generator_name': 'train1'}
+synthetic_2_40
+Now computing structural based metrics
+Now computing the auc_roc based  metric
+0.8040500000000002 0.8122499999999999 0.8036 0.8122499999999999
+{'wl_mmd': 0.00625, 'wl_mmd_time': 0.7673885822296143, 'nspdk_mmd': 0.0046339410710593, 'nspdk_mmd_time': 11.793078899383545, 'degree_mmd': 9.940351055881536e-05, 'degree_mmd_time': 13.874559, 'cluster_mmd': 0.003056910610699015, 'cluster_mmd_time': 16.080241, 'spectral_mmd': 0.001780058934984341, 'spectral_mmd_time': 17.206692, 'AUC_ROC_based_metric_with_nspdk': 0.9995061728395059, 'AUC_ROC_based_metric_with_nspdk_time': 61.14303159713745, 'dataset': 'synthetic_2_40', 'generator_name': 'train1'}
+synthetic_2_50
+Now computing structural based metrics
+Now computing the auc_roc based  metric
+0.82495 0.82805 0.8065000000000001 0.82805
+{'wl_mmd': 0.005, 'wl_mmd_time': 0.9529101848602295, 'nspdk_mmd': 0.00367826599188531, 'nspdk_mmd_time': 14.848179817199707, 'degree_mmd': 6.658631861355957e-05, 'degree_mmd_time': 15.59804, 'cluster_mmd': 0.004964065698597531, 'cluster_mmd_time': 16.992158, 'spectral_mmd': 0.0012348819411001077, 'spectral_mmd_time': 18.75771, 'AUC_ROC_based_metric_with_nspdk': 0.9803294418679036, 'AUC_ROC_based_metric_with_nspdk_time': 79.65637826919556, 'dataset': 'synthetic_2_50', 'generator_name': 'train1'}
+synthetic_1_25
+Now computing structural based metrics
+Now computing the auc_roc based  metric
+Error when computing AUC_ROC with NSPDK
+{'wl_mmd': 0.01, 'wl_mmd_time': 0.5581371784210205, 'nspdk_mmd': 0.005042063722319523, 'nspdk_mmd_time': 7.591288328170776, 'degree_mmd': 0.0007225394951677622, 'degree_mmd_time': 13.393941, 'cluster_mmd': 0.006431486267571063, 'cluster_mmd_time': 15.586429, 'spectral_mmd': 0.002370400547913265, 'spectral_mmd_time': 16.888973, 'dataset': 'synthetic_1_25', 'generator_name': 'train1/2+train2/2'}
+synthetic_1_33
+Now computing structural based metrics
+Now computing the auc_roc based  metric
+Error when computing AUC_ROC with NSPDK
+{'wl_mmd': 0.007575757575757576, 'wl_mmd_time': 0.6670136451721191, 'nspdk_mmd': 0.003964628666254744, 'nspdk_mmd_time': 10.230875968933105, 'degree_mmd': 0.0006747164122857807, 'degree_mmd_time': 15.115818, 'cluster_mmd': 0.006263655392528766, 'cluster_mmd_time': 16.326289, 'spectral_mmd': 0.001483598388177354, 'spectral_mmd_time': 29.864392, 'dataset': 'synthetic_1_33', 'generator_name': 'train1/2+train2/2'}
+synthetic_1_40
+Now computing structural based metrics
+Now computing the auc_roc based  metric
+Error when computing AUC_ROC with NSPDK
+{'wl_mmd': 0.00625, 'wl_mmd_time': 0.8150303363800049, 'nspdk_mmd': 0.0034659302939323844, 'nspdk_mmd_time': 12.428276538848877, 'degree_mmd': 0.0006420611304389645, 'degree_mmd_time': 15.563234, 'cluster_mmd': 0.003911531421655845, 'cluster_mmd_time': 16.957904, 'spectral_mmd': 0.0013121066925070313, 'spectral_mmd_time': 18.08109, 'dataset': 'synthetic_1_40', 'generator_name': 'train1/2+train2/2'}
+synthetic_1_50
+Now computing structural based metrics
+Now computing the auc_roc based  metric
+Error when computing AUC_ROC with NSPDK
+{'wl_mmd': 0.005, 'wl_mmd_time': 0.9898262023925781, 'nspdk_mmd': 0.002765471257879959, 'nspdk_mmd_time': 15.67905855178833, 'degree_mmd': 0.0004867234545209431, 'degree_mmd_time': 16.238981, 'cluster_mmd': 0.0035629726870016754, 'cluster_mmd_time': 17.906052, 'spectral_mmd': 0.0012163661515265378, 'spectral_mmd_time': 19.858925, 'dataset': 'synthetic_1_50', 'generator_name': 'train1/2+train2/2'}
+synthetic_2_25
+Now computing structural based metrics
+Now computing the auc_roc based  metric
+Error when computing AUC_ROC with NSPDK
+{'wl_mmd': 0.01, 'wl_mmd_time': 0.47046351432800293, 'nspdk_mmd': 0.004577728178676188, 'nspdk_mmd_time': 7.526712656021118, 'degree_mmd': 0.00042821954314775645, 'degree_mmd_time': 13.264192, 'cluster_mmd': 0.006068310090794893, 'cluster_mmd_time': 15.524809, 'spectral_mmd': 0.0024524083284271914, 'spectral_mmd_time': 16.484143, 'dataset': 'synthetic_2_25', 'generator_name': 'train1/2+train2/2'}
+synthetic_2_33
+Now computing structural based metrics
+Now computing the auc_roc based  metric
+Error when computing AUC_ROC with NSPDK
+{'wl_mmd': 0.007575757575757576, 'wl_mmd_time': 0.6418197154998779, 'nspdk_mmd': 0.0036357681780153084, 'nspdk_mmd_time': 9.838927984237671, 'degree_mmd': 0.0003942095168407711, 'degree_mmd_time': 14.248869, 'cluster_mmd': 0.006087401307671936, 'cluster_mmd_time': 15.893227, 'spectral_mmd': 0.0014415157925962152, 'spectral_mmd_time': 17.177986, 'dataset': 'synthetic_2_33', 'generator_name': 'train1/2+train2/2'}
+synthetic_2_40
+Now computing structural based metrics
+Now computing the auc_roc based  metric
+Error when computing AUC_ROC with NSPDK
+{'wl_mmd': 0.00625, 'wl_mmd_time': 0.7673599720001221, 'nspdk_mmd': 0.0029509188575288503, 'nspdk_mmd_time': 12.151819944381714, 'degree_mmd': 0.0003402768905529374, 'degree_mmd_time': 15.228139, 'cluster_mmd': 0.004074999339139407, 'cluster_mmd_time': 16.834376, 'spectral_mmd': 0.00127575181652273, 'spectral_mmd_time': 17.886063, 'dataset': 'synthetic_2_40', 'generator_name': 'train1/2+train2/2'}
+synthetic_2_50
+Now computing structural based metrics
+Now computing the auc_roc based  metric
+Error when computing AUC_ROC with NSPDK
+{'wl_mmd': 0.005, 'wl_mmd_time': 0.9564027786254883, 'nspdk_mmd': 0.0024769886834096755, 'nspdk_mmd_time': 15.173136711120605, 'degree_mmd': 0.0003619264139858025, 'degree_mmd_time': 28.25268, 'cluster_mmd': 0.0055537650820436935, 'cluster_mmd_time': 17.51864, 'spectral_mmd': 0.0009159495797697037, 'spectral_mmd_time': 20.036577, 'dataset': 'synthetic_2_50', 'generator_name': 'train1/2+train2/2'}

@@ -41,13 +41,13 @@ def evaluate(reference_nx_graphs, generated_nx_graphs, device,  metrics_type, st
     #metrics_type=metrics_type[0]
     if  'nn'  in metrics_type:
         #print('Now computing classifier based metrics')
-        try:
+        
         
         
             eval=Evaluator(feature_extractor ='gin',device=device, edge_feat_loc='attr' , node_feat_loc='attr', input_dim=input_dim,edge_feat_dim=edge_feat_dim, hidden_dim=36)
             nn_metrics=eval.evaluate_all(generated_dataset=generated_graphs_dgl,reference_dataset=reference_graphs_dgl)
             metrics.update(nn_metrics)
-        except: print('Cannot compute the classifier based metrics') 
+        #except: print('Cannot compute the classifier based metrics') 
             
     if 'structural' in metrics_type  :
         def fun():
